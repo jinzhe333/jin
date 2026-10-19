@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-19 晚 (恢复台湾 02 2 - 用户正在使用)
+# 更新: 2026-10-20 (新增 cctvlv HK-SOCKS5)
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -900,6 +900,12 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: 🇭🇰 HK-SOCKS5
+    server: 43.156.246.147
+    port: 23889
+    type: socks5
+    username: vpnuser
+    password: bcb013fb2d4d42f1
   - name: '[vpngate家宽] MY 🇲🇾 01'
     type: vless
     server: saas.sin.fan
@@ -1052,6 +1058,7 @@ proxy-groups:
       - '[vpngate家宽] HK 🇭🇰 01'
       - '[vpngate家宽] MX 🇲🇽 01'
       - '[vpngate家宽] HK 🇭🇰 02'
+      - "🇭🇰 HK-SOCKS5"
       - '[vpngate家宽] MY 🇲🇾 01'
       - '家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85'
       - '家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26'
