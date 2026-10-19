@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-19 晚 (修复 WS+REALITY 冲突)
+# 更新: 2026-10-19 晚 (恢复台湾 02 2 - 用户正在使用)
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -346,6 +346,12 @@ proxies:
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
+  - name: 台湾 02 2
+    server: er8u54dh.df6h451rh.xin
+    port: 443
+    type: anytls
+    password: ec74bb6a86c2
+    skip-cert-verify: true
   - name: 新加坡 01
     server: 172.104.186.185
     port: 443
@@ -1002,6 +1008,7 @@ proxy-groups:
       - "台湾 01"
       - "台湾 01 2"
       - "台湾 02"
+      - "台湾 02 2"
       - "新加坡 01"
       - "新加坡 02"
       - "新加坡 03"
