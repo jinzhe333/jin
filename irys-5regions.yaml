@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-20 中午（只加新节点，不删除旧节点）
+# 更新: 2026-10-20 (修正墨西哥：换回老纯净度格式)
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -716,9 +716,9 @@ proxies:
     uuid: 28c44e43-3584-4a04-9637-1684b5192558
     tls: true
     alpn:
-      - h3
-      - h2
-      - http/1.1
+    - h3
+    - h2
+    - http/1.1
     servername: v25.609929.xyz
     client-fingerprint: chrome
     network: ws
@@ -733,9 +733,9 @@ proxies:
     uuid: 28c44e43-3584-4a04-9637-1684b5192558
     tls: true
     alpn:
-      - h3
-      - h2
-      - http/1.1
+    - h3
+    - h2
+    - http/1.1
     servername: v25.609929.xyz
     client-fingerprint: chrome
     network: ws
@@ -957,8 +957,8 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - h2
-      - http/1.1
+    - h2
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
       headers:
@@ -976,10 +976,82 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - h2
-      - http/1.1
+    - h2
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn160953407.opengw.net:1666?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -995,8 +1067,8 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - h2
-      - http/1.1
+    - h2
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn807319024.opengw.net:1760?ed=2560
       headers:
@@ -1020,48 +1092,10 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - h2
-      - http/1.1
+    - h2
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 02'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h3
-      - h2
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 03'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h3
-      - h2
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -1077,7 +1111,7 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - http/1.1
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
       headers:
@@ -1095,7 +1129,7 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - http/1.1
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
       headers:
@@ -1113,109 +1147,113 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-      - http/1.1
+    - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn225804116.opengw.net:1452?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+
 proxy-groups:
-  - name: 🚀 精选合并
+  - name: "🚀 精选合并"
     type: select
     proxies:
-      - 香港 01
-      - 香港 02
-      - 香港 03
-      - 香港 04
-      - 香港 05
-      - 香港 06
-      - 香港 07
-      - 香港 08
-      - 香港 09
-      - 香港 10
-      - 香港 11
-      - 香港 12
-      - 香港 13
-      - 香港 14
-      - 香港 15
-      - 香港 16
-      - 香港 17
-      - 香港 18
-      - 香港 19
-      - 香港 20
-      - 香港 21
-      - 香港 22
-      - 香港 01 2
-      - 香港 02 2
-      - 香港 01 3
-      - 香港 02 3
-      - 香港 01 4
-      - 台湾 01
-      - 台湾 01 2
-      - 台湾 02
-      - 台湾 02 2
-      - 台湾 01 3
-      - 新加坡 01
-      - 新加坡 02
-      - 新加坡 03
-      - 新加坡 04
-      - 新加坡 05
-      - 新加坡 06
-      - 新加坡 07
-      - 新加坡 08
-      - 新加坡 09
-      - 新加坡 10
-      - 新加坡 11
-      - 新加坡 12
-      - 新加坡 13
-      - 新加坡 14
-      - 新加坡 15
-      - 新加坡 16
-      - 新加坡 17
-      - 新加坡 18
-      - 新加坡 19
-      - 新加坡 20
-      - 新加坡 21
-      - 新加坡 22
-      - 新加坡 23
-      - 新加坡 24
-      - 新加坡 25
-      - 新加坡 26
-      - 新加坡 27
-      - 新加坡 28
-      - 新加坡 30
-      - 新加坡 31
-      - 新加坡 32
-      - 新加坡 01 2
-      - 新加坡 02 2
-      - 新加坡 01 3
-      - 新加坡 02 3
-      - 新加坡 03 2
-      - 新加坡 01 4
-      - 新加坡 02 4
-      - 新加坡 03 3
-      - 新加坡 01 5
-      - 香港 01 5
-      - 香港 02 4
-      - 香港 01 6
-      - 台湾 01 4
-      - 新加坡 01 6
-      - 新加坡 02 5
-      - 新加坡 01 7
-      - 新加坡 03 4
-      - 新加坡 01 8
-      - 马来西亚 01
+      - "香港 01"
+      - "香港 02"
+      - "香港 03"
+      - "香港 04"
+      - "香港 05"
+      - "香港 06"
+      - "香港 07"
+      - "香港 08"
+      - "香港 09"
+      - "香港 10"
+      - "香港 11"
+      - "香港 12"
+      - "香港 13"
+      - "香港 14"
+      - "香港 15"
+      - "香港 16"
+      - "香港 17"
+      - "香港 18"
+      - "香港 19"
+      - "香港 20"
+      - "香港 21"
+      - "香港 22"
+      - "香港 01 2"
+      - "香港 02 2"
+      - "香港 01 3"
+      - "香港 02 3"
+      - "香港 01 4"
+      - "台湾 01"
+      - "台湾 01 2"
+      - "台湾 02"
+      - "台湾 02 2"
+      - "台湾 01 3"
+      - "新加坡 01"
+      - "新加坡 02"
+      - "新加坡 03"
+      - "新加坡 04"
+      - "新加坡 05"
+      - "新加坡 06"
+      - "新加坡 07"
+      - "新加坡 08"
+      - "新加坡 09"
+      - "新加坡 10"
+      - "新加坡 11"
+      - "新加坡 12"
+      - "新加坡 13"
+      - "新加坡 14"
+      - "新加坡 15"
+      - "新加坡 16"
+      - "新加坡 17"
+      - "新加坡 18"
+      - "新加坡 19"
+      - "新加坡 20"
+      - "新加坡 21"
+      - "新加坡 22"
+      - "新加坡 23"
+      - "新加坡 24"
+      - "新加坡 25"
+      - "新加坡 26"
+      - "新加坡 27"
+      - "新加坡 28"
+      - "新加坡 30"
+      - "新加坡 31"
+      - "新加坡 32"
+      - "新加坡 01 2"
+      - "新加坡 02 2"
+      - "新加坡 01 3"
+      - "新加坡 02 3"
+      - "新加坡 03 2"
+      - "新加坡 01 4"
+      - "新加坡 02 4"
+      - "新加坡 03 3"
+      - "新加坡 01 5"
+      - "香港 01 5"
+      - "香港 02 4"
+      - "香港 01 6"
+      - "台湾 01 4"
+      - "新加坡 01 6"
+      - "新加坡 02 5"
+      - "新加坡 01 7"
+      - "新加坡 03 4"
+      - "新加坡 01 8"
+      - "马来西亚 01"
       - '[vpngate家宽] HK 🇭🇰 01'
       - '[vpngate家宽] MX 🇲🇽 01'
+      - '家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153'
+      - '家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100'
+      - '家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83'
+      - '家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105'
       - '[vpngate家宽] HK 🇭🇰 02'
-      - 🇭🇰 HK-SOCKS5
+      - "🇭🇰 HK-SOCKS5"
       - '[vpngate家宽] MY 🇲🇾 01'
-      - '[vpngate家宽] MX 🇲🇽 02'
-      - '[vpngate家宽] MX 🇲🇽 03'
-      - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
-      - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
-      - Hong Kong|248.14
-      - DIRECT
+      - '家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85'
+      - '家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26'
+      - "Hong Kong|248.14"
+      - "DIRECT"
+
 rules:
   - MATCH,🚀 精选合并
