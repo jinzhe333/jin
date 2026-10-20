@@ -895,6 +895,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  - name: 台湾 03 家宽
+    server: 684616s4.df6h451rh.xin
+    port: 443
+    type: anytls
+    password: ec74bb6a86c2
+    sni: px.ads.linkedin.com
+    skip-cert-verify: true
   - name: 新加坡 01 6
     server: 54.179.203.95
     port: 443
@@ -1273,6 +1280,7 @@ proxy-groups:
       - "香港 02 4"
       - "香港 01 6"
       - "台湾 01 4"
+      - "台湾 03 家宽"
       - "新加坡 01 6"
       - "新加坡 02 5"
       - "新加坡 01 7"
