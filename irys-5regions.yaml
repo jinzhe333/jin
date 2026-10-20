@@ -895,6 +895,32 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  - name: 台湾 04 家宽
+    server: hinet1.2yly.com
+    port: 24215
+    type: vless
+    uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+    tls: true
+    reality-opts:
+      public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+    servername: addons.mozilla.org
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港 01 家宽
+    server: 56481.df6h451rh.xin
+    port: 443
+    type: anytls
+    password: ec74bb6a86c2
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+  - name: 香港 02 家宽
+    server: 654968169.df6h451rh.xin
+    port: 443
+    type: anytls
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    alpn: [http/1.1]
   - name: 台湾 03 家宽
     server: 684616s4.df6h451rh.xin
     port: 443
@@ -1281,6 +1307,9 @@ proxy-groups:
       - "香港 01 6"
       - "台湾 01 4"
       - "台湾 03 家宽"
+      - "台湾 04 家宽"
+      - "香港 01 家宽"
+      - "香港 02 家宽"
       - "新加坡 01 6"
       - "新加坡 02 5"
       - "新加坡 01 7"
