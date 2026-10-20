@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-20 (恢复台湾 01 3 - 用户确认一直活着)
+# 更新: 2026-10-20 (恢复 MX 02 - 误删)
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -888,6 +888,25 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] MX 🇲🇽 02'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - h2
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
   - name: '[vpngate家宽] HK 🇭🇰 02'
     type: vless
     server: saas.sin.fan
@@ -1065,6 +1084,7 @@ proxy-groups:
       - "新加坡 01 5"
       - '[vpngate家宽] HK 🇭🇰 01'
       - '[vpngate家宽] MX 🇲🇽 01'
+      - '[vpngate家宽] MX 🇲🇽 02'
       - '[vpngate家宽] HK 🇭🇰 02'
       - "🇭🇰 HK-SOCKS5"
       - '[vpngate家宽] MY 🇲🇾 01'
