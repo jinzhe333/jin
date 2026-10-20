@@ -921,6 +921,91 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: true
     alpn: [http/1.1]
+  - name: 香港 05 家宽
+    server: ihk135.zxom.eu.org
+    port: 20016
+    type: trojan
+    password: 62ae18560ab740e0
+    sni: ihk135.zxom.eu.org
+    skip-cert-verify: true
+    udp: true
+  - name: 香港 06 家宽
+    server: fan.240104.xyz
+    port: 443
+    type: http
+    username: 'null'
+    password: 'null'
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 香港 07 家宽
+    server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+    port: 443
+    type: hysteria2
+    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+    auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+    sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+    skip-cert-verify: true
+    udp: true
+  - name: 香港 08 家宽
+    server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+    port: 443
+    type: hysteria2
+    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+    skip-cert-verify: true
+    udp: true
+  - name: 香港 09 家宽
+    server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+    port: 443
+    type: hysteria2
+    password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+    auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+    sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+    skip-cert-verify: true
+    udp: true
+  - name: 香港 10 家宽
+    server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+    port: 443
+    type: hysteria2
+    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+    auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+    sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+    skip-cert-verify: true
+    udp: true
+  - name: 新加坡 04 家宽
+    server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
+    port: 443
+    type: http
+    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 台湾 06 家宽
+    server: tw-25.497489.xyz
+    port: 10099
+    type: hysteria
+    auth_str: github.com/Alvin9999-newpac/fanqiang
+    auth-str: github.com/Alvin9999-newpac/fanqiang
+    up: 20 Mbps
+    down: 20 Mbps
+    fast-open: false
+    protocol: udp
+    sni: tw-25.497489.xyz
+    skip-cert-verify: true
+    alpn: [h3]
+    udp: true
+  - name: 台湾 07 家宽
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    password: exaxgqkKkd0TAMrCxeonWg==
+    tls: true
+    skip-cert-verify: true
+    udp: true
   - name: 美国 01 家宽
     server: blog.findlocaljobnetworkandbuildcommunityconnections.com
     port: 443
@@ -1407,6 +1492,15 @@ proxy-groups:
       - "台湾 04 家宽"
       - "香港 01 家宽"
       - "香港 02 家宽"
+      - "香港 05 家宽"
+      - "香港 06 家宽"
+      - "香港 07 家宽"
+      - "香港 08 家宽"
+      - "香港 09 家宽"
+      - "香港 10 家宽"
+      - "新加坡 04 家宽"
+      - "台湾 06 家宽"
+      - "台湾 07 家宽"
       - "美国 01 家宽"
       - "美国 02 家宽"
       - "美国 03 家宽"
