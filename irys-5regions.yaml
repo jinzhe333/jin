@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-20 (修正墨西哥：换回老纯净度格式)
+# 更新: 2026-10-20 (墨西哥新老并存：老纯净度4个 + 新vpngate 3个)
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -1056,6 +1056,44 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] MX 🇲🇽 02'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - h2
+    - http/1.1
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] MX 🇲🇽 03'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+    - h3
+    - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
   - name: '[vpngate家宽] HK 🇭🇰 02'
     type: vless
     server: saas.sin.fan
@@ -1247,6 +1285,8 @@ proxy-groups:
       - '家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100'
       - '家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83'
       - '家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105'
+      - '[vpngate家宽] MX 🇲🇽 02'
+      - '[vpngate家宽] MX 🇲🇽 03'
       - '[vpngate家宽] HK 🇭🇰 02'
       - "🇭🇰 HK-SOCKS5"
       - '[vpngate家宽] MY 🇲🇾 01'
