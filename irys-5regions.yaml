@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY 精选合并版
-# 更新: 2026-10-20 (恢复 MX 02 - 误删)
+# 更新: 2026-10-20 中午（只加新节点，不删除旧节点）
 proxies:
   - name: 香港 01
     server: 103.115.64.205
@@ -716,9 +716,9 @@ proxies:
     uuid: 28c44e43-3584-4a04-9637-1684b5192558
     tls: true
     alpn:
-    - h3
-    - h2
-    - http/1.1
+      - h3
+      - h2
+      - http/1.1
     servername: v25.609929.xyz
     client-fingerprint: chrome
     network: ws
@@ -733,9 +733,9 @@ proxies:
     uuid: 28c44e43-3584-4a04-9637-1684b5192558
     tls: true
     alpn:
-    - h3
-    - h2
-    - http/1.1
+      - h3
+      - h2
+      - http/1.1
     servername: v25.609929.xyz
     client-fingerprint: chrome
     network: ws
@@ -850,6 +850,102 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: 香港 01 5
+    server: www.visa.com.hk
+    port: 443
+    type: vless
+    uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
+    tls: true
+    servername: us-lax.862400.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: us-lax.862400.xyz
+  - name: 香港 02 4
+    server: 152.233.71.81
+    port: 443
+    type: vless
+    uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+      short-id: 1c3e8241a8743df9
+    servername: brointelengence.com
+    client-fingerprint: random
+    network: tcp
+  - name: 香港 01 6
+    server: 47.243.194.125
+    port: 443
+    type: vmess
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: nycqg19zkwacpm1b.v.3dns.vip
+  - name: 台湾 01 4
+    server: 60.249.14.95
+    port: 2377
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  - name: 新加坡 01 6
+    server: 54.179.203.95
+    port: 443
+    type: vless
+    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
+      short-id: 819a87bf1651bf44
+    servername: travelrule.triple-a.io
+    client-fingerprint: chrome
+    network: tcp
+  - name: 新加坡 02 5
+    server: 104.18.35.86
+    port: 8080
+    type: vless
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    tls: false
+    servername: hhlfy.twiladaphne.ndjp.net
+    network: ws
+    ws-opts:
+      path: /sg-melbi
+      headers:
+        Host: hhlfy.twiladaphne.ndjp.net
+  - name: 新加坡 01 7
+    server: 139.180.146.200
+    port: 8886
+    type: trojan
+    password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+    sni: 139.180.146.200
+  - name: 新加坡 03 4
+    server: 54.179.203.95
+    port: 443
+    type: hysteria2
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    sni: www.bing.com
+    obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: 新加坡 01 8
+    server: 54.179.203.95
+    port: 8443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: 马来西亚 01
+    server: 47.250.84.25
+    port: 443
+    type: trojan
+    password: 5931134d1cde66bf83a54acdfebe7ab2
+    sni: 47.250.84.25
   - name: '[vpngate家宽] HK 🇭🇰 01'
     type: vless
     server: saas.sin.fan
@@ -861,8 +957,8 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - h2
-    - http/1.1
+      - h2
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
       headers:
@@ -880,27 +976,8 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - h2
-    - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 02'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-    - h2
-    - http/1.1
+      - h2
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
       headers:
@@ -918,8 +995,8 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - h2
-    - http/1.1
+      - h2
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn807319024.opengw.net:1760?ed=2560
       headers:
@@ -943,10 +1020,48 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - h2
-    - http/1.1
+      - h2
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] MX 🇲🇽 02'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] MX 🇲🇽 03'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -962,7 +1077,7 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - http/1.1
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
       headers:
@@ -980,7 +1095,7 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - http/1.1
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
       headers:
@@ -998,100 +1113,109 @@ proxies:
     servername: snip.edgeoneai.cc.cd
     client-fingerprint: chrome
     alpn:
-    - http/1.1
+      - http/1.1
     ws-opts:
       path: /fdip=sstp://vpn:vpn@vpn225804116.opengw.net:1452?ed=2560
       headers:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
-
 proxy-groups:
-  - name: "🚀 精选合并"
+  - name: 🚀 精选合并
     type: select
     proxies:
-      - "香港 01"
-      - "香港 02"
-      - "香港 03"
-      - "香港 04"
-      - "香港 05"
-      - "香港 06"
-      - "香港 07"
-      - "香港 08"
-      - "香港 09"
-      - "香港 10"
-      - "香港 11"
-      - "香港 12"
-      - "香港 13"
-      - "香港 14"
-      - "香港 15"
-      - "香港 16"
-      - "香港 17"
-      - "香港 18"
-      - "香港 19"
-      - "香港 20"
-      - "香港 21"
-      - "香港 22"
-      - "香港 01 2"
-      - "香港 02 2"
-      - "香港 01 3"
-      - "香港 02 3"
-      - "香港 01 4"
-      - "台湾 01"
-      - "台湾 01 2"
-      - "台湾 02"
-      - "台湾 02 2"
-      - "台湾 01 3"
-      - "新加坡 01"
-      - "新加坡 02"
-      - "新加坡 03"
-      - "新加坡 04"
-      - "新加坡 05"
-      - "新加坡 06"
-      - "新加坡 07"
-      - "新加坡 08"
-      - "新加坡 09"
-      - "新加坡 10"
-      - "新加坡 11"
-      - "新加坡 12"
-      - "新加坡 13"
-      - "新加坡 14"
-      - "新加坡 15"
-      - "新加坡 16"
-      - "新加坡 17"
-      - "新加坡 18"
-      - "新加坡 19"
-      - "新加坡 20"
-      - "新加坡 21"
-      - "新加坡 22"
-      - "新加坡 23"
-      - "新加坡 24"
-      - "新加坡 25"
-      - "新加坡 26"
-      - "新加坡 27"
-      - "新加坡 28"
-      - "新加坡 30"
-      - "新加坡 31"
-      - "新加坡 32"
-      - "新加坡 01 2"
-      - "新加坡 02 2"
-      - "新加坡 01 3"
-      - "新加坡 02 3"
-      - "新加坡 03 2"
-      - "新加坡 01 4"
-      - "新加坡 02 4"
-      - "新加坡 03 3"
-      - "新加坡 01 5"
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
+      - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 01 2
+      - 香港 02 2
+      - 香港 01 3
+      - 香港 02 3
+      - 香港 01 4
+      - 台湾 01
+      - 台湾 01 2
+      - 台湾 02
+      - 台湾 02 2
+      - 台湾 01 3
+      - 新加坡 01
+      - 新加坡 02
+      - 新加坡 03
+      - 新加坡 04
+      - 新加坡 05
+      - 新加坡 06
+      - 新加坡 07
+      - 新加坡 08
+      - 新加坡 09
+      - 新加坡 10
+      - 新加坡 11
+      - 新加坡 12
+      - 新加坡 13
+      - 新加坡 14
+      - 新加坡 15
+      - 新加坡 16
+      - 新加坡 17
+      - 新加坡 18
+      - 新加坡 19
+      - 新加坡 20
+      - 新加坡 21
+      - 新加坡 22
+      - 新加坡 23
+      - 新加坡 24
+      - 新加坡 25
+      - 新加坡 26
+      - 新加坡 27
+      - 新加坡 28
+      - 新加坡 30
+      - 新加坡 31
+      - 新加坡 32
+      - 新加坡 01 2
+      - 新加坡 02 2
+      - 新加坡 01 3
+      - 新加坡 02 3
+      - 新加坡 03 2
+      - 新加坡 01 4
+      - 新加坡 02 4
+      - 新加坡 03 3
+      - 新加坡 01 5
+      - 香港 01 5
+      - 香港 02 4
+      - 香港 01 6
+      - 台湾 01 4
+      - 新加坡 01 6
+      - 新加坡 02 5
+      - 新加坡 01 7
+      - 新加坡 03 4
+      - 新加坡 01 8
+      - 马来西亚 01
       - '[vpngate家宽] HK 🇭🇰 01'
       - '[vpngate家宽] MX 🇲🇽 01'
-      - '[vpngate家宽] MX 🇲🇽 02'
       - '[vpngate家宽] HK 🇭🇰 02'
-      - "🇭🇰 HK-SOCKS5"
+      - 🇭🇰 HK-SOCKS5
       - '[vpngate家宽] MY 🇲🇾 01'
-      - '家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85'
-      - '家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26'
-      - "Hong Kong|248.14"
-      - "DIRECT"
-
+      - '[vpngate家宽] MX 🇲🇽 02'
+      - '[vpngate家宽] MX 🇲🇽 03'
+      - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
+      - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
+      - Hong Kong|248.14
+      - DIRECT
 rules:
   - MATCH,🚀 精选合并
