@@ -921,6 +921,103 @@ proxies:
     sni: images.ctfassets.net
     skip-cert-verify: true
     alpn: [http/1.1]
+  - name: 美国 01 家宽
+    server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+    port: 443
+    udp: true
+    type: trojan
+    password: dba20dcb635e430fa4d3bfc303a149d2
+    sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+    skip-cert-verify: true
+  - name: 美国 02 家宽
+    server: us.ny.api.nurcloud.org
+    port: 443
+    udp: true
+    type: vless
+    uuid: 1ab9e166-5a54-48b9-a07f-79d1d840ae21
+    flow: xtls-rprx-vision
+    tls: true
+    reality-opts:
+      public-key: _2Hn4fC42NrlyR586ZjUfdRMRfasJB8-Cp0JjhqxgTk
+      short-id: 84ceb0f037cc8858
+    servername: us.ny.api.nurcloud.org
+    client-fingerprint: firefox
+  - name: 美国 03 家宽
+    server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    port: 443
+    udp: true
+    type: trojan
+    password: f0eb8c92ce8946aaba856569cff1a16b
+    sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    skip-cert-verify: false
+  - name: 美国 04 家宽
+    server: hy2.561891.xyz
+    port: 44356
+    udp: true
+    type: hysteria2
+    password: dongtaiwang.com
+    sni: hy2.561891.xyz
+    skip-cert-verify: false
+  - name: 香港 03 家宽
+    server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+    port: 443
+    udp: true
+    type: hysteria2
+    password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+    sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+    skip-cert-verify: true
+  - name: 香港 04 家宽
+    server: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
+    port: 443
+    udp: true
+    type: hysteria2
+    password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+    sni: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
+    skip-cert-verify: true
+  - name: 新加坡 01 家宽
+    server: 511.150333.xyz
+    port: 21001
+    udp: true
+    type: vless
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+    tls: true
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: ab39fc68ab3dee81
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 新加坡 02 家宽
+    server: 511.150333.xyz
+    port: 21002
+    udp: true
+    type: vless
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+    tls: true
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: 3ab8d93dd9b1a5be
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 新加坡 03 家宽
+    server: 511.150333.xyz
+    port: 21003
+    udp: true
+    type: vless
+    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+    tls: true
+    reality-opts:
+      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+      short-id: bab49aa4c2a88d27
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 台湾 05 家宽
+    server: 98416548.df6h451rh.xin
+    port: 443
+    udp: true
+    type: anytls
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
   - name: 台湾 03 家宽
     server: 684616s4.df6h451rh.xin
     port: 443
@@ -1310,6 +1407,16 @@ proxy-groups:
       - "台湾 04 家宽"
       - "香港 01 家宽"
       - "香港 02 家宽"
+      - "美国 01 家宽"
+      - "美国 02 家宽"
+      - "美国 03 家宽"
+      - "美国 04 家宽"
+      - "香港 03 家宽"
+      - "香港 04 家宽"
+      - "新加坡 01 家宽"
+      - "新加坡 02 家宽"
+      - "新加坡 03 家宽"
+      - "台湾 05 家宽"
       - "新加坡 01 6"
       - "新加坡 02 5"
       - "新加坡 01 7"
