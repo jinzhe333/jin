@@ -1,895 +1,886 @@
-# irys 四地区精选（HK/TW/SG/MY，去美国）+ LancelotRar HK/MX/MY 精选 + 家宽sweep 合并版
-# 更新: 2026-10-20 晚精简（fei 指令：美国区全剔除，港台新马各至多20个；MX/legacy 老名不动）
 proxies:
-  - name: 香港 01
-    server: 103.115.64.205
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 02
-    server: 103.118.254.240
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 04
-    server: 103.143.81.178
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 06
-    server: 103.190.232.236
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 08
-    server: 103.219.194.151
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 11
-    server: 103.39.78.118
-    port: 8443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 14
-    server: 111.92.240.90
-    port: 8443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 15
-    server: 143.14.189.170
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 香港 16
-    server: 149.104.24.36
-    port: 443
-    type: vless
-    uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
-    tls: true
-    servername: nvl-edge-dr-141026.pages.dev
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /proxyip=ProxyIP.HK.CMLiussss.Net
-      headers:
-        Host: nvl-edge-dr-141026.pages.dev
-  - name: 台湾 01
-    server: 152.32.167.33
-    port: 443
-    type: vless
-    uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
-      short-id: cff998a4
-    servername: www.amazon.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: 台湾 01 2
-    server: tw04.chifanbieshuohua.club
-    port: 36531
-    type: hysteria2
-    password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
-    auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
-    skip-cert-verify: false
-  - name: 台湾 02
-    server: tw04.chifanbieshuohua.club
-    port: 36532
-    type: hysteria2
-    password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
-    auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
-    skip-cert-verify: false
-  - name: 台湾 02 2
-    server: er8u54dh.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: ec74bb6a86c2
-    skip-cert-verify: true
-  - name: 台湾 01 3
-    server: er8u54dh.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: 0324fbc29561
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-  - name: 新加坡 01
-    server: 172.104.186.185
-    port: 443
-    type: vless
-    uuid: eba6bf2b-ec8c-4ad4-8096-35a1ba8c5938
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 02
-    server: 45.147.166.158
-    port: 443
-    type: vless
-    uuid: 73476364-b431-4795-9675-7a9f558f9ae2
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 03
-    server: 172.104.48.162
-    port: 443
-    type: vless
-    uuid: 45856a2e-2ff6-4868-a679-cd6b4fc2b48d
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 04
-    server: 172.104.48.194
-    port: 443
-    type: vless
-    uuid: 2b9d6d93-5718-4b0a-8f38-1398659c82c1
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 05
-    server: 185.196.98.50
-    port: 443
-    type: vless
-    uuid: aa803f12-0589-4140-8d15-6cba39f540e2
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 06
-    server: 104.64.220.146
-    port: 443
-    type: vless
-    uuid: 54787298-d253-47ff-b944-4c8d204b1ebd
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 08
-    server: 45.147.166.172
-    port: 443
-    type: vless
-    uuid: ce75c002-2dff-4698-baa4-32588db3e366
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 09
-    server: 139.162.50.103
-    port: 443
-    type: vless
-    uuid: e151877b-d2a7-4f79-9b92-f006bb940c0c
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 10
-    server: 38.48.124.14
-    port: 443
-    type: vless
-    uuid: 72d8cb2e-890d-4a51-a288-74d88094c2b4
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 11
-    server: 217.197.161.229
-    port: 443
-    type: vless
-    uuid: 73052389-db3c-45d5-81e3-b981559eaee6
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 12
-    server: 172.104.186.205
-    port: 443
-    type: vless
-    uuid: 687b3572-5364-499c-ad9e-4e6e2ddd609d
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 13
-    server: 45.147.166.190
-    port: 443
-    type: vless
-    uuid: e9786f5d-f1cd-40f7-8646-b9f62c8be303
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 14
-    server: 45.147.166.173
-    port: 443
-    type: vless
-    uuid: 620c1eb6-b6e1-4508-9156-d317c30898ca
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 15
-    server: 45.134.16.200
-    port: 443
-    type: vless
-    uuid: 5ff24106-fbd9-4479-8741-68fc47e15a24
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 16
-    server: 45.134.16.210
-    port: 443
-    type: vless
-    uuid: 5d9a8de7-349c-4df0-82de-d0a3fc32040c
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 新加坡 17
-    server: 45.144.241.89
-    port: 443
-    type: vless
-    uuid: 95e46074-3a9a-4037-a1bd-3c64aba9a23a
-    tls: true
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: itunes.apple.com
-  - name: 台湾 01 5
-    server: 684616s4.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: 0324fbc29561
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-  - name: 香港 11 家宽
-    server: dog-us.kunlun01dns.com
-    port: 21009
-    udp: true
-    type: vmess
-    uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-    alterId: 0
-    cipher: auto
-  - name: 台湾 01 4
-    server: 60.249.14.95
-    port: 2377
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: 台湾 04 家宽
-    server: hinet1.2yly.com
-    port: 24215
-    type: vless
-    uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-    tls: true
-    reality-opts:
-      public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-    servername: addons.mozilla.org
-    client-fingerprint: chrome
-    network: tcp
-  - name: 香港 01 家宽
-    server: 56481.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: ec74bb6a86c2
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-  - name: 香港 02 家宽
-    server: 654968169.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    alpn:
-      - http/1.1
-  - name: 香港 05 家宽
-    server: ihk135.zxom.eu.org
-    port: 20016
-    type: trojan
-    password: 62ae18560ab740e0
-    sni: ihk135.zxom.eu.org
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 06 家宽
-    server: fan.240104.xyz
-    port: 443
-    type: http
-    username: 'null'
-    password: 'null'
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 07 家宽
-    server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
-    port: 443
-    type: hysteria2
-    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 08 家宽
-    server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
-    port: 443
-    type: hysteria2
-    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-    auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
-    sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 09 家宽
-    server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
-    port: 443
-    type: hysteria2
-    password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-    auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-    sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 10 家宽
-    server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
-    port: 443
-    type: hysteria2
-    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
-    skip-cert-verify: true
-    udp: true
-  - name: 新加坡 04 家宽
-    server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
-    port: 443
-    type: http
-    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 台湾 06 家宽
-    server: tw-25.497489.xyz
-    port: 10099
-    type: hysteria
-    auth_str: github.com/Alvin9999-newpac/fanqiang
-    auth-str: github.com/Alvin9999-newpac/fanqiang
-    up: 20 Mbps
-    down: 20 Mbps
-    fast-open: false
-    protocol: udp
-    sni: tw-25.497489.xyz
-    skip-cert-verify: true
-    alpn:
-      - h3
-    udp: true
-  - name: 台湾 07 家宽
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    port: 1443
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    password: exaxgqkKkd0TAMrCxeonWg==
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 03 家宽
-    server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
-    port: 443
-    udp: true
-    type: hysteria2
-    password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-    sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
-    skip-cert-verify: true
-  - name: 香港 04 家宽
-    server: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
-    port: 443
-    udp: true
-    type: hysteria2
-    password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-    sni: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
-    skip-cert-verify: true
-  - name: 新加坡 01 家宽
-    server: 511.150333.xyz
-    port: 21001
-    udp: true
-    type: vless
-    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-    tls: true
-    reality-opts:
-      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: ab39fc68ab3dee81
-    servername: www.cloudflare.com
-    client-fingerprint: chrome
-  - name: 新加坡 02 家宽
-    server: 511.150333.xyz
-    port: 21002
-    udp: true
-    type: vless
-    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-    tls: true
-    reality-opts:
-      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: 3ab8d93dd9b1a5be
-    servername: www.cloudflare.com
-    client-fingerprint: chrome
-  - name: 新加坡 03 家宽
-    server: 511.150333.xyz
-    port: 21003
-    udp: true
-    type: vless
-    uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-    tls: true
-    reality-opts:
-      public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: bab49aa4c2a88d27
-    servername: www.cloudflare.com
-    client-fingerprint: chrome
-  - name: 台湾 05 家宽
-    server: 98416548.df6h451rh.xin
-    port: 443
-    udp: true
-    type: anytls
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-  - name: 台湾 03 家宽
-    server: 684616s4.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: ec74bb6a86c2
-    sni: px.ads.linkedin.com
-    skip-cert-verify: true
-  - name: 马来西亚 01
-    server: 47.250.84.25
-    port: 443
-    type: trojan
-    password: 5931134d1cde66bf83a54acdfebe7ab2
-    sni: 47.250.84.25
-  - name: '[vpngate家宽] HK 🇭🇰 01'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 01'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn160953407.opengw.net:1666?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 02'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] MX 🇲🇽 03'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h3
-      - h2
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: '[vpngate家宽] HK 🇭🇰 02'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn807319024.opengw.net:1760?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 🇭🇰 HK-SOCKS5
-    server: 43.156.246.147
-    port: 23889
-    type: socks5
-    username: vpnuser
-    password: bcb013fb2d4d42f1
-  - name: '[vpngate家宽] MY 🇲🇾 01'
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
-  - name: Hong Kong|248.14
-    type: vless
-    server: saas.sin.fan
-    port: 443
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    network: ws
-    tls: true
-    udp: false
-    servername: snip.edgeoneai.cc.cd
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /fdip=sstp://vpn:vpn@vpn225804116.opengw.net:1452?ed=2560
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 香港 01
+  server: 103.115.64.205
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 02
+  server: 103.118.254.240
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 04
+  server: 103.143.81.178
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 06
+  server: 103.190.232.236
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 08
+  server: 103.219.194.151
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 11
+  server: 103.39.78.118
+  port: 8443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 14
+  server: 111.92.240.90
+  port: 8443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 15
+  server: 143.14.189.170
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 香港 16
+  server: 149.104.24.36
+  port: 443
+  type: vless
+  uuid: ed0b0682-5734-4a50-8728-db68d44a1b94
+  tls: true
+  servername: nvl-edge-dr-141026.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.HK.CMLiussss.Net
+    headers:
+      Host: nvl-edge-dr-141026.pages.dev
+- name: 台湾 01
+  server: 152.32.167.33
+  port: 443
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4
+    short-id: cff998a4
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+- name: 台湾 01 2
+  server: tw04.chifanbieshuohua.club
+  port: 36531
+  type: hysteria2
+  password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
+  auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
+  skip-cert-verify: false
+- name: 台湾 02
+  server: tw04.chifanbieshuohua.club
+  port: 36532
+  type: hysteria2
+  password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
+  auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
+  skip-cert-verify: false
+- name: 台湾 02 2
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: ec74bb6a86c2
+  skip-cert-verify: true
+- name: 台湾 01 3
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 新加坡 01
+  server: 172.104.186.185
+  port: 443
+  type: vless
+  uuid: eba6bf2b-ec8c-4ad4-8096-35a1ba8c5938
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 02
+  server: 45.147.166.158
+  port: 443
+  type: vless
+  uuid: 73476364-b431-4795-9675-7a9f558f9ae2
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 03
+  server: 172.104.48.162
+  port: 443
+  type: vless
+  uuid: 45856a2e-2ff6-4868-a679-cd6b4fc2b48d
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 04
+  server: 172.104.48.194
+  port: 443
+  type: vless
+  uuid: 2b9d6d93-5718-4b0a-8f38-1398659c82c1
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 05
+  server: 185.196.98.50
+  port: 443
+  type: vless
+  uuid: aa803f12-0589-4140-8d15-6cba39f540e2
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 06
+  server: 104.64.220.146
+  port: 443
+  type: vless
+  uuid: 54787298-d253-47ff-b944-4c8d204b1ebd
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 08
+  server: 45.147.166.172
+  port: 443
+  type: vless
+  uuid: ce75c002-2dff-4698-baa4-32588db3e366
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 09
+  server: 139.162.50.103
+  port: 443
+  type: vless
+  uuid: e151877b-d2a7-4f79-9b92-f006bb940c0c
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 10
+  server: 38.48.124.14
+  port: 443
+  type: vless
+  uuid: 72d8cb2e-890d-4a51-a288-74d88094c2b4
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 11
+  server: 217.197.161.229
+  port: 443
+  type: vless
+  uuid: 73052389-db3c-45d5-81e3-b981559eaee6
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 12
+  server: 172.104.186.205
+  port: 443
+  type: vless
+  uuid: 687b3572-5364-499c-ad9e-4e6e2ddd609d
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 13
+  server: 45.147.166.190
+  port: 443
+  type: vless
+  uuid: e9786f5d-f1cd-40f7-8646-b9f62c8be303
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 14
+  server: 45.147.166.173
+  port: 443
+  type: vless
+  uuid: 620c1eb6-b6e1-4508-9156-d317c30898ca
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 15
+  server: 45.134.16.200
+  port: 443
+  type: vless
+  uuid: 5ff24106-fbd9-4479-8741-68fc47e15a24
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 16
+  server: 45.134.16.210
+  port: 443
+  type: vless
+  uuid: 5d9a8de7-349c-4df0-82de-d0a3fc32040c
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 新加坡 17
+  server: 45.144.241.89
+  port: 443
+  type: vless
+  uuid: 95e46074-3a9a-4037-a1bd-3c64aba9a23a
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 台湾 01 5
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 香港 11 家宽
+  server: dog-us.kunlun01dns.com
+  port: 21009
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 台湾 01 4
+  server: 60.249.14.95
+  port: 2377
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: 台湾 04 家宽
+  server: hinet1.2yly.com
+  port: 24215
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+  network: tcp
+- name: 香港 01 家宽
+  server: 56481.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: ec74bb6a86c2
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 香港 02 家宽
+  server: 654968169.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: 香港 05 家宽
+  server: ihk135.zxom.eu.org
+  port: 20016
+  type: trojan
+  password: 62ae18560ab740e0
+  sni: ihk135.zxom.eu.org
+  skip-cert-verify: true
+  udp: true
+- name: 香港 06 家宽
+  server: fan.240104.xyz
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 香港 07 家宽
+  server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 08 家宽
+  server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 09 家宽
+  server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 10 家宽
+  server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 新加坡 04 家宽
+  server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
+  port: 443
+  type: http
+  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 台湾 06 家宽
+  server: tw-25.497489.xyz
+  port: 10099
+  type: hysteria
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  up: 20 Mbps
+  down: 20 Mbps
+  fast-open: false
+  protocol: udp
+  sni: tw-25.497489.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 台湾 07 家宽
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  port: 1443
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 香港 03 家宽
+  server: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  sni: 8c05abce-tnhmo0-tohhws-zn8y.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 香港 04 家宽
+  server: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  sni: 8aeab52c-tnhmo0-tohhws-zn8y.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 新加坡 01 家宽
+  server: 511.150333.xyz
+  port: 21001
+  udp: true
+  type: vless
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  tls: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: ab39fc68ab3dee81
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 新加坡 02 家宽
+  server: 511.150333.xyz
+  port: 21002
+  udp: true
+  type: vless
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  tls: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: 3ab8d93dd9b1a5be
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 新加坡 03 家宽
+  server: 511.150333.xyz
+  port: 21003
+  udp: true
+  type: vless
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  tls: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    short-id: bab49aa4c2a88d27
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 台湾 05 家宽
+  server: 98416548.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 台湾 03 家宽
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: ec74bb6a86c2
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 马来西亚 01
+  server: 47.250.84.25
+  port: 443
+  type: trojan
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  sni: 47.250.84.25
+- name: '[vpngate家宽] HK 🇭🇰 01'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: '[vpngate家宽] MX 🇲🇽 01'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn160953407.opengw.net:1666?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: '[vpngate家宽] MX 🇲🇽 02'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: '[vpngate家宽] MX 🇲🇽 03'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: '[vpngate家宽] HK 🇭🇰 02'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn807319024.opengw.net:1760?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: '[vpngate家宽] MY 🇲🇾 01'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: Hong Kong|248.14
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn225804116.opengw.net:1452?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 proxy-groups:
-  - name: 🚀 精选合并
-    type: select
-    proxies:
-      - 香港 01
-      - 香港 02
-      - 香港 04
-      - 香港 06
-      - 香港 08
-      - 香港 11
-      - 香港 14
-      - 香港 15
-      - 香港 16
-      - 台湾 01
-      - 台湾 01 2
-      - 台湾 02
-      - 台湾 02 2
-      - 台湾 01 3
-      - 新加坡 01
-      - 新加坡 02
-      - 新加坡 03
-      - 新加坡 04
-      - 新加坡 05
-      - 新加坡 06
-      - 新加坡 08
-      - 新加坡 09
-      - 新加坡 10
-      - 新加坡 11
-      - 新加坡 12
-      - 新加坡 13
-      - 新加坡 14
-      - 新加坡 15
-      - 新加坡 16
-      - 新加坡 17
-      - 台湾 01 5
-      - 香港 11 家宽
-      - 台湾 01 4
-      - 台湾 04 家宽
-      - 香港 01 家宽
-      - 香港 02 家宽
-      - 香港 05 家宽
-      - 香港 06 家宽
-      - 香港 07 家宽
-      - 香港 08 家宽
-      - 香港 09 家宽
-      - 香港 10 家宽
-      - 新加坡 04 家宽
-      - 台湾 06 家宽
-      - 台湾 07 家宽
-      - 香港 03 家宽
-      - 香港 04 家宽
-      - 新加坡 01 家宽
-      - 新加坡 02 家宽
-      - 新加坡 03 家宽
-      - 台湾 05 家宽
-      - 台湾 03 家宽
-      - 马来西亚 01
-      - '[vpngate家宽] HK 🇭🇰 01'
-      - '[vpngate家宽] MX 🇲🇽 01'
-      - 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
-      - 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
-      - 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
-      - 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
-      - '[vpngate家宽] MX 🇲🇽 02'
-      - '[vpngate家宽] MX 🇲🇽 03'
-      - '[vpngate家宽] HK 🇭🇰 02'
-      - 🇭🇰 HK-SOCKS5
-      - '[vpngate家宽] MY 🇲🇾 01'
-      - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
-      - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
-      - Hong Kong|248.14
-      - DIRECT
+- name: 🚀 精选合并
+  type: select
+  proxies:
+  - 香港 01
+  - 香港 02
+  - 香港 04
+  - 香港 06
+  - 香港 08
+  - 香港 11
+  - 香港 14
+  - 香港 15
+  - 香港 16
+  - 台湾 01
+  - 台湾 01 2
+  - 台湾 02
+  - 台湾 02 2
+  - 台湾 01 3
+  - 新加坡 01
+  - 新加坡 02
+  - 新加坡 03
+  - 新加坡 04
+  - 新加坡 05
+  - 新加坡 06
+  - 新加坡 08
+  - 新加坡 09
+  - 新加坡 10
+  - 新加坡 11
+  - 新加坡 12
+  - 新加坡 13
+  - 新加坡 14
+  - 新加坡 15
+  - 新加坡 16
+  - 新加坡 17
+  - 台湾 01 5
+  - 香港 11 家宽
+  - 台湾 01 4
+  - 台湾 04 家宽
+  - 香港 01 家宽
+  - 香港 02 家宽
+  - 香港 05 家宽
+  - 香港 06 家宽
+  - 香港 07 家宽
+  - 香港 08 家宽
+  - 香港 09 家宽
+  - 香港 10 家宽
+  - 新加坡 04 家宽
+  - 台湾 06 家宽
+  - 台湾 07 家宽
+  - 香港 03 家宽
+  - 香港 04 家宽
+  - 新加坡 01 家宽
+  - 新加坡 02 家宽
+  - 新加坡 03 家宽
+  - 台湾 05 家宽
+  - 台湾 03 家宽
+  - 马来西亚 01
+  - '[vpngate家宽] HK 🇭🇰 01'
+  - '[vpngate家宽] MX 🇲🇽 01'
+  - 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
+  - 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
+  - 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
+  - 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
+  - '[vpngate家宽] MX 🇲🇽 02'
+  - '[vpngate家宽] MX 🇲🇽 03'
+  - '[vpngate家宽] HK 🇭🇰 02'
+  - '[vpngate家宽] MY 🇲🇾 01'
+  - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
+  - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
+  - Hong Kong|248.14
+  - DIRECT
 rules:
-  - MATCH,🚀 精选合并
+- MATCH,🚀 精选合并
