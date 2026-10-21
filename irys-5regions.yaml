@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY/US 精选 + 家宽sweep 合并版
-# 更新: 2026-10-21 下午13点（只加新节点，不删除旧节点）
+# 更新: 2026-10-21 晚上19点（只加新节点，不删除旧节点）
 proxies:
   - name: 香港 22
     server: www.visa.com.hk
@@ -353,6 +353,205 @@ proxies:
       short-id: f3602a3a1cf928b7
     servername: www.cloudflare.com
     client-fingerprint: chrome
+  - name: 香港 02 4
+    server: 154.83.86.85
+    port: 9443
+    type: vless
+    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+      short-id: b390142456517acc
+    servername: www.amazon.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港 01 2
+    server: 47.243.194.125
+    port: 443
+    type: vmess
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: nycqg19zkwacpm1b.v.3dns.vip
+  - name: 新加坡 01 2
+    server: 56.10.64.57
+    port: 443
+    type: vless
+    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
+      short-id: 819a87bf1651bf44
+    servername: erp.unitekpharma.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 新加坡 05 3
+    server: pq.aws67.yydjc.top
+    port: 443
+    type: vless
+    uuid: 8d78fcb8-d0da-483d-b85a-26653a8331c9
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+      short-id: 8b6e932c
+    servername: updates.cdn-apple.com
+    client-fingerprint: safari
+    network: tcp
+  - name: 新加坡 06 3
+    server: pq.aws66.yydjc.top
+    port: 443
+    type: vless
+    uuid: 8d78fcb8-d0da-483d-b85a-26653a8331c9
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
+      short-id: 289c74e0
+    servername: iosapps.itunes.apple.com
+    client-fingerprint: safari
+    network: tcp
+  - name: 新加坡 07 3
+    server: pq.aws65.yydjc.top
+    port: 443
+    type: vless
+    uuid: 8d78fcb8-d0da-483d-b85a-26653a8331c9
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+      short-id: 57b7989c
+    servername: iosapps.itunes.apple.com
+    client-fingerprint: safari
+    network: tcp
+  - name: 新加坡 08 3
+    server: pq.aws64.yydjc.top
+    port: 443
+    type: vless
+    uuid: 8d78fcb8-d0da-483d-b85a-26653a8331c9
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+      short-id: e2e15173
+    servername: iosapps.itunes.apple.com
+    client-fingerprint: safari
+    network: tcp
+  - name: 新加坡 10
+    server: downloadcfpro.xn--ghq880n3na965a.com
+    port: 443
+    type: vless
+    uuid: 8d78fcb8-d0da-483d-b85a-26653a8331c9
+    tls: true
+    servername: sgp1.xn--ghq880n3na965a.com
+    client-fingerprint: ios
+    network: ws
+    ws-opts:
+      path: /pq/sg1
+      headers:
+        Host: sgp1.xn--ghq880n3na965a.com
+  - name: 新加坡 13
+    server: saas.sin.fan
+    port: 2087
+    type: vless
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    tls: true
+    servername: vp4.1145678.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /blogs/go/posts
+      headers:
+        Host: vp4.1145678.xyz
+  - name: 新加坡 14
+    server: saas.sin.fan
+    port: 2087
+    type: vless
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    tls: true
+    servername: vp2.1145678.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /out
+      headers:
+        Host: vp2.1145678.xyz
+  - name: 新加坡 01 3
+    server: www.visa.com.sg
+    port: 2053
+    type: trojan
+    password: 040870be-ae04-43d7-b265-bbe7b64b60db
+    sni: au1.yang-1989.xyz
+    network: ws
+    ws-opts:
+      path: /872y
+      headers:
+        Host: au1.yang-1989.xyz
+  - name: 新加坡 02 2
+    server: www.visa.com.sg
+    port: 2083
+    type: trojan
+    password: e0303a31-0daf-4d45-ae1e-2bc0544f0ad2
+    sni: au2.yang-1989.xyz
+    network: ws
+    ws-opts:
+      path: /as2u
+      headers:
+        Host: au2.yang-1989.xyz
+  - name: 新加坡 03 2
+    server: www.visa.com.sg
+    port: 2087
+    type: trojan
+    password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+    sni: au3.yang-1989.xyz
+    network: ws
+    ws-opts:
+      path: /9f81
+      headers:
+        Host: au3.yang-1989.xyz
+  - name: 新加坡 04
+    server: www.visa.com.sg
+    port: 2096
+    type: trojan
+    password: aa308698-d9a4-43ff-a563-14636919c971
+    sni: au4.yang-1989.xyz
+    network: ws
+    ws-opts:
+      path: /qpf7
+      headers:
+        Host: au4.yang-1989.xyz
+  - name: 新加坡 05 4
+    server: www.visa.com.sg
+    port: 8443
+    type: trojan
+    password: 7a041e6c-642e-4f14-ad8f-a7aa1d3e2dac
+    sni: au5.yang-1989.xyz
+    network: ws
+    ws-opts:
+      path: /iw8i
+      headers:
+        Host: au5.yang-1989.xyz
+  - name: 新加坡 03 3
+    server: 56.10.64.57
+    port: 443
+    type: hysteria2
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    sni: www.bing.com
+    obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: 新加坡 01 5
+    server: 56.10.64.57
+    port: 8443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   - name: 新加坡 12 2
     server: saas.sin.fan
     port: 443
@@ -1260,6 +1459,63 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 22'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn518122287.opengw.net:1960?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 23'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn340673898.opengw.net:1816?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 24'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn294794153.opengw.net:995?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
   - name: 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
     type: vless
     server: saas.sin.fan
@@ -1351,6 +1607,23 @@ proxy-groups:
       - 美国 04 家宽
       - 新加坡 05 家宽
       - 新加坡 06 家宽
+      - 香港 02 4
+      - 香港 01 2
+      - 新加坡 01 2
+      - 新加坡 05 3
+      - 新加坡 06 3
+      - 新加坡 07 3
+      - 新加坡 08 3
+      - 新加坡 10
+      - 新加坡 13
+      - 新加坡 14
+      - 新加坡 01 3
+      - 新加坡 02 2
+      - 新加坡 03 2
+      - 新加坡 04
+      - 新加坡 05 4
+      - 新加坡 03 3
+      - 新加坡 01 5
       - 新加坡 12 2
       - 新加坡 03 6
       - 新加坡 01 12
@@ -1415,6 +1688,9 @@ proxy-groups:
       - '[vpngate家宽] US 🇺🇸 19'
       - '[vpngate家宽] US 🇺🇸 20'
       - '[vpngate家宽] US 🇺🇸 21'
+      - '[vpngate家宽] US 🇺🇸 22'
+      - '[vpngate家宽] US 🇺🇸 23'
+      - '[vpngate家宽] US 🇺🇸 24'
       - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
       - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
       - Hong Kong|248.14
