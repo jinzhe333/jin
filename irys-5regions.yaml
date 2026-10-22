@@ -60,12 +60,6 @@ proxies:
   password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
   auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
   skip-cert-verify: false
-- name: 台湾 02 2
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: ec74bb6a86c2
-  skip-cert-verify: true
 - name: 台湾 01 3
   server: er8u54dh.df6h451rh.xin
   port: 443
@@ -973,8 +967,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] MX 🇲🇽 01'
   type: vless
   server: saas.sin.fan
@@ -992,8 +985,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:1|Mexico|81.92|落地:189.186.183.153
   type: vless
   server: saas.sin.fan
@@ -1010,8 +1002,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:4|Mexico|402.85|落地:187.138.87.100
   type: vless
   server: saas.sin.fan
@@ -1028,8 +1019,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:1|Mexico|159.78|落地:187.221.21.83
   type: vless
   server: saas.sin.fan
@@ -1046,8 +1036,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn160953407.opengw.net:1666?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:5|Mexico|258.81|落地:187.200.168.105
   type: vless
   server: saas.sin.fan
@@ -1064,8 +1053,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] MX 🇲🇽 02'
   type: vless
   server: saas.sin.fan
@@ -1083,8 +1071,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] MX 🇲🇽 03'
   type: vless
   server: saas.sin.fan
@@ -1102,8 +1089,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn359681224.opengw.net:1925?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] HK 🇭🇰 02'
   type: vless
   server: saas.sin.fan
@@ -1121,8 +1107,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn807319024.opengw.net:1760?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] MY 🇲🇾 01'
   type: vless
   server: saas.sin.fan
@@ -1140,8 +1125,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 01'
   type: vless
   server: saas.sin.fan
@@ -1159,8 +1143,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn144021734.opengw.net:1651?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 02'
   type: vless
   server: saas.sin.fan
@@ -1178,8 +1161,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn398413002.opengw.net:1730?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 03'
   type: vless
   server: saas.sin.fan
@@ -1197,8 +1179,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn592200602.opengw.net:1490?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 04'
   type: vless
   server: saas.sin.fan
@@ -1216,8 +1197,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn474095859.opengw.net:1276?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 05'
   type: vless
   server: saas.sin.fan
@@ -1235,8 +1215,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn575281029.opengw.net:1659?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 06'
   type: vless
   server: saas.sin.fan
@@ -1254,8 +1233,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn503120135.opengw.net:1424?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 07'
   type: vless
   server: saas.sin.fan
@@ -1273,8 +1251,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn972505557.opengw.net:1971?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 08'
   type: vless
   server: saas.sin.fan
@@ -1292,8 +1269,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn988046136.opengw.net:1575?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 09'
   type: vless
   server: saas.sin.fan
@@ -1311,8 +1287,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn861257619.opengw.net:1717?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 10'
   type: vless
   server: saas.sin.fan
@@ -1330,8 +1305,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn783399234.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 11'
   type: vless
   server: saas.sin.fan
@@ -1349,8 +1323,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn918840683.opengw.net:1245?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 12'
   type: vless
   server: saas.sin.fan
@@ -1368,8 +1341,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn407625834.opengw.net:1357?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 13'
   type: vless
   server: saas.sin.fan
@@ -1387,8 +1359,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn164693092.opengw.net:1363?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 14'
   type: vless
   server: saas.sin.fan
@@ -1406,8 +1377,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn395062778.opengw.net:1538?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] MX 🇲🇽 04'
   type: vless
   server: saas.sin.fan
@@ -1425,8 +1395,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn841003782.opengw.net:1798?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 15'
   type: vless
   server: saas.sin.fan
@@ -1444,8 +1413,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn463069125.opengw.net:1957?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 16'
   type: vless
   server: saas.sin.fan
@@ -1463,8 +1431,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn799794865.opengw.net:1919?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 17'
   type: vless
   server: saas.sin.fan
@@ -1482,8 +1449,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn584855640.opengw.net:1893?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 18'
   type: vless
   server: saas.sin.fan
@@ -1501,8 +1467,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn680288952.opengw.net:1243?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 19'
   type: vless
   server: saas.sin.fan
@@ -1520,8 +1485,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn785793258.opengw.net:1761?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 20'
   type: vless
   server: saas.sin.fan
@@ -1539,8 +1503,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn7327190860.opengw.net:443?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 21'
   type: vless
   server: saas.sin.fan
@@ -1558,8 +1521,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn145465889.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 22'
   type: vless
   server: saas.sin.fan
@@ -1577,8 +1539,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn518122287.opengw.net:1960?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 23'
   type: vless
   server: saas.sin.fan
@@ -1596,8 +1557,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn340673898.opengw.net:1816?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 24'
   type: vless
   server: saas.sin.fan
@@ -1615,8 +1575,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn294794153.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 25'
   type: vless
   server: saas.sin.fan
@@ -1634,8 +1593,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn309240574.opengw.net:1485?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 26'
   type: vless
   server: saas.sin.fan
@@ -1653,8 +1611,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn618890302.opengw.net:1884?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 27'
   type: vless
   server: saas.sin.fan
@@ -1672,8 +1629,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn801494251.opengw.net:1929?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 28'
   type: vless
   server: saas.sin.fan
@@ -1691,8 +1647,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn750532477.opengw.net:1254?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 29'
   type: vless
   server: saas.sin.fan
@@ -1710,8 +1665,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn752377649.opengw.net:1901?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 30'
   type: vless
   server: saas.sin.fan
@@ -1729,8 +1683,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn770210620.opengw.net:1743?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
   type: vless
   server: saas.sin.fan
@@ -1747,8 +1700,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn187430919.opengw.net:995?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
   type: vless
   server: saas.sin.fan
@@ -1765,8 +1717,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: Hong Kong|248.14
   type: vless
   server: saas.sin.fan
@@ -1783,8 +1734,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn225804116.opengw.net:1452?ed=2560
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -1796,7 +1746,6 @@ proxy-groups:
   - 台湾 01
   - 台湾 01 2
   - 台湾 02
-  - 台湾 02 2
   - 台湾 01 3
   - 新加坡 27
   - 台湾 01 5
