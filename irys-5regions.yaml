@@ -1,11 +1,11 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY/US 精选 + 家宽sweep 合并版
-# 更新: 2026-10-22 13:00（替换规则：编号节点只留本次新筛到的，家宽永久保留）
+# 更新: 2026-10-22 19:00（替换规则：编号节点只留本次新筛到的，家宽永久保留）
 proxies:
   - name: 香港 01
     server: cfyes.777078.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     servername: lx-hk1.7770008.xyz
     client-fingerprint: safari
@@ -18,7 +18,7 @@ proxies:
     server: aws-link5.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -31,7 +31,7 @@ proxies:
     server: aws-link2.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -44,7 +44,7 @@ proxies:
     server: aws-link3.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -57,7 +57,7 @@ proxies:
     server: aws-link4.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -70,7 +70,7 @@ proxies:
     server: aws-link1.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -80,6 +80,45 @@ proxies:
     client-fingerprint: safari
     network: tcp
   - name: 香港 07
+    server: hk6.oh-node.com
+    port: 443
+    type: vless
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+      short-id: a2d13d677624197e
+    servername: www.hsbc.com.hk
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港 08
+    server: hk3.oh-node.com
+    port: 443
+    type: vless
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+      short-id: b81edf7fdee4
+    servername: hk4e-launcher-static.hoyoverse.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港 09
+    server: hk4.oh-node.com
+    port: 443
+    type: vless
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+      short-id: ea6b43
+    servername: hk4e-launcher-static.hoyoverse.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 香港 10
     server: www.visa.com.hk
     port: 443
     type: vless
@@ -92,7 +131,33 @@ proxies:
       path: /announcement?ed=2048
       headers:
         Host: us-lax.862400.xyz
+  - name: 香港 16
+    server: 45.207.157.8
+    port: 9443
+    type: vless
+    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+      short-id: b390142456517acc
+    servername: www.amazon.com
+    client-fingerprint: chrome
+    network: tcp
   - name: 香港 01 2
+    server: vah4urdzl3jdx5r2.v.3dns.vip
+    port: 443
+    type: vmess
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: vah4urdzl3jdx5r2.v.3dns.vip
+  - name: 香港 01 3
     server: hk.chifanbieshuohua.club
     port: 20191
     type: hysteria2
@@ -106,14 +171,31 @@ proxies:
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
-  - name: 香港 01 3
-    server: 56481.df6h451rh.xin
-    port: 443
-    type: anytls
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
   - name: 台湾 01
+    server: fluhk1.frnhk.xyz
+    port: 2053
+    type: vless
+    uuid: 5ce8f582-1494-4e3f-9a2d-7164491cc6fa
+    tls: false
+    network: ws
+    ws-opts:
+      path: /tw10211
+      headers:
+        Host: fluhk1.frnhk.xyz
+  - name: 台湾 02
+    server: tw3.oh-node.com
+    port: 443
+    type: vless
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+      short-id: 473277e2
+    servername: dlcdnets.asus.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 台湾 03
     server: 59.125.69.23
     port: 443
     type: vless
@@ -133,7 +215,7 @@ proxies:
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
-  - name: 台湾 02
+  - name: 台湾 02 2
     server: tw04.chifanbieshuohua.club
     port: 36532
     type: hysteria2
@@ -187,7 +269,7 @@ proxies:
     server: aws-link31.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -200,7 +282,7 @@ proxies:
     server: cfyes.7770008.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     servername: lx-1sg.lxy1015.top
     client-fingerprint: chrome
@@ -213,7 +295,7 @@ proxies:
     server: aws-link9.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -226,7 +308,7 @@ proxies:
     server: aws-link8.lxyun.xyz
     port: 443
     type: vless
-    uuid: 2d8f834f-3110-42a0-b579-16334705b29a
+    uuid: baf9ced5-562a-4e19-8d3a-55519778a1bf
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -236,96 +318,83 @@ proxies:
     client-fingerprint: ios
     network: tcp
   - name: 新加坡 09
-    server: pq.aws67.yydjc.top
+    server: sg1.oh-node.com
     port: 443
     type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
-      short-id: 8b6e932c
-    servername: updates.cdn-apple.com
-    client-fingerprint: safari
+      public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+      short-id: 37c94ae25b69a93a
+    servername: sg-hyp-api.hoyoverse.com
+    client-fingerprint: chrome
     network: tcp
   - name: 新加坡 10
-    server: pq.aws66.yydjc.top
+    server: sg3.oh-node.com
     port: 443
     type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
-      short-id: 289c74e0
-    servername: iosapps.itunes.apple.com
-    client-fingerprint: safari
+      public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
+      short-id: ddcd71ec09e5893a
+    servername: www.changiairport.com
+    client-fingerprint: chrome
     network: tcp
   - name: 新加坡 11
-    server: pq.aws65.yydjc.top
+    server: sg4.oh-node.com
     port: 443
     type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
-      short-id: 57b7989c
-    servername: iosapps.itunes.apple.com
-    client-fingerprint: safari
+      public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+      short-id: 1dd8558159ecd0
+    servername: www.changiairport.com
+    client-fingerprint: chrome
     network: tcp
   - name: 新加坡 12
-    server: pq.aws64.yydjc.top
-    port: 443
+    server: saas.sin.fan
+    port: 2053
     type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
     tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
-      short-id: e2e15173
-    servername: iosapps.itunes.apple.com
-    client-fingerprint: safari
-    network: tcp
-  - name: 新加坡 14
-    server: downloadcfpro.xn--ghq880n3na965a.com
-    port: 443
-    type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
-    tls: true
-    servername: sgp1.xn--ghq880n3na965a.com
-    client-fingerprint: ios
+    servername: vp4.1145678.xyz
+    client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /pq/sg1
+      path: /wenku/comics
       headers:
-        Host: sgp1.xn--ghq880n3na965a.com
-  - name: 新加坡 16
-    server: pq.aws63.yydjc.top
-    port: 443
+        Host: vp4.1145678.xyz
+  - name: 新加坡 13
+    server: saas.sin.fan
+    port: 2053
     type: vless
-    uuid: 621dc98b-537c-4da8-9d6b-ac7fa876a748
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
     tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
-      short-id: 436299c6
-    servername: iosapps.itunes.apple.com
+    servername: vp7.1145678.xyz
     client-fingerprint: chrome
-    network: tcp
-  - name: 新加坡 17
-    server: funagfrdfs.alixxplay.com
-    port: 46105
+    network: ws
+    ws-opts:
+      path: /question/watch
+      headers:
+        Host: vp7.1145678.xyz
+  - name: 新加坡 14
+    server: saas.sin.fan
+    port: 2053
     type: vless
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
     tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: 28f5c1f8f98a
-    servername: www.lamer.com.sg
+    servername: vp6.1145678.xyz
     client-fingerprint: chrome
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /drama
+      headers:
+        Host: vp6.1145678.xyz
   - name: 新加坡 01 2
     server: www.visa.com.sg
     port: 2053
@@ -410,10 +479,94 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   - name: 马来西亚 01
+    server: my2.oh-node.com
+    port: 443
+    type: vless
+    uuid: af0caff2-5db9-490a-938a-39054f8b9eac
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
+      short-id: ed77ac35a310
+    servername: www.setel.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: 马来西亚 01 2
     server: 47.250.84.25
     port: 443
     type: trojan
     password: 5931134d1cde66bf83a54acdfebe7ab2
+  - name: 香港 13 家宽
+    server: 56481.df6h451rh.xin
+    port: 443
+    type: anytls
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    alpn:
+      - http/1.1
+  - name: 台湾 11 家宽
+    server: 9641684.sdf65h4.top
+    port: 443
+    udp: true
+    type: vmess
+    uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: 9641684.sdf65h4.top
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+  - name: 新加坡 07 家宽
+    server: 510.150333.xyz
+    port: 21002
+    udp: true
+    type: vless
+    uuid: 67952583-8572-42e1-943d-0602794f885b
+    tls: true
+    reality-opts:
+      public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+      short-id: d9a6b52e98121db2
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 香港 14 家宽
+    server: 526.150333.xyz
+    port: 21003
+    udp: true
+    type: vless
+    uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+    tls: true
+    reality-opts:
+      public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+      short-id: eb9539689690d35c
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 香港 15 家宽
+    server: 526.150333.xyz
+    port: 21001
+    udp: true
+    type: vless
+    uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+    tls: true
+    reality-opts:
+      public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+      short-id: b6dfd5c750351c57
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+  - name: 香港 16 家宽
+    server: 526.150333.xyz
+    port: 21002
+    udp: true
+    type: vless
+    uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+    tls: true
+    reality-opts:
+      public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+      short-id: f0e6a8bb98db3efd
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
   - name: 台湾 08 家宽
     server: er8u54dh.df6h451rh.xin
     port: 443
@@ -1434,6 +1587,25 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 31'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn833326008.opengw.net:1414?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
   - name: 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
     type: vless
     server: saas.sin.fan
@@ -1499,12 +1671,18 @@ proxy-groups:
       - 香港 05
       - 香港 06
       - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 16
       - 香港 01 2
-      - 香港 02 2
       - 香港 01 3
+      - 香港 02 2
       - 台湾 01
-      - 台湾 01 2
       - 台湾 02
+      - 台湾 03
+      - 台湾 01 2
+      - 台湾 02 2
       - 新加坡 01
       - 新加坡 02
       - 新加坡 03
@@ -1516,9 +1694,8 @@ proxy-groups:
       - 新加坡 10
       - 新加坡 11
       - 新加坡 12
+      - 新加坡 13
       - 新加坡 14
-      - 新加坡 16
-      - 新加坡 17
       - 新加坡 01 2
       - 新加坡 02 2
       - 新加坡 03 2
@@ -1529,6 +1706,13 @@ proxy-groups:
       - 新加坡 03 3
       - 新加坡 01 4
       - 马来西亚 01
+      - 马来西亚 01 2
+      - 香港 13 家宽
+      - 台湾 11 家宽
+      - 新加坡 07 家宽
+      - 香港 14 家宽
+      - 香港 15 家宽
+      - 香港 16 家宽
       - 台湾 08 家宽
       - 台湾 09 家宽
       - 台湾 10 家宽
@@ -1595,6 +1779,7 @@ proxy-groups:
       - '[vpngate家宽] US 🇺🇸 28'
       - '[vpngate家宽] US 🇺🇸 29'
       - '[vpngate家宽] US 🇺🇸 30'
+      - '[vpngate家宽] US 🇺🇸 31'
       - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
       - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
       - Hong Kong|248.14
