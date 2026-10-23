@@ -10,7 +10,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-      short-id: 08a4b1f473932632
+      short-id: "08a4b1f473932632"
     servername: www.apple.com
     client-fingerprint: chrome
     network: tcp
@@ -23,7 +23,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
-      short-id: a2d13d677624197e
+      short-id: "a2d13d677624197e"
     servername: www.hsbc.com.hk
     client-fingerprint: chrome
     network: tcp
@@ -36,7 +36,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
-      short-id: b81edf7fdee4
+      short-id: "b81edf7fdee4"
     servername: hk4e-launcher-static.hoyoverse.com
     client-fingerprint: chrome
     network: tcp
@@ -49,7 +49,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-      short-id: ea6b43
+      short-id: "ea6b43"
     servername: hk4e-launcher-static.hoyoverse.com
     client-fingerprint: chrome
     network: tcp
@@ -62,7 +62,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-      short-id: 63b7e0a9f60d5508
+      short-id: "63b7e0a9f60d5508"
     servername: www.hsbc.com.hk
     client-fingerprint: chrome
     network: tcp
@@ -75,7 +75,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: b390142456517acc
+      short-id: "b390142456517acc"
     servername: www.amazon.com
     client-fingerprint: chrome
     network: tcp
@@ -102,7 +102,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-      short-id: b390142456517acc
+      short-id: "b390142456517acc"
     servername: www.amazon.com
     client-fingerprint: chrome
     network: tcp
@@ -115,7 +115,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-      short-id: 473277e2
+      short-id: "473277e2"
     servername: dlcdnets.asus.com
     client-fingerprint: chrome
     network: tcp
@@ -142,7 +142,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
-      short-id: 819a87bf1651bf44
+      short-id: "819a87bf1651bf44"
     servername: atlas.mudfinance.com
     client-fingerprint: chrome
     network: tcp
@@ -155,7 +155,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-      short-id: 6ba85179e30d4fc2
+      short-id: "6ba85179e30d4fc2"
     servername: sg2-8sb.6121999.dpdns.org
     client-fingerprint: chrome
     network: tcp
@@ -185,7 +185,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-      short-id: 37c94ae25b69a93a
+      short-id: "37c94ae25b69a93a"
     servername: sg-hyp-api.hoyoverse.com
     client-fingerprint: chrome
     network: tcp
@@ -198,7 +198,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-      short-id: ddcd71ec09e5893a
+      short-id: "ddcd71ec09e5893a"
     servername: www.changiairport.com
     client-fingerprint: chrome
     network: tcp
@@ -211,7 +211,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
-      short-id: 1dd8558159ecd0
+      short-id: "1dd8558159ecd0"
     servername: www.changiairport.com
     client-fingerprint: chrome
     network: tcp
@@ -224,7 +224,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
-      short-id: 5f2ca3da385c
+      short-id: "5f2ca3da385c"
     servername: sg-hyp-api.hoyoverse.com
     client-fingerprint: chrome
     network: tcp
@@ -237,7 +237,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
-      short-id: 8b6e932c
+      short-id: "8b6e932c"
     servername: updates.cdn-apple.com
     client-fingerprint: safari
     network: tcp
@@ -250,7 +250,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
-      short-id: 289c74e0
+      short-id: "289c74e0"
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
@@ -263,7 +263,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
-      short-id: 57b7989c
+      short-id: "57b7989c"
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
@@ -276,7 +276,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
-      short-id: e2e15173
+      short-id: "e2e15173"
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
@@ -302,7 +302,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
-      short-id: 436299c6
+      short-id: "436299c6"
     servername: iosapps.itunes.apple.com
     client-fingerprint: chrome
     network: tcp
@@ -398,7 +398,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
-      short-id: ed77ac35a310
+      short-id: "ed77ac35a310"
     servername: www.setel.com
     client-fingerprint: chrome
     network: tcp
@@ -498,7 +498,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-      short-id: a51c3ccb2320024a
+      short-id: "a51c3ccb2320024a"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 23 家宽
@@ -510,7 +510,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-      short-id: 2f34703f16523c80
+      short-id: "2f34703f16523c80"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 13 家宽
@@ -545,7 +545,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-      short-id: d9a6b52e98121db2
+      short-id: "d9a6b52e98121db2"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 14 家宽
@@ -557,7 +557,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-      short-id: eb9539689690d35c
+      short-id: "eb9539689690d35c"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 15 家宽
@@ -569,7 +569,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-      short-id: b6dfd5c750351c57
+      short-id: "b6dfd5c750351c57"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 16 家宽
@@ -581,7 +581,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-      short-id: f0e6a8bb98db3efd
+      short-id: "f0e6a8bb98db3efd"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 台湾 08 家宽
@@ -627,7 +627,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-      short-id: 4e0418d648f86141
+      short-id: "4e0418d648f86141"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 新加坡 06 家宽
@@ -639,7 +639,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-      short-id: f3602a3a1cf928b7
+      short-id: "f3602a3a1cf928b7"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 香港 12 家宽
@@ -652,7 +652,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-      short-id: 1a
+      short-id: "1a"
     servername: www.amazon.com
     client-fingerprint: chrome
   - name: 台湾 04 家宽
@@ -794,7 +794,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: ab39fc68ab3dee81
+      short-id: "ab39fc68ab3dee81"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 新加坡 02 家宽
@@ -806,7 +806,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: 3ab8d93dd9b1a5be
+      short-id: "3ab8d93dd9b1a5be"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 新加坡 03 家宽
@@ -818,7 +818,7 @@ proxies:
     tls: true
     reality-opts:
       public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-      short-id: bab49aa4c2a88d27
+      short-id: "bab49aa4c2a88d27"
     servername: www.cloudflare.com
     client-fingerprint: chrome
   - name: 台湾 05 家宽
