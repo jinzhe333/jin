@@ -1,5 +1,5 @@
 # irys 四地区精选（HK/TW/SG/MY）+ LancelotRar HK/MX/MY/US 精选 + 家宽sweep 合并版
-# 更新: 2026-10-24 13:00（替换规则：编号节点只留本次新筛到的，家宽永久保留）
+# 更新: 2026-10-22 13:00（替换规则：编号节点只留本次新筛到的，家宽永久保留）
 proxies:
   - name: 香港 01
     server: www.visa.com.hk
@@ -7,28 +7,41 @@ proxies:
     type: vless
     uuid: d884354e-17ce-4843-b174-36bca3c1ccc6
     tls: true
-    servername: jp-osa.862400.xyz
+    servername: eu-central.862400.xyz
     client-fingerprint: random
     network: ws
     ws-opts:
       path: /announcement?ed=2048
       headers:
-        Host: jp-osa.862400.xyz
+        Host: eu-central.862400.xyz
   - name: 香港 01 2
+    server: 8.217.13.103
+    port: 443
+    type: vmess
+    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: qtkdr8jxe3wefxjm.v.3dns.vip
+  - name: 香港 01 3
     server: hk.chifanbieshuohua.club
     port: 20191
     type: hysteria2
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
-  - name: 香港 02 2
+  - name: 香港 02
     server: hk.chifanbieshuohua.club
     port: 20190
     type: hysteria2
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
-  - name: 香港 01 3
+  - name: 香港 01 4
     server: hk2.xiaoliyu.cyou
     port: 4430
     type: anytls
@@ -49,7 +62,7 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 01
-    server: 54.251.220.240
+    server: 13.229.117.243
     port: 443
     type: vless
     uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -58,27 +71,14 @@ proxies:
     reality-opts:
       public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
       short-id: 819a87bf1651bf44
-    servername: credentialbroker-control.ap-southeast-1.api.aws
+    servername: www.kinhthanh.vn
     client-fingerprint: chrome
     network: tcp
   - name: 新加坡 02
-    server: sg2-8sb.6121999.dpdns.org
-    port: 19825
-    type: vless
-    uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-      short-id: 6ba85179e30d4fc2
-    servername: sg2-8sb.6121999.dpdns.org
-    client-fingerprint: chrome
-    network: tcp
-  - name: 新加坡 03
     server: pq.aws67.yydjc.top
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -87,11 +87,11 @@ proxies:
     servername: updates.cdn-apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 04
+  - name: 新加坡 03
     server: pq.aws66.yydjc.top
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -100,11 +100,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 05
+  - name: 新加坡 04
     server: pq.aws65.yydjc.top
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -113,11 +113,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 06
+  - name: 新加坡 05
     server: pq.aws64.yydjc.top
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -126,11 +126,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 08
+  - name: 新加坡 07
     server: downloadcfpro.xn--ghq880n3na965a.com
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     servername: sgp1.xn--ghq880n3na965a.com
     client-fingerprint: ios
@@ -139,11 +139,11 @@ proxies:
       path: /pq/sg1
       headers:
         Host: sgp1.xn--ghq880n3na965a.com
-  - name: 新加坡 10
+  - name: 新加坡 09
     server: pq.aws63.yydjc.top
     port: 443
     type: vless
-    uuid: a6d0700e-20d5-4c9d-87c3-d40be947a50b
+    uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -158,26 +158,13 @@ proxies:
     type: vless
     uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
     tls: true
-    servername: vp5.1145678.xyz
+    servername: vp6.1145678.xyz
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /service
+      path: /photos/url/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFVeAVUCDVxbAEpYElFeVhQDWV0SQwEWQlpGWRoNA1YdDhk=
       headers:
-        Host: vp5.1145678.xyz
-  - name: 新加坡 12
-    server: funagfrdfs.alixxplay.com
-    port: 46105
-    type: vless
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: 28f5c1f8f98a
-    servername: www.lamer.com.sg
-    client-fingerprint: chrome
-    network: tcp
+        Host: vp6.1145678.xyz
   - name: 新加坡 01 2
     server: 104.18.35.86
     port: 2096
@@ -259,7 +246,7 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 03 3
-    server: 54.251.220.240
+    server: 13.229.117.243
     port: 443
     type: hysteria2
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -267,7 +254,7 @@ proxies:
     sni: www.bing.com
     obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   - name: 新加坡 01 4
-    server: 54.251.220.240
+    server: 13.229.117.243
     port: 8443
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -1080,8 +1067,9 @@ proxy-groups:
     proxies:
       - 香港 01
       - 香港 01 2
-      - 香港 02 2
       - 香港 01 3
+      - 香港 02
+      - 香港 01 4
       - 台湾 01
       - 台湾 02
       - 新加坡 01
@@ -1089,11 +1077,9 @@ proxy-groups:
       - 新加坡 03
       - 新加坡 04
       - 新加坡 05
-      - 新加坡 06
-      - 新加坡 08
-      - 新加坡 10
+      - 新加坡 07
+      - 新加坡 09
       - 新加坡 11
-      - 新加坡 12
       - 新加坡 01 2
       - 新加坡 02 2
       - 新加坡 03 2
