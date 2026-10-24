@@ -925,6 +925,82 @@ proxies:
         Host: snip.edgeoneai.cc.cd
         User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 02'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn398413002.opengw.net:1730?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 03'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn592200602.opengw.net:1490?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 04'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn474095859.opengw.net:1276?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
+  - name: '[vpngate家宽] US 🇺🇸 05'
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+    network: ws
+    tls: true
+    udp: false
+    servername: snip.edgeoneai.cc.cd
+    client-fingerprint: chrome
+    alpn:
+      - h3
+      - h2
+    ws-opts:
+      path: /fdip=sstp://vpn:vpn@vpn575281029.opengw.net:1659?ed=2560
+      headers:
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/131.0.0.0 Safari/537.36
   - name: '[vpngate家宽] MX 🇲🇽 04'
     type: vless
     server: saas.sin.fan
@@ -1083,6 +1159,10 @@ proxy-groups:
       - '[vpngate家宽] HK 🇭🇰 02'
       - '[vpngate家宽] MY 🇲🇾 01'
       - '[vpngate家宽] US 🇺🇸 01'
+      - '[vpngate家宽] US 🇺🇸 02'
+      - '[vpngate家宽] US 🇺🇸 03'
+      - '[vpngate家宽] US 🇺🇸 04'
+      - '[vpngate家宽] US 🇺🇸 05'
       - '[vpngate家宽] MX 🇲🇽 04'
       - 家宽|纯净度:6|Hong Kong|859.25|落地:58.153.71.85
       - 家宽|纯净度:11|Hong Kong|43.21|落地:58.152.29.26
