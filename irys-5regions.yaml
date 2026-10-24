@@ -277,6 +277,16 @@ proxies:
     port: 443
     type: trojan
     password: 5931134d1cde66bf83a54acdfebe7ab2
+  - name: 美国 06 家宽
+    server: a3.xtssc.top
+    port: 48805
+    udp: true
+    type: vless
+    uuid: 48aa91a2-049c-49ac-902c-285a78dda068
+    tls: true
+    servername: a3.xtssc.top
+    skip-cert-verify: false
+    client-fingerprint: chrome
   - name: 台湾 13 家宽
     server: forwarded.frnhk.xyz
     port: 46001
@@ -1760,6 +1770,7 @@ proxy-groups:
       - 新加坡 03 3
       - 新加坡 01 4
       - 马来西亚 01
+      - 美国 06 家宽
       - 台湾 13 家宽
       - 台湾 12 家宽
       - 美国 05 家宽
