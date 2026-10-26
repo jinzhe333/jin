@@ -2,125 +2,81 @@
 # 更新: 2026-10-22 13:00（替换规则：编号节点只留本次新筛到的，家宽永久保留）
 proxies:
   - name: 香港 01
-    server: cfyes.777078.xyz
-    port: 443
+    server: 66.90.115.123
+    port: 2090
     type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
+    uuid: 3644635c-f8c4-449c-a665-fce1897a7bf3
     tls: true
-    servername: lx-hk1.7770008.xyz
-    client-fingerprint: safari
-    network: ws
-    ws-opts:
-      path: /liangxin/data/hk1
-      headers:
-        Host: lx-hk1.7770008.xyz
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+      short-id: bb472a184677af64
+    servername: www.apple.com
+    client-fingerprint: chrome
+    network: tcp
   - name: 香港 02
-    server: aws-link5.lxyun.xyz
+    server: www.visa.com.hk
     port: 443
     type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
+    uuid: ded83071-f858-448c-b832-135db1c9056f
     tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
-      short-id: a49232a7
-    servername: fastcdn.hoyoverse.com
-    client-fingerprint: ios
-    network: tcp
-  - name: 香港 03
-    server: aws-link2.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
-      short-id: 6afd82c0
-    servername: fastcdn.hoyoverse.com
-    client-fingerprint: safari
-    network: tcp
-  - name: 香港 04
-    server: aws-link3.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
-      short-id: '3206e665'
-    servername: www.lamer.com.hk
-    client-fingerprint: ios
-    network: tcp
-  - name: 香港 05
-    server: aws-link4.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
-      short-id: a31b59fe
-    servername: www.lamer.com.hk
-    client-fingerprint: ios
-    network: tcp
-  - name: 香港 06
-    server: aws-link1.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
-      short-id: c8660f6e
-    servername: fastcdn.hoyoverse.com
-    client-fingerprint: safari
-    network: tcp
-  - name: 香港 08
-    server: 103.180.20.176
-    port: 8443
-    type: vless
-    uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-    tls: true
-    servername: tse1.mm.bing.net
+    servername: eu-central.862400.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+      path: /announcement?ed=2048
       headers:
-        Host: tse1.mm.bing.net
+        Host: eu-central.862400.xyz
+  - name: 香港 03
+    server: 45.207.157.8
+    port: 9443
+    type: vless
+    uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+      short-id: b390142456517acc
+    servername: www.amazon.com
+    client-fingerprint: chrome
+    network: tcp
   - name: 香港 01 2
-    server: tjadly.m2k699.com
-    port: 24999
-    type: trojan
-    password: 29086912-33e4-4e06-ba2b-60f1a195864f
-    sni: www.itunes.com
-  - name: 香港 02 2
-    server: tjmlxy.m2k699.com
-    port: 24999
-    type: trojan
-    password: 29086912-33e4-4e06-ba2b-60f1a195864f
-    sni: www.itunes.com
-  - name: 香港 03 2
     server: tjxg.m2k699.com
     port: 24999
     type: trojan
     password: 29086912-33e4-4e06-ba2b-60f1a195864f
     sni: www.itunes.com
+  - name: 香港 02 2
+    server: tjadly.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
+  - name: 香港 03 2
+    server: tjmlxy.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
+  - name: 香港 04
+    server: tjyn.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
+  - name: 香港 05
+    server: tjterq.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
+  - name: 香港 06
+    server: tjyg.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
   - name: 香港 01 3
-    server: 47.244.120.197
-    port: 36703
-    type: vmess
-    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki
-  - name: 香港 02 3
     server: 47.242.81.94
     port: 52080
     type: vmess
@@ -133,19 +89,17 @@ proxies:
       method: GET
       path:
         - /
-  - name: 香港 03 3
-    server: 47.243.65.243
-    port: 443
+  - name: 香港 02 3
+    server: 47.244.120.197
+    port: 36703
     type: vmess
-    uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: lcv8v9l7oyamxxfz.v.3dns.vip
+      path: /arki
   - name: 香港 01 4
     server: hk.chifanbieshuohua.club
     port: 20191
@@ -160,7 +114,7 @@ proxies:
     password: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
-  - name: 香港 03 4
+  - name: 香港 03 3
     server: hk1.xiaoliyu.cyou
     port: 18333
     type: hysteria2
@@ -188,7 +142,7 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 01
-    server: 13.212.199.171
+    server: 47.129.253.53
     port: 443
     type: vless
     uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -197,78 +151,34 @@ proxies:
     reality-opts:
       public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
       short-id: 819a87bf1651bf44
-    servername: 18.143.132.15.sslip.io
+    servername: gitlabs.fortu.pro
     client-fingerprint: chrome
     network: tcp
   - name: 新加坡 02
-    server: 104.18.35.86
-    port: 2082
+    server: 43.134.176.236
+    port: 13954
     type: vless
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    uuid: 6ce8ff5b-4975-46d2-80ee-7eb48200cade
     tls: false
-    servername: hhlfy.twiladaphne.ndjp.net
-    network: ws
-    ws-opts:
-      path: /fp
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
+    network: tcp
   - name: 新加坡 03
-    server: aws-link31.lxyun.xyz
-    port: 443
+    server: sg2-8sb.6121999.dpdns.org
+    port: 19825
     type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
+    uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
-      short-id: c7487aeb
-    servername: download-porter.hoyoverse.com
-    client-fingerprint: safari
+      public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+      short-id: 6ba85179e30d4fc2
+    servername: sg2-8sb.6121999.dpdns.org
+    client-fingerprint: chrome
     network: tcp
   - name: 新加坡 04
-    server: cfyes.7770008.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    servername: lx-1sg.lxy1015.top
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /liangxin/sg1
-      headers:
-        Host: lx-1sg.lxy1015.top
-  - name: 新加坡 05
-    server: aws-link9.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
-      short-id: bef8fff6
-    servername: iosapps.itunes.apple.com
-    client-fingerprint: ios
-    network: tcp
-  - name: 新加坡 06
-    server: aws-link8.lxyun.xyz
-    port: 443
-    type: vless
-    uuid: 06a891aa-a0ac-4f22-bae1-a2d51eb4ac0c
-    tls: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
-      short-id: 55c73a28
-    servername: iosapps.itunes.apple.com
-    client-fingerprint: ios
-    network: tcp
-  - name: 新加坡 09
     server: pq.aws67.yydjc.top
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -277,11 +187,11 @@ proxies:
     servername: updates.cdn-apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 10
+  - name: 新加坡 05
     server: pq.aws66.yydjc.top
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -290,11 +200,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 11
+  - name: 新加坡 06
     server: pq.aws65.yydjc.top
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -303,11 +213,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 12
+  - name: 新加坡 07
     server: pq.aws64.yydjc.top
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -316,11 +226,11 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: safari
     network: tcp
-  - name: 新加坡 14
+  - name: 新加坡 09
     server: downloadcfpro.xn--ghq880n3na965a.com
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     servername: sgp1.xn--ghq880n3na965a.com
     client-fingerprint: ios
@@ -329,11 +239,11 @@ proxies:
       path: /pq/sg1
       headers:
         Host: sgp1.xn--ghq880n3na965a.com
-  - name: 新加坡 16
+  - name: 新加坡 11
     server: pq.aws63.yydjc.top
     port: 443
     type: vless
-    uuid: b3a5271e-cc7a-43c3-89a8-a655c8a90449
+    uuid: 777c5796-79d8-43ef-8dc2-e920de8121d0
     tls: true
     flow: xtls-rprx-vision
     reality-opts:
@@ -342,9 +252,9 @@ proxies:
     servername: iosapps.itunes.apple.com
     client-fingerprint: chrome
     network: tcp
-  - name: 新加坡 18
+  - name: 新加坡 13
     server: saas.sin.fan
-    port: 2083
+    port: 2053
     type: vless
     uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
     tls: true
@@ -352,10 +262,34 @@ proxies:
     client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /events/class
+      path: /question/watch
       headers:
         Host: vp7.1145678.xyz
+  - name: 新加坡 14
+    server: funagfrdfs.alixxplay.com
+    port: 46105
+    type: vless
+    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+      short-id: 28f5c1f8f98a
+    servername: www.lamer.com.sg
+    client-fingerprint: safari
+    network: tcp
   - name: 新加坡 01 2
+    server: 104.18.35.86
+    port: 2096
+    type: trojan
+    password: 123456
+    sni: 321dfbc6.uir-9i6.pages.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 321dfbc6.uir-9i6.pages.dev
+  - name: 新加坡 02 2
     server: www.visa.com.sg
     port: 2053
     type: trojan
@@ -366,7 +300,7 @@ proxies:
       path: /h64l
       headers:
         Host: au1.yang-1989.xyz
-  - name: 新加坡 02 2
+  - name: 新加坡 03 2
     server: www.visa.com.sg
     port: 2083
     type: trojan
@@ -377,7 +311,7 @@ proxies:
       path: /0ubq
       headers:
         Host: au2.yang-1989.xyz
-  - name: 新加坡 03 2
+  - name: 新加坡 04 2
     server: www.visa.com.sg
     port: 2087
     type: trojan
@@ -388,7 +322,7 @@ proxies:
       path: /wqd3
       headers:
         Host: au3.yang-1989.xyz
-  - name: 新加坡 04 2
+  - name: 新加坡 05 2
     server: www.visa.com.sg
     port: 2096
     type: trojan
@@ -399,7 +333,7 @@ proxies:
       path: /ya87
       headers:
         Host: au4.yang-1989.xyz
-  - name: 新加坡 05 2
+  - name: 新加坡 06 2
     server: www.visa.com.sg
     port: 8443
     type: trojan
@@ -410,6 +344,12 @@ proxies:
       path: /iw8i
       headers:
         Host: au5.yang-1989.xyz
+  - name: 新加坡 07 2
+    server: tjxjp.m2k699.com
+    port: 24999
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
   - name: 新加坡 01 3
     server: sg.chifanbieshuohua.club
     port: 12345
@@ -425,7 +365,7 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 03 3
-    server: 13.212.199.171
+    server: 47.129.253.53
     port: 443
     type: hysteria2
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -433,16 +373,33 @@ proxies:
     sni: www.bing.com
     obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   - name: 新加坡 01 4
-    server: 13.212.199.171
+    server: 47.129.253.53
     port: 8443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  - name: 马来西亚 01
-    server: 47.250.84.25
-    port: 443
+  - name: 美国 08 家宽
+    server: www.777061.xyz
+    port: 18603
     type: trojan
-    password: 5931134d1cde66bf83a54acdfebe7ab2
+    password: lk59gDrTm2
+    sni: www.777061.xyz
+  - name: 台湾 15 家宽
+    server: gu232.izzzzzi.com
+    port: 20052
+    udp: true
+    type: trojan
+    password: e56e752c86a640cd
+    sni: gu232.izzzzzi.com
+    skip-cert-verify: false
+  - name: 美国 09 家宽
+    server: tjmg1.m2k699.com
+    port: 24999
+    udp: true
+    type: trojan
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
+    sni: www.itunes.com
+    skip-cert-verify: true
   - name: 台湾 14 家宽
     server: tjtw.m2k699.com
     port: 24999
@@ -561,7 +518,7 @@ proxies:
     server: tjjnd.m2k699.com
     port: 24999
     type: trojan
-    password: 28c4a59d-c2a0-4d6c-ba7d-db6a354990de
+    password: 29086912-33e4-4e06-ba2b-60f1a195864f
     sni: www.itunes.com
   - name: 香港 18 家宽
     server: api.meituan88.com
@@ -1314,19 +1271,17 @@ proxy-groups:
       - 香港 01
       - 香港 02
       - 香港 03
-      - 香港 04
-      - 香港 05
-      - 香港 06
-      - 香港 08
       - 香港 01 2
       - 香港 02 2
       - 香港 03 2
+      - 香港 04
+      - 香港 05
+      - 香港 06
       - 香港 01 3
       - 香港 02 3
-      - 香港 03 3
       - 香港 01 4
       - 香港 02 4
-      - 香港 03 4
+      - 香港 03 3
       - 香港 01 5
       - 台湾 01 2
       - 台湾 02
@@ -1336,23 +1291,25 @@ proxy-groups:
       - 新加坡 04
       - 新加坡 05
       - 新加坡 06
+      - 新加坡 07
       - 新加坡 09
-      - 新加坡 10
       - 新加坡 11
-      - 新加坡 12
+      - 新加坡 13
       - 新加坡 14
-      - 新加坡 16
-      - 新加坡 18
       - 新加坡 01 2
       - 新加坡 02 2
       - 新加坡 03 2
       - 新加坡 04 2
       - 新加坡 05 2
+      - 新加坡 06 2
+      - 新加坡 07 2
       - 新加坡 01 3
       - 新加坡 02 3
       - 新加坡 03 3
       - 新加坡 01 4
-      - 马来西亚 01
+      - 美国 08 家宽
+      - 台湾 15 家宽
+      - 美国 09 家宽
       - 台湾 14 家宽
       - 香港 24 家宽
       - 香港 25 家宽
