@@ -20,14 +20,14 @@ proxies:
     type: vless
     uuid: ded83071-f858-448c-b832-135db1c9056f
     tls: true
-    servername: eu-central.862400.xyz
+    servername: jp-osa.862400.xyz
     client-fingerprint: random
     network: ws
     ws-opts:
       path: /announcement?ed=2048
       headers:
-        Host: eu-central.862400.xyz
-  - name: 香港 03
+        Host: jp-osa.862400.xyz
+  - name: 香港 04
     server: 45.207.157.8
     port: 9443
     type: vless
@@ -58,7 +58,7 @@ proxies:
     type: trojan
     password: 29086912-33e4-4e06-ba2b-60f1a195864f
     sni: www.itunes.com
-  - name: 香港 04
+  - name: 香港 04 2
     server: tjyn.m2k699.com
     port: 24999
     type: trojan
@@ -142,7 +142,7 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 01
-    server: 47.129.253.53
+    server: 54.179.55.87
     port: 443
     type: vless
     uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -151,7 +151,7 @@ proxies:
     reality-opts:
       public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
       short-id: 819a87bf1651bf44
-    servername: gitlabs.fortu.pro
+    servername: app2.realsmart.co.th
     client-fingerprint: chrome
     network: tcp
   - name: 新加坡 02
@@ -253,19 +253,6 @@ proxies:
     client-fingerprint: chrome
     network: tcp
   - name: 新加坡 13
-    server: saas.sin.fan
-    port: 2053
-    type: vless
-    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-    tls: true
-    servername: vp7.1145678.xyz
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /question/watch
-      headers:
-        Host: vp7.1145678.xyz
-  - name: 新加坡 14
     server: funagfrdfs.alixxplay.com
     port: 46105
     type: vless
@@ -276,7 +263,7 @@ proxies:
       public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
       short-id: 28f5c1f8f98a
     servername: www.lamer.com.sg
-    client-fingerprint: safari
+    client-fingerprint: chrome
     network: tcp
   - name: 新加坡 01 2
     server: 104.18.35.86
@@ -365,6 +352,14 @@ proxies:
     auth: bf37c08c-4c1a-4b29-92f6-60a4afb2363f
     skip-cert-verify: false
   - name: 新加坡 03 3
+    server: 54.179.55.87
+    port: 443
+    type: hysteria2
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    sni: www.bing.com
+    obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  - name: 新加坡 04 3
     server: 47.129.253.53
     port: 443
     type: hysteria2
@@ -373,7 +368,7 @@ proxies:
     sni: www.bing.com
     obfs-password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   - name: 新加坡 01 4
-    server: 47.129.253.53
+    server: 54.179.55.87
     port: 8443
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -1270,11 +1265,11 @@ proxy-groups:
     proxies:
       - 香港 01
       - 香港 02
-      - 香港 03
+      - 香港 04
       - 香港 01 2
       - 香港 02 2
       - 香港 03 2
-      - 香港 04
+      - 香港 04 2
       - 香港 05
       - 香港 06
       - 香港 01 3
@@ -1295,7 +1290,6 @@ proxy-groups:
       - 新加坡 09
       - 新加坡 11
       - 新加坡 13
-      - 新加坡 14
       - 新加坡 01 2
       - 新加坡 02 2
       - 新加坡 03 2
@@ -1306,6 +1300,7 @@ proxy-groups:
       - 新加坡 01 3
       - 新加坡 02 3
       - 新加坡 03 3
+      - 新加坡 04 3
       - 新加坡 01 4
       - 美国 08 家宽
       - 台湾 15 家宽
