@@ -79,6 +79,7 @@ proxies:
 - {name: 精选日本 01 3, server: bABMs1gXRi8Je9rY.v.3dns.vip, port: 443, type: vmess, uuid: d237ab38-1974-4b36-94a3-0665ce8587b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: bABMs1gXRi8Je9rY.v.3dns.vip}}}
 - {name: 精选日本 02 3, server: cIhSCyS8r3pJDskp.v.3dns.vip, port: 443, type: vmess, uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: cIhSCyS8r3pJDskp.v.3dns.vip}}}
 - {name: 精选日本 39, server: saas.sin.fan, port: 443, type: vless, uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec, tls: true, servername: vp16.1145678.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /images/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBRBUA4PVEhBRQtOBFcOTFtAVA1KQBYIBFkWHhdEQkpDEF8ZAldJ, headers: {Host: vp16.1145678.xyz}}}
+- {name: 精选马来西亚 01, server: 47.250.84.25, port: 443, type: trojan, password: 5931134d1cde66bf83a54acdfebe7ab2, sni: 47.250.84.25}
 proxy-groups:
   - name: 🚀 精选合并
     type: select
@@ -119,6 +120,7 @@ proxy-groups:
       - 精选美国 20
       - 精选美国 51
       - '[vpngate家宽] MY 🇲🇾 01'
+      - 精选马来西亚 01
       - 精选日本 02 2
       - 精选日本 03
       - 精选日本 34
