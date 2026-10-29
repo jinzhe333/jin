@@ -1,0 +1,387 @@
+proxies:
+- name: '🇭🇰 👑 [VIP] HK HongKong #1 [VMess@1270]'
+  type: vmess
+  server: 87.83.171.8
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇭🇰 👑 [VIP] HK HongKong #1 [SS@19999]'
+  type: ss
+  server: 87.83.171.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '🇭🇰 👑 [VIP] HK HongKong #2 [VMess@1270]'
+  type: vmess
+  server: 87.83.171.17
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇭🇰 👑 [VIP] HK HongKong #2 [SS@19999]'
+  type: ss
+  server: 87.83.171.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '🇭🇰 👑 [VIP] HK HongKong #101 [Reality@52014]'
+  type: vless
+  server: 138.199.62.227
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇸🇬 👑 [VIP] SG Singapore #101 [Reality@52014]'
+  type: vless
+  server: 149.88.107.76
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇸🇬 🆓 [Free] SG Singapore #71 [Reality@52014]'
+  type: vless
+  server: 103.107.199.67
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇸🇬 🆓 [Free] SG Singapore #44 [VMess@11371]'
+  type: vmess
+  server: 15.235.144.92
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇸🇬 🆓 [Free] SG Singapore #73 [SS@19999]'
+  type: ss
+  server: 203.27.106.59
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '🇸🇬 🆓 [Free] SG Singapore #40 [VMess@1270]'
+  type: vmess
+  server: 51.79.228.131
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇹🇼 👑 [VIP] TW Taipei #12 [Reality@52014]'
+  type: vless
+  server: 61.216.38.49
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇹🇼 👑 [VIP] TW Taipei #1 [VMess@11371]'
+  type: vmess
+  server: 136.176.200.6
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇹🇼 👑 [VIP] TW Taipei #4 [Reality@52014]'
+  type: vless
+  server: 210.243.157.51
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇹🇼 👑 [VIP] TW Taipei #9 [VMess@11371]'
+  type: vmess
+  server: 61.221.116.146
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇹🇼 👑 [VIP] TW Taipei #7 [Reality@52014]'
+  type: vless
+  server: 211.21.210.187
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇲🇾 👑 [VIP] MY KualaLumpur #1 [VMess@1270]'
+  type: vmess
+  server: 151.244.14.8
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇲🇾 👑 [VIP] MY KualaLumpur #1 [SS@19999]'
+  type: ss
+  server: 151.244.14.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '🇲🇾 👑 [VIP] MY KualaLumpur #2 [VMess@1270]'
+  type: vmess
+  server: 151.244.14.17
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇲🇾 👑 [VIP] MY KualaLumpur #2 [SS@19999]'
+  type: ss
+  server: 151.244.14.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '🇲🇾 👑 [VIP] MY KualaLumpur #11 [Reality@52014]'
+  type: vless
+  server: 152.233.3.34
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇯🇵 👑 [VIP] JP Tokyo #12 [Reality@52014]'
+  type: vless
+  server: 149.88.103.205
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇯🇵 👑 [VIP] JP Tokyo #1 [VMess@1270]'
+  type: vmess
+  server: 163.8.44.8
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇯🇵 🆓 [Free] JP Tokyo #3 [Reality@52014]'
+  type: vless
+  server: 82.47.148.7
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇰🇷 👑 [VIP] KR Seoul #1 [Reality@52014]'
+  type: vless
+  server: 64.176.224.105
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇰🇷 👑 [VIP] KR Seoul #2 [VMess@11371]'
+  type: vmess
+  server: 158.247.211.198
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇺🇸 👑 [VIP] US LosAngeles #208 [Reality@52014]'
+  type: vless
+  server: 23.150.152.52
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇺🇸 👑 [VIP] US NewYork #2 [Reality@52014]'
+  type: vless
+  server: 185.155.103.207
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇺🇸 🆓 [Free] US Atlanta #17 [Reality@52014]'
+  type: vless
+  server: 173.232.114.115
+  port: 52014
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: cloudflare.com
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  client-fingerprint: chrome
+- name: '🇺🇸 👑 [VIP] US Miami #19 [VMess@11371]'
+  type: vmess
+  server: 162.251.62.23
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+- name: '🇺🇸 👑 [VIP] US Seattle #2 [VMess@11371]'
+  type: vmess
+  server: 45.86.50.15
+  port: 11371
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: tcp
+  servername: xmfhlpy.com
+proxy-groups:
+  - name: 🚀 VPN精选
+    type: select
+    proxies:
+      - "🇭🇰 👑 [VIP] HK HongKong #1 [VMess@1270]"
+      - "🇭🇰 👑 [VIP] HK HongKong #1 [SS@19999]"
+      - "🇭🇰 👑 [VIP] HK HongKong #2 [VMess@1270]"
+      - "🇭🇰 👑 [VIP] HK HongKong #2 [SS@19999]"
+      - "🇭🇰 👑 [VIP] HK HongKong #101 [Reality@52014]"
+      - "🇸🇬 👑 [VIP] SG Singapore #101 [Reality@52014]"
+      - "🇸🇬 🆓 [Free] SG Singapore #71 [Reality@52014]"
+      - "🇸🇬 🆓 [Free] SG Singapore #44 [VMess@11371]"
+      - "🇸🇬 🆓 [Free] SG Singapore #73 [SS@19999]"
+      - "🇸🇬 🆓 [Free] SG Singapore #40 [VMess@1270]"
+      - "🇹🇼 👑 [VIP] TW Taipei #12 [Reality@52014]"
+      - "🇹🇼 👑 [VIP] TW Taipei #1 [VMess@11371]"
+      - "🇹🇼 👑 [VIP] TW Taipei #4 [Reality@52014]"
+      - "🇹🇼 👑 [VIP] TW Taipei #9 [VMess@11371]"
+      - "🇹🇼 👑 [VIP] TW Taipei #7 [Reality@52014]"
+      - "🇲🇾 👑 [VIP] MY KualaLumpur #1 [VMess@1270]"
+      - "🇲🇾 👑 [VIP] MY KualaLumpur #1 [SS@19999]"
+      - "🇲🇾 👑 [VIP] MY KualaLumpur #2 [VMess@1270]"
+      - "🇲🇾 👑 [VIP] MY KualaLumpur #2 [SS@19999]"
+      - "🇲🇾 👑 [VIP] MY KualaLumpur #11 [Reality@52014]"
+      - "🇯🇵 👑 [VIP] JP Tokyo #12 [Reality@52014]"
+      - "🇯🇵 👑 [VIP] JP Tokyo #1 [VMess@1270]"
+      - "🇯🇵 🆓 [Free] JP Tokyo #3 [Reality@52014]"
+      - "🇰🇷 👑 [VIP] KR Seoul #1 [Reality@52014]"
+      - "🇰🇷 👑 [VIP] KR Seoul #2 [VMess@11371]"
+      - "🇺🇸 👑 [VIP] US LosAngeles #208 [Reality@52014]"
+      - "🇺🇸 👑 [VIP] US NewYork #2 [Reality@52014]"
+      - "🇺🇸 🆓 [Free] US Atlanta #17 [Reality@52014]"
+      - "🇺🇸 👑 [VIP] US Miami #19 [VMess@11371]"
+      - "🇺🇸 👑 [VIP] US Seattle #2 [VMess@11371]"
+      - DIRECT
+rules:
+  - MATCH,🚀 VPN精选
