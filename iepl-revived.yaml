@@ -1,61 +1,26 @@
 proxies:
-- name: 美国-IEPL-Basic-猜-43214
+- name: 美国-IEPL-Basic-猜-43110
   type: ss
   server: us10.network-cdn-gw-yd.net
-  port: 43214
+  port: 43110
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 美国-IEPL-Basic-猜-43112
+- name: 美国-IEPL-Basic-猜-43210
   type: ss
   server: us10.network-cdn-gw-yd.net
-  port: 43112
+  port: 43210
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 美国-IEPL-Basic-猜-43216
+- name: 美国-IEPL-Pro-猜-44400
   type: ss
   server: us10.network-cdn-gw-yd.net
-  port: 43216
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 美国-IEPL-Pro-猜-44406
-  type: ss
-  server: us10.network-cdn-gw-yd.net
-  port: 44406
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 台湾-IEPL-Basic-猜-46600
-  type: ss
-  server: tw05.network-cdn-gw-yd.net
-  port: 46600
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 台湾-IEPL-Pro-猜-46606
-  type: ss
-  server: tw05.network-cdn-gw-yd.net
-  port: 46606
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 台湾-IEPL-Pro-猜-46607
-  type: ss
-  server: tw05.network-cdn-gw-yd.net
-  port: 46607
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 台湾-IEPL-Pro-猜-46608
-  type: ss
-  server: tw05.network-cdn-gw-yd.net
-  port: 46608
+  port: 44400
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
 proxy-groups:
 - name: IEPL复活
   type: select
   proxies:
-  - 美国-IEPL-Basic-猜-43214
-  - 美国-IEPL-Basic-猜-43112
-  - 美国-IEPL-Basic-猜-43216
-  - 美国-IEPL-Pro-猜-44406
-  - 台湾-IEPL-Basic-猜-46600
-  - 台湾-IEPL-Pro-猜-46606
-  - 台湾-IEPL-Pro-猜-46607
-  - 台湾-IEPL-Pro-猜-46608
+  - 美国-IEPL-Basic-猜-43110
+  - 美国-IEPL-Basic-猜-43210
+  - 美国-IEPL-Pro-猜-44400
