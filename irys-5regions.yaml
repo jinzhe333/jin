@@ -974,6 +974,12 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: tse1.mm.bing.net
+- name: 精选新加坡-IEPL-45511
+  type: ss
+  server: sgp05.network-cdn-gw-yd.net
+  port: 45511
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -1051,6 +1057,7 @@ proxy-groups:
   - 精选日本 01 2
   - 精选日本 02 2
   - 精选日本 03 2
+  - 精选新加坡-IEPL-45511
   - DIRECT
   - 精选台湾专线01
   - 精选台湾专线02
