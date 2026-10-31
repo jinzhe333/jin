@@ -17,7 +17,7 @@ proxies:
     headers:
       Host: snippet.edgeoneai.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: 香港 01 家宽
+- name: 🇭🇰 中国香港 (Hong Kong) 273
   server: dog-hk.kunlun01dns.com
   port: 21022
   udp: true
@@ -25,7 +25,7 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 香港 02 家宽
+- name: 🇭🇰 中国香港 (Hong Kong) 276
   server: zfd-hkv2.kunlun01dns.com
   port: 16112
   udp: true
@@ -33,7 +33,7 @@ proxies:
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
   cipher: auto
-- name: 香港 03 家宽
+- name: 香港 01 家宽
   server: 526.150333.xyz
   port: 21004
   udp: true
@@ -45,12 +45,12 @@ proxies:
     short-id: 2f34703f16523c80
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- {name: 香港 04 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
+- {name: 香港 02 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 2", server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, auth: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 6", server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 05 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 06 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 07 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 03 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 04 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 05 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 4", server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, port: 443, type: hysteria2, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 26498, type: hysteria2, password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, skip-cert-verify: true, udp: true}
@@ -481,15 +481,15 @@ proxy-groups:
     type: select
     proxies:
       - '[vpngate家宽] HK 🇭🇰 01'
+      - 🇭🇰 中国香港 (Hong Kong) 273
+      - 🇭🇰 中国香港 (Hong Kong) 276
       - 香港 01 家宽
       - 香港 02 家宽
-      - 香港 03 家宽
-      - 香港 04 家宽
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
+      - 香港 03 家宽
+      - 香港 04 家宽
       - 香港 05 家宽
-      - 香港 06 家宽
-      - 香港 07 家宽
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
