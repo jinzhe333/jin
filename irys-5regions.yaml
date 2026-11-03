@@ -17,35 +17,25 @@ proxies:
     headers:
       Host: snippet.edgeoneai.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: 🇭🇰 中国香港 (Hong Kong) 312
-  server: euu1yAlfmcqvLJEx.v.3dns.vip
-  port: 443
+- name: 🇭🇰 中国香港 (Hong Kong) 380
+  server: ench-snet-app.w-ctrip.cn
+  port: 53004
   udp: true
-  type: vmess
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: euu1yAlfmcqvLJEx.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: euu1yAlfmcqvLJEx.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 329
-  server: dubai-cdn-keno.keno.su
-  port: 443
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 407
+  server: ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online
+  port: 19310
   udp: true
-  type: vless
-  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 9MgNwdrftjPf18DG8qYo6iHJw7IG7uSnULScDQ0WDy4
-    short-id: '0123456789abcdef'
-  servername: dubai-cdn-keno.keno.su
-  client-fingerprint: firefox
+  type: hysteria2
+  password: 171a4d7a-a1f0-499c-9fc5-3915c8b1f47b
+  sni: srv-l7o.yuetong.online
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4mcqiPwfROfrKkIKx1WO32Va
+  ports: 19310-19821
 - {name: 香港 01 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 2", server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, auth: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 6", server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -53,47 +43,50 @@ proxies:
 - {name: 香港 03 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: 香港 04 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: 香港 05 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- name: 🇸🇬 新加坡 (Singapore) 252
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 333
+- name: 🇸🇬 新加坡 (Singapore) 385
   server: ench-snet-app.w-ctrip.cn
-  port: 15589
+  port: 47966
   udp: true
   type: trojan
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 399
+  server: ench-snet-app.w-ctrip.cn
+  port: 42338
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 420
+  server: ench-snet-app.w-ctrip.cn
+  port: 37212
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 436
+  server: us.huahua.wiki
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
+    short-id: b91971fe98d55eb9
+  servername: www.apple.com
+  client-fingerprint: chrome
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 4", server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, port: 443, type: hysteria2, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 26498, type: hysteria2, password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, skip-cert-verify: true, udp: true}
 - {name: 新加坡 01 家宽, server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com, port: 443, type: http, username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 3", server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 197f388e-e6fb-3edb-9198-fa3ac97b7114, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 4", server: sg-2.tr202512.com, port: 443, type: trojan, password: Z9b8ZOzCbmyCwI6Gbz, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ms|1004|TG@FProxies|", server: sg01-hy.poke-mon.xyz, port: 24224, type: hysteria2, password: feb52afc-f1d8-4228-ada0-9558dbb9cfaf, auth: feb52afc-f1d8-4228-ada0-9558dbb9cfaf, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ns|1004|TG@FProxies|", server: tq0th07f.zf-mix.9999231.xyz, port: 1044, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: sg-cc.9999231.xyz, skip-cert-verify: true}
-- name: 🇹🇼 中国台湾 (Taiwan) 249
-  server: ench-snet-app.w-ctrip.cn
-  port: 54815
-  udp: true
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 303
-  server: ench-snet-app.w-ctrip.cn
-  port: 22003
-  udp: true
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 320
+- name: 🇹🇼 中国台湾 (Taiwan) 400
   server: ench-snet-app.w-ctrip.cn
   port: 45502
   udp: true
@@ -101,6 +94,20 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 416
+  server: n04.jinggai.online
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  tls: true
+  servername: n04.jinggai.online
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nvl-n04-ws/e0577fe8fd7c8823
+    headers:
+      Host: n04.jinggai.online
 - {name: 台湾 01 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
 - {name: 台湾 02 家宽, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
 - name: '[vpngate家宽] US 🇺🇸 01'
@@ -211,6 +218,7 @@ proxies:
     headers:
       Host: snippet.edgeoneai.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+
 - name: 美国 01 家宽
   server: us001.zestapp778.com
   port: 57277
@@ -218,8 +226,22 @@ proxies:
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: us001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 63
+  server: www.speedtest.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: ec23f217-23a1-4f62-b98d-ba56070de89c
+  tls: true
+  servername: wallweb4.pages.dev
   skip-cert-verify: false
-- name: 🇺🇸 美国 (United States) 15
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: wallweb4.pages.dev
+- name: 🇺🇸 美国 (United States) 75
   server: uspanel.unixzone.us
   port: 30016
   udp: true
@@ -230,28 +252,14 @@ proxies:
     path: /usserver
     headers:
       Host: uspanel.unixzone.us
-- name: 🇺🇸 美国 (United States) 57
-  server: hy2.123266.xyz
-  port: 33333
+- name: 🇺🇸 美国 (United States) 124
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  port: 443
   udp: true
-  type: hysteria2
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
+  type: trojan
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 86
-  server: fast.145779.xyz
-  port: 2053
-  udp: true
-  type: vless
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  tls: true
-  servername: fast.145779.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
 - name: '[vpngate家宽] MY 🇲🇾 01'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -511,8 +519,8 @@ proxy-groups:
     type: select
     proxies:
       - '[vpngate家宽] HK 🇭🇰 01'
-      - 🇭🇰 中国香港 (Hong Kong) 312
-      - 🇭🇰 中国香港 (Hong Kong) 329
+      - 🇭🇰 中国香港 (Hong Kong) 380
+      - 🇭🇰 中国香港 (Hong Kong) 407
       - 香港 01 家宽
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
@@ -520,19 +528,18 @@ proxy-groups:
       - 香港 03 家宽
       - 香港 04 家宽
       - 香港 05 家宽
-      - 🇸🇬 新加坡 (Singapore) 252
-      - 🇸🇬 新加坡 (Singapore) 333
+      - 🇸🇬 新加坡 (Singapore) 385
+      - 🇸🇬 新加坡 (Singapore) 399
+      - 🇸🇬 新加坡 (Singapore) 420
+      - 🇸🇬 新加坡 (Singapore) 436
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
       - 新加坡 01 家宽
       - '>🇸🇬SG|Ls|1004|TG@FProxies| 3'
       - '>🇸🇬SG|Ls|1004|TG@FProxies| 4'
-      - '>🇸🇬SG|Ms|1004|TG@FProxies|'
-      - '>🇸🇬SG|Ns|1004|TG@FProxies|'
-      - 🇹🇼 中国台湾 (Taiwan) 249
-      - 🇹🇼 中国台湾 (Taiwan) 303
-      - 🇹🇼 中国台湾 (Taiwan) 320
+      - 🇹🇼 中国台湾 (Taiwan) 400
+      - 🇹🇼 中国台湾 (Taiwan) 416
       - 台湾 01 家宽
       - 台湾 02 家宽
       - '[vpngate家宽] US 🇺🇸 01'
@@ -542,9 +549,9 @@ proxy-groups:
       - '[vpngate家宽] US 🇺🇸 05'
       - '[vpngate家宽] US 🇺🇸 06'
       - 美国 01 家宽
-      - 🇺🇸 美国 (United States) 15
-      - 🇺🇸 美国 (United States) 57
-      - 🇺🇸 美国 (United States) 86
+      - 🇺🇸 美国 (United States) 63
+      - 🇺🇸 美国 (United States) 75
+      - 🇺🇸 美国 (United States) 124
       - '[vpngate家宽] MY 🇲🇾 01'
       - '[vpngate家宽] JP 🇯🇵 001'
       - '[vpngate家宽] JP 🇯🇵 002'
