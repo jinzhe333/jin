@@ -16,7 +16,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 🇭🇰 中国香港 (Hong Kong) 380
   server: ench-snet-app.w-ctrip.cn
   port: 53004
@@ -36,13 +37,69 @@ proxies:
   obfs: salamander
   obfs-password: 4mcqiPwfROfrKkIKx1WO32Va
   ports: 19310-19821
-- {name: 香港 01 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
-- {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 2", server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, auth: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: true, udp: true}
-- {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 6", server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 02 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 03 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 04 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 05 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- name: 香港 01 家宽
+  server: ihk135.zxom.eu.org
+  port: 20016
+  type: trojan
+  password: 62ae18560ab740e0
+  sni: ihk135.zxom.eu.org
+  skip-cert-verify: true
+  udp: true
+- name: '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
+  server: ru1.xiaoliyu.cyou
+  port: 18333
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  auth: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: ru1.xiaoliyu.cyou
+  skip-cert-verify: true
+  udp: true
+- name: '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
+  server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com
+  port: 11252
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 香港 02 家宽
+  server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 03 家宽
+  server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 04 家宽
+  server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: 香港 05 家宽
+  server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
 - name: 🇸🇬 新加坡 (Singapore) 385
   server: ench-snet-app.w-ctrip.cn
   port: 47966
@@ -80,12 +137,58 @@ proxies:
     short-id: b91971fe98d55eb9
   servername: www.apple.com
   client-fingerprint: chrome
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 4", server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, port: 443, type: hysteria2, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 26498, type: hysteria2, password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, skip-cert-verify: true, udp: true}
-- {name: 新加坡 01 家宽, server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com, port: 443, type: http, username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 3", server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 197f388e-e6fb-3edb-9198-fa3ac97b7114, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 4", server: sg-2.tr202512.com, port: 443, type: trojan, password: Z9b8ZOzCbmyCwI6Gbz, skip-cert-verify: true, udp: true}
+- name: '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
+  server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
+  server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com
+  port: 443
+  type: hysteria2
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com
+  skip-cert-verify: true
+  udp: true
+- name: '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
+  server: sg01-hy.poke-mon.xyz
+  port: 26498
+  type: hysteria2
+  password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d
+  auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d
+  skip-cert-verify: true
+  udp: true
+- name: 新加坡 01 家宽
+  server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com
+  port: 443
+  type: http
+  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: '>🇸🇬SG|Ls|1004|TG@FProxies| 3'
+  server: 13.mgjiasuyunnet.26621689.xyz
+  port: 23613
+  type: vmess
+  uuid: 197f388e-e6fb-3edb-9198-fa3ac97b7114
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: '>🇸🇬SG|Ls|1004|TG@FProxies| 4'
+  server: sg-2.tr202512.com
+  port: 443
+  type: trojan
+  password: Z9b8ZOzCbmyCwI6Gbz
+  skip-cert-verify: true
+  udp: true
 - name: 🇹🇼 中国台湾 (Taiwan) 400
   server: ench-snet-app.w-ctrip.cn
   port: 45502
@@ -108,8 +211,30 @@ proxies:
     path: /nvl-n04-ws/e0577fe8fd7c8823
     headers:
       Host: n04.jinggai.online
-- {name: 台湾 01 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
-- {name: 台湾 02 家宽, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
+- name: 台湾 01 家宽
+  server: tw-25.497489.xyz
+  port: 10099
+  type: hysteria
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  up: 20 Mbps
+  down: 20 Mbps
+  fast-open: false
+  protocol: udp
+  sni: tw-25.497489.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 台湾 02 家宽
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  port: 1443
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  password: exaxgqkKkd0TAMrCxeonWg==
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: '[vpngate家宽] US 🇺🇸 01'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -127,7 +252,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn996038429.opengw.net:1356?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 02'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -145,7 +271,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn584855640.opengw.net:1893?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 03'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -163,7 +290,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn597302924.opengw.net:1217?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 04'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -181,7 +309,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn653088547.opengw.net:1373?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 05'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -199,7 +328,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn801494251.opengw.net:1929?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] US 🇺🇸 06'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -217,8 +347,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn800710384.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 美国 01 家宽
   server: us001.zestapp778.com
   port: 57277
@@ -277,7 +407,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 001'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -295,7 +426,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn644161234.opengw.net:1807?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 002'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -313,7 +445,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn215888696.opengw.net:1342?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 003'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -331,7 +464,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn376743751.opengw.net:1555?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 004'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -349,7 +483,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn933256250.opengw.net:1448?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 005'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -367,7 +502,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn811338032.opengw.net:1893?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 006'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -385,7 +521,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn569909532.opengw.net:1500?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 007'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -403,7 +540,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn663500256.opengw.net:1965?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 008'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -421,7 +559,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn514414017.opengw.net:1903?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 009'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -439,7 +578,8 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn416685676.opengw.net:1672?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: '[vpngate家宽] JP 🇯🇵 010'
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -457,15 +597,144 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn449242468.opengw.net:1892?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- {name: 精选🇭🇰 HK12, server: 160.236.110.211, port: 8443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇭🇰 HK13, server: 103.97.200.42, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇸🇬 SG3, server: 109.176.19.244, port: 8443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇸🇬 SG10, server: 45.127.34.109, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP1, server: 45.95.212.186, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP6, server: 151.241.129.194, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP23, server: 103.76.85.210, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP25, server: 103.238.129.141, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 精选🇭🇰 HK12
+  server: 160.236.110.211
+  port: 8443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇭🇰 HK13
+  server: 103.97.200.42
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇸🇬 SG3
+  server: 109.176.19.244
+  port: 8443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇸🇬 SG10
+  server: 45.127.34.109
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇯🇵 JP1
+  server: 45.95.212.186
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇯🇵 JP6
+  server: 151.241.129.194
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇯🇵 JP23
+  server: 103.76.85.210
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+- name: 精选🇯🇵 JP25
+  server: 103.238.129.141
+  port: 443
+  type: vless
+  uuid: 872a4bca-c53a-480f-9b2b-200ae3951001
+  tls: true
+  skip-cert-verify: false
+  servername: sur.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001
+    headers:
+      Host: sur.936.us.ci
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -514,67 +783,150 @@ proxies:
   port: 45511
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 🇸🇬SG_@WangCai_8 31
+  server: 154.26.139.29
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
+  server: tw-2.chianginc.com
+  port: 443
+  type: trojan
+  password: 8j8cksQfbS5zJA7wSB
+  sni: tw-2.chianginc.com
+  udp: true
+- name: HK-US-REALITY-Vision
+  server: 23.26.201.162
+  port: 443
+  type: vless
+  uuid: fbc5032a-9aab-46fc-8796-2a2ad3781c5c
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: klcVi-EcMT1fEqn0-eVyjcoxsgmpGHKy0HhJLHrXSwA
+    short-id: 03104e67bafe6492
+  udp: true
+- name: Tencent-VLESS-Reality-Cloudflare
+  server: 43.163.112.174
+  port: 443
+  type: vless
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+    short-id: 0123456789abcdef
+  udp: true
+- name: 🇹🇼 台湾 02 @clashv8
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+- name: 🇹🇼 台湾 02 @clashv8 2
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+- name: 台湾A
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+- name: 台湾 01 3
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
-  - name: 🚀 精选合并
-    type: select
-    proxies:
-      - '[vpngate家宽] HK 🇭🇰 01'
-      - 🇭🇰 中国香港 (Hong Kong) 380
-      - 🇭🇰 中国香港 (Hong Kong) 407
-      - 香港 01 家宽
-      - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
-      - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
-      - 香港 02 家宽
-      - 香港 03 家宽
-      - 香港 04 家宽
-      - 香港 05 家宽
-      - 🇸🇬 新加坡 (Singapore) 385
-      - 🇸🇬 新加坡 (Singapore) 399
-      - 🇸🇬 新加坡 (Singapore) 420
-      - 🇸🇬 新加坡 (Singapore) 436
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
-      - 新加坡 01 家宽
-      - '>🇸🇬SG|Ls|1004|TG@FProxies| 3'
-      - '>🇸🇬SG|Ls|1004|TG@FProxies| 4'
-      - 🇹🇼 中国台湾 (Taiwan) 400
-      - 🇹🇼 中国台湾 (Taiwan) 416
-      - 台湾 01 家宽
-      - 台湾 02 家宽
-      - '[vpngate家宽] US 🇺🇸 01'
-      - '[vpngate家宽] US 🇺🇸 02'
-      - '[vpngate家宽] US 🇺🇸 03'
-      - '[vpngate家宽] US 🇺🇸 04'
-      - '[vpngate家宽] US 🇺🇸 05'
-      - '[vpngate家宽] US 🇺🇸 06'
-      - 美国 01 家宽
-      - 🇺🇸 美国 (United States) 63
-      - 🇺🇸 美国 (United States) 75
-      - 🇺🇸 美国 (United States) 124
-      - '[vpngate家宽] MY 🇲🇾 01'
-      - '[vpngate家宽] JP 🇯🇵 001'
-      - '[vpngate家宽] JP 🇯🇵 002'
-      - '[vpngate家宽] JP 🇯🇵 003'
-      - '[vpngate家宽] JP 🇯🇵 004'
-      - '[vpngate家宽] JP 🇯🇵 005'
-      - '[vpngate家宽] JP 🇯🇵 006'
-      - '[vpngate家宽] JP 🇯🇵 007'
-      - '[vpngate家宽] JP 🇯🇵 008'
-      - '[vpngate家宽] JP 🇯🇵 009'
-      - '[vpngate家宽] JP 🇯🇵 010'
-      - 精选🇭🇰 HK12
-      - 精选🇭🇰 HK13
-      - 精选🇸🇬 SG3
-      - 精选🇸🇬 SG10
-      - 精选🇯🇵 JP1
-      - 精选🇯🇵 JP6
-      - 精选🇯🇵 JP23
-      - 精选🇯🇵 JP25
-      - 精选台湾专线01
-      - 精选台湾专线02
-      - 精选香港专线02
-      - 精选新加坡-IEPL-45511
-      - DIRECT
+- name: 🚀 精选合并
+  type: select
+  proxies:
+  - '[vpngate家宽] HK 🇭🇰 01'
+  - 🇭🇰 中国香港 (Hong Kong) 380
+  - 🇭🇰 中国香港 (Hong Kong) 407
+  - 香港 01 家宽
+  - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
+  - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
+  - 香港 02 家宽
+  - 香港 03 家宽
+  - 香港 04 家宽
+  - 香港 05 家宽
+  - 🇸🇬 新加坡 (Singapore) 385
+  - 🇸🇬 新加坡 (Singapore) 399
+  - 🇸🇬 新加坡 (Singapore) 420
+  - 🇸🇬 新加坡 (Singapore) 436
+  - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
+  - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
+  - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
+  - 新加坡 01 家宽
+  - '>🇸🇬SG|Ls|1004|TG@FProxies| 3'
+  - '>🇸🇬SG|Ls|1004|TG@FProxies| 4'
+  - 🇹🇼 中国台湾 (Taiwan) 400
+  - 🇹🇼 中国台湾 (Taiwan) 416
+  - 台湾 01 家宽
+  - 台湾 02 家宽
+  - '[vpngate家宽] US 🇺🇸 01'
+  - '[vpngate家宽] US 🇺🇸 02'
+  - '[vpngate家宽] US 🇺🇸 03'
+  - '[vpngate家宽] US 🇺🇸 04'
+  - '[vpngate家宽] US 🇺🇸 05'
+  - '[vpngate家宽] US 🇺🇸 06'
+  - 美国 01 家宽
+  - 🇺🇸 美国 (United States) 63
+  - 🇺🇸 美国 (United States) 75
+  - 🇺🇸 美国 (United States) 124
+  - '[vpngate家宽] MY 🇲🇾 01'
+  - '[vpngate家宽] JP 🇯🇵 001'
+  - '[vpngate家宽] JP 🇯🇵 002'
+  - '[vpngate家宽] JP 🇯🇵 003'
+  - '[vpngate家宽] JP 🇯🇵 004'
+  - '[vpngate家宽] JP 🇯🇵 005'
+  - '[vpngate家宽] JP 🇯🇵 006'
+  - '[vpngate家宽] JP 🇯🇵 007'
+  - '[vpngate家宽] JP 🇯🇵 008'
+  - '[vpngate家宽] JP 🇯🇵 009'
+  - '[vpngate家宽] JP 🇯🇵 010'
+  - 精选🇭🇰 HK12
+  - 精选🇭🇰 HK13
+  - 精选🇸🇬 SG3
+  - 精选🇸🇬 SG10
+  - 精选🇯🇵 JP1
+  - 精选🇯🇵 JP6
+  - 精选🇯🇵 JP23
+  - 精选🇯🇵 JP25
+  - 精选台湾专线01
+  - 精选台湾专线02
+  - 精选香港专线02
+  - 精选新加坡-IEPL-45511
+  - 🇸🇬SG_@WangCai_8 31
+  - 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
+  - HK-US-REALITY-Vision
+  - Tencent-VLESS-Reality-Cloudflare
+  - 🇹🇼 台湾 02 @clashv8
+  - 🇹🇼 台湾 02 @clashv8 2
+  - 台湾A
+  - 台湾 01 3
+  - DIRECT
 rules:
-  - MATCH,🚀 精选合并
+- MATCH,🚀 精选合并
