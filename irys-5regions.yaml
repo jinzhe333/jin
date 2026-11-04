@@ -418,8 +418,19 @@ proxies:
       Host: snippet.edgeoneai.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - {name: 精选🇭🇰 HK1, server: 178.253.239.175, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇺🇸 US29, server: 154.9.243.154, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇺🇸 US30, server: 154.9.227.100, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇭🇰 HK11, server: 103.229.54.103, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇭🇰 HK12, server: 82.22.31.122, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇭🇰 HK16, server: 167.148.203.70, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇭🇰 HK18, server: 167.148.203.107, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇸🇬 SG7, server: 152.175.67.17, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇸🇬 SG8, server: 195.172.138.225, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇺🇸 US2, server: 38.114.103.107, port: 8443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇺🇸 US24, server: 208.68.180.38, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇯🇵 JP2, server: 200.180.163.38, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇯🇵 JP7, server: 45.202.255.174, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇯🇵 JP10, server: 212.135.211.79, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇯🇵 JP14, server: 45.95.212.215, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+- {name: 精选🇯🇵 JP18, server: 207.65.189.9, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -552,6 +563,7 @@ proxies:
   sni: px.ads.linkedin.com
   skip-cert-verify: true
   udp: true
+
 proxy-groups:
   - name: 🚀 精选合并
     type: select
@@ -600,8 +612,19 @@ proxy-groups:
       - '[vpngate家宽] JP 🇯🇵 009'
       - '[vpngate家宽] JP 🇯🇵 010'
       - 精选🇭🇰 HK1
-      - 精选🇺🇸 US29
-      - 精选🇺🇸 US30
+      - 精选🇭🇰 HK11
+      - 精选🇭🇰 HK12
+      - 精选🇭🇰 HK16
+      - 精选🇭🇰 HK18
+      - 精选🇸🇬 SG7
+      - 精选🇸🇬 SG8
+      - 精选🇺🇸 US2
+      - 精选🇺🇸 US24
+      - 精选🇯🇵 JP2
+      - 精选🇯🇵 JP7
+      - 精选🇯🇵 JP10
+      - 精选🇯🇵 JP14
+      - 精选🇯🇵 JP18
       - 精选台湾专线01
       - 精选台湾专线02
       - 精选香港专线02
