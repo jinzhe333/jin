@@ -1,22 +1,4 @@
 proxies:
-- name: '[vpngate家宽] HK 🇭🇰 01'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 - name: 香港 01 家宽
   server: 56481.df6h451rh.xin
   port: 443
@@ -33,6 +15,7 @@ proxies:
 - {name: 香港 05 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: 香港 06 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 6", server: avrku8ft.4ya21vwd0lw6ngzk.awstrack.vip, port: 16464, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MzUxNDUyY2IzYTQ5ODQzMw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
+- {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 8", server: m99cygua.4ya21vwd0lw6ngzk.awstrack.vip, port: 25580, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZmNmMjk4ODg3ZDM2OTYxYw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 4", server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, port: 443, type: hysteria2, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 26498, type: hysteria2, password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, skip-cert-verify: true, udp: true}
@@ -44,115 +27,6 @@ proxies:
 - {name: ">🇸🇬SG|Ns|1004|TG@FProxies| 2", server: 9pcol62q.zf-mix.9999231.xyz, port: 2044, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: sg-cc.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
 - {name: ">🇸🇬SG|Ns|1004|TG@FProxies| 3", server: yo0xw43a.zf-mix.9999231.xyz, port: 2044, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: sg-cc.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
 - {name: 台湾 03 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
-- name: '[vpngate家宽] US 🇺🇸 01'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn996038429.opengw.net:1356?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] US 🇺🇸 02'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn584855640.opengw.net:1893?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] US 🇺🇸 03'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn597302924.opengw.net:1217?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] US 🇺🇸 04'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn653088547.opengw.net:1373?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] US 🇺🇸 05'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn801494251.opengw.net:1929?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] US 🇺🇸 06'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn800710384.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-
 - name: 🇺🇸 美国 (United States) 19
   server: hy2.123266.xyz
   port: 33333
@@ -193,204 +67,69 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: '[vpngate家宽] MY 🇲🇾 01'
+- name: 🇺🇸 美国 (United States) 86
+  server: fast.145779.xyz
+  port: 2053
+  udp: true
   type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
   tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
+  servername: fast.145779.xyz
+  skip-cert-verify: false
   client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
+  network: ws
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
+    path: /ws-tesla
     headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 001'
+      Host: fast.145779.xyz
+- name: 🇺🇸 美国 (United States) 335
+  server: steel7.hadsvpn.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国 (United States) 345
+  server: us007.zestapp778.com
+  port: 42314
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: us007.zestapp778.com
+  skip-cert-verify: false
+- {name: ">🇺🇸US|Hs|1004|TG@FProxies| 8", server: us.yzero.xyz, port: 7860, type: http, tls: false, skip-cert-verify: true, udp: true}
+- {name: ">🇺🇸US|Ls|1004|TG@FProxies| 2", server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
+- {name: ">🇺🇸US|Ls|1004|TG@FProxies| 4", server: goedkoopgeluid.icu, port: 443, type: http, username: bnVsbDpudWxs, tls: true, skip-cert-verify: true, udp: true}
+- name: 🇯🇵 日本 (Japan) 128
+  server: ga1data.xyy123.bid
+  port: 443
+  udp: true
   type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
+  uuid: 81f686e2-0700-4e7d-b3aa-2f7fc544bcc3
+  flow: xtls-rprx-vision
   tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: 00b0389a
+  servername: www.amzn.com
   client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn644161234.opengw.net:1807?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 002'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn215888696.opengw.net:1342?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 003'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn376743751.opengw.net:1555?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 004'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn933256250.opengw.net:1448?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 005'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn811338032.opengw.net:1893?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 006'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn569909532.opengw.net:1500?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 007'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn663500256.opengw.net:1965?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 008'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn514414017.opengw.net:1903?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 009'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn416685676.opengw.net:1672?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-- name: '[vpngate家宽] JP 🇯🇵 010'
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  servername: snippet.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn449242468.opengw.net:1892?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+- name: 🇯🇵 日本 (Japan) 185
+  server: freedom.chenlan.top
+  port: 12765
+  udp: true
+  type: hysteria2
+  password: STYyftThFn
+  sni: freedom.chenlan.top
+  skip-cert-verify: false
+- {name: ">🇯🇵JP|Ls|1004|TG@FProxies|", server: silversbgfgov.vip31.wogbcnmnagfwgov.com, port: 11231, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ">🇯🇵JP|Ls|1004|TG@FProxies| 3", server: z3np6rg2.4ya21vwd0lw6ngzk.awstrack.vip, port: 16499, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTgzN2VjYzVmZDliNmY3Mw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
+- {name: ">🇯🇵JP|Ms|1004|TG@FProxies|", server: sbgfgov.vip7.wogacnmnagfwgov.com, port: 11207, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ">🇯🇵JP|Ms|1004|TG@FProxies| 3", server: goldcnmltyljgfwgov.vip57.wogcnmnnagfwgov.com, port: 11257, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ">🇯🇵JP|Ns|1004|TG@FProxies|", server: crkzr8px.zf-mix.9999231.xyz, port: 2012, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: fr-house.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
+- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 2", server: nv50244o.zf-mix.9999231.xyz, port: 1043, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: pe-wy.9999231.xyz, skip-cert-verify: true}
+- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 3", server: o8cpx05b.zf-mix.9999231.xyz, port: 1019, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: pl-house.9999231.xyz, skip-cert-verify: true}
+- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 4", server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true, udp: true}
 - {name: 精选🇭🇰 HK1, server: 178.253.239.175, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
 - {name: 精选🇭🇰 HK11, server: 103.229.54.103, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
 - {name: 精选🇭🇰 HK12, server: 82.22.31.122, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
@@ -537,12 +276,10 @@ proxies:
   sni: px.ads.linkedin.com
   skip-cert-verify: true
   udp: true
-
 proxy-groups:
   - name: 🚀 精选合并
     type: select
     proxies:
-      - '[vpngate家宽] HK 🇭🇰 01'
       - 香港 01 家宽
       - 香港 02 家宽
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
@@ -552,6 +289,7 @@ proxy-groups:
       - 香港 05 家宽
       - 香港 06 家宽
       - '>🇭🇰HK|Ns|1004|TG@FProxies| 6'
+      - '>🇭🇰HK|Ns|1004|TG@FProxies| 8'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
@@ -563,27 +301,26 @@ proxy-groups:
       - '>🇸🇬SG|Ns|1004|TG@FProxies| 2'
       - '>🇸🇬SG|Ns|1004|TG@FProxies| 3'
       - 台湾 03 家宽
-      - '[vpngate家宽] US 🇺🇸 01'
-      - '[vpngate家宽] US 🇺🇸 02'
-      - '[vpngate家宽] US 🇺🇸 03'
-      - '[vpngate家宽] US 🇺🇸 04'
-      - '[vpngate家宽] US 🇺🇸 05'
-      - '[vpngate家宽] US 🇺🇸 06'
       - 🇺🇸 美国 (United States) 19
       - 美国 01 家宽
       - 美国 02 家宽
       - 🇺🇸 美国 (United States) 56
-      - '[vpngate家宽] MY 🇲🇾 01'
-      - '[vpngate家宽] JP 🇯🇵 001'
-      - '[vpngate家宽] JP 🇯🇵 002'
-      - '[vpngate家宽] JP 🇯🇵 003'
-      - '[vpngate家宽] JP 🇯🇵 004'
-      - '[vpngate家宽] JP 🇯🇵 005'
-      - '[vpngate家宽] JP 🇯🇵 006'
-      - '[vpngate家宽] JP 🇯🇵 007'
-      - '[vpngate家宽] JP 🇯🇵 008'
-      - '[vpngate家宽] JP 🇯🇵 009'
-      - '[vpngate家宽] JP 🇯🇵 010'
+      - 🇺🇸 美国 (United States) 86
+      - 🇺🇸 美国 (United States) 335
+      - 🇺🇸 美国 (United States) 345
+      - '>🇺🇸US|Hs|1004|TG@FProxies| 8'
+      - '>🇺🇸US|Ls|1004|TG@FProxies| 2'
+      - '>🇺🇸US|Ls|1004|TG@FProxies| 4'
+      - 🇯🇵 日本 (Japan) 128
+      - 🇯🇵 日本 (Japan) 185
+      - '>🇯🇵JP|Ls|1004|TG@FProxies|'
+      - '>🇯🇵JP|Ls|1004|TG@FProxies| 3'
+      - '>🇯🇵JP|Ms|1004|TG@FProxies|'
+      - '>🇯🇵JP|Ms|1004|TG@FProxies| 3'
+      - '>🇯🇵JP|Ns|1004|TG@FProxies|'
+      - '>🇯🇵JP|Ns|1004|TG@FProxies| 2'
+      - '>🇯🇵JP|Ns|1004|TG@FProxies| 3'
+      - '>🇯🇵JP|Ns|1004|TG@FProxies| 4'
       - 精选🇭🇰 HK1
       - 精选🇭🇰 HK11
       - 精选🇭🇰 HK12
