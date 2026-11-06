@@ -1,19 +1,11 @@
 proxies:
-- name: 香港 01 家宽
-  server: 56481.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- {name: 香港 02 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
+- {name: 香港 01 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 2", server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, auth: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 6", server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 03 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 04 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 05 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 06 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 02 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 03 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 04 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
+- {name: 香港 05 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
 - {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 6", server: avrku8ft.4ya21vwd0lw6ngzk.awstrack.vip, port: 16464, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MzUxNDUyY2IzYTQ5ODQzMw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
 - {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 8", server: m99cygua.4ya21vwd0lw6ngzk.awstrack.vip, port: 25580, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZmNmMjk4ODg3ZDM2OTYxYw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
 - {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
@@ -26,71 +18,39 @@ proxies:
 - {name: ">🇸🇬SG|Ns|1004|TG@FProxies|", server: tq0th07f.zf-mix.9999231.xyz, port: 1044, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: sg-cc.9999231.xyz, skip-cert-verify: true}
 - {name: ">🇸🇬SG|Ns|1004|TG@FProxies| 2", server: 9pcol62q.zf-mix.9999231.xyz, port: 2044, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: sg-cc.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
 - {name: ">🇸🇬SG|Ns|1004|TG@FProxies| 3", server: yo0xw43a.zf-mix.9999231.xyz, port: 2044, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: sg-cc.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
-- {name: 台湾 03 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
-- name: 🇺🇸 美国 (United States) 19
-  server: hy2.123266.xyz
-  port: 33333
-  udp: true
-  type: hysteria2
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
-  skip-cert-verify: true
-- name: 美国 01 家宽
-  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  udp: true
-  type: trojan
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-- name: 美国 02 家宽
-  server: www.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 242a3d8eee5e4ed1a6bfa4141d549a25
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 56
-  server: guanwang.awsno.com
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸 美国 (United States) 86
-  server: fast.145779.xyz
-  port: 2053
+- name: 🇹🇼 中国台湾 (Taiwan) 319
+  server: n04.jinggai.online
+  port: 8443
   udp: true
   type: vless
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   tls: true
-  servername: fast.145779.xyz
+  servername: n04.jinggai.online
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws-tesla
+    path: /nvl-n04-ws/e0577fe8fd7c8823
     headers:
-      Host: fast.145779.xyz
-- name: 🇺🇸 美国 (United States) 335
-  server: steel7.hadsvpn.com
+      Host: n04.jinggai.online
+- {name: 台湾 03 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
+- name: 🇺🇸 美国 (United States) 25
+  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
-  sni: steel7.hadsvpn.com
-  skip-cert-verify: false
-- name: 🇺🇸 美国 (United States) 345
+  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 48
+  server: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 49
   server: us007.zestapp778.com
   port: 42314
   udp: true
@@ -98,10 +58,62 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: us007.zestapp778.com
   skip-cert-verify: false
-- {name: ">🇺🇸US|Hs|1004|TG@FProxies| 8", server: us.yzero.xyz, port: 7860, type: http, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇺🇸US|Ls|1004|TG@FProxies| 2", server: jp.sofast.live, port: 52683, type: vless, uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc, tls: false, tfo: false, skip-cert-verify: true, network: tcp, udp: true}
-- {name: ">🇺🇸US|Ls|1004|TG@FProxies| 4", server: goedkoopgeluid.icu, port: 443, type: http, username: bnVsbDpudWxs, tls: true, skip-cert-verify: true, udp: true}
-- name: 🇯🇵 日本 (Japan) 128
+- name: 🇺🇸 美国 (United States) 60
+  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 64
+  server: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 67
+  server: hy2.123266.xyz
+  port: 33333
+  udp: true
+  type: hysteria2
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 76
+  server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 美国 01 家宽
+  server: www.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 242a3d8eee5e4ed1a6bfa4141d549a25
+  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+- name: 🇺🇸 美国 (United States) 181
+  server: en.nekagsm.com
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: jisq9cNwk2qofcBK4nYIgv7wB51sH2U1
+- name: 🇺🇸 美国 (United States) 263
+  server: pl3.nexfile.net
+  port: 4444
+  udp: true
+  type: hysteria2
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl3.nexfile.net
+  skip-cert-verify: false
+- name: 🇯🇵 日本 (Japan) 251
   server: ga1data.xyy123.bid
   port: 443
   udp: true
@@ -114,7 +126,7 @@ proxies:
     short-id: 00b0389a
   servername: www.amzn.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 185
+- name: 🇯🇵 日本 (Japan) 284
   server: freedom.chenlan.top
   port: 12765
   udp: true
@@ -281,13 +293,12 @@ proxy-groups:
     type: select
     proxies:
       - 香港 01 家宽
-      - 香港 02 家宽
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
       - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
+      - 香港 02 家宽
       - 香港 03 家宽
       - 香港 04 家宽
       - 香港 05 家宽
-      - 香港 06 家宽
       - '>🇭🇰HK|Ns|1004|TG@FProxies| 6'
       - '>🇭🇰HK|Ns|1004|TG@FProxies| 8'
       - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
@@ -300,19 +311,20 @@ proxy-groups:
       - '>🇸🇬SG|Ns|1004|TG@FProxies|'
       - '>🇸🇬SG|Ns|1004|TG@FProxies| 2'
       - '>🇸🇬SG|Ns|1004|TG@FProxies| 3'
+      - 🇹🇼 中国台湾 (Taiwan) 319
       - 台湾 03 家宽
-      - 🇺🇸 美国 (United States) 19
+      - 🇺🇸 美国 (United States) 25
+      - 🇺🇸 美国 (United States) 48
+      - 🇺🇸 美国 (United States) 49
+      - 🇺🇸 美国 (United States) 60
+      - 🇺🇸 美国 (United States) 64
+      - 🇺🇸 美国 (United States) 67
+      - 🇺🇸 美国 (United States) 76
       - 美国 01 家宽
-      - 美国 02 家宽
-      - 🇺🇸 美国 (United States) 56
-      - 🇺🇸 美国 (United States) 86
-      - 🇺🇸 美国 (United States) 335
-      - 🇺🇸 美国 (United States) 345
-      - '>🇺🇸US|Hs|1004|TG@FProxies| 8'
-      - '>🇺🇸US|Ls|1004|TG@FProxies| 2'
-      - '>🇺🇸US|Ls|1004|TG@FProxies| 4'
-      - 🇯🇵 日本 (Japan) 128
-      - 🇯🇵 日本 (Japan) 185
+      - 🇺🇸 美国 (United States) 181
+      - 🇺🇸 美国 (United States) 263
+      - 🇯🇵 日本 (Japan) 251
+      - 🇯🇵 日本 (Japan) 284
       - '>🇯🇵JP|Ls|1004|TG@FProxies|'
       - '>🇯🇵JP|Ls|1004|TG@FProxies| 3'
       - '>🇯🇵JP|Ms|1004|TG@FProxies|'
