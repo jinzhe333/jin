@@ -444,38 +444,6 @@ proxies:
     headers:
       Host: lx-sg1.7770006.xyz
   packet-encoding: xudp
-- name: 🇸🇬新加坡高速07|BGP|CTCU
-  type: vless
-  server: cfyes.7770008.xyz
-  port: 443
-  uuid: 129bbc8f-01db-4aee-a0c9-5cca291145a0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: lx-sg1.7770006.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /liangxin/sg1
-    headers:
-      Host: lx-sg1.7770006.xyz
-  packet-encoding: xudp
-- name: 🇸🇬新加坡高速08|BGP|CTCU
-  type: vless
-  server: cfyes.7770008.xyz
-  port: 443
-  uuid: 129bbc8f-01db-4aee-a0c9-5cca291145a0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: lx-sg1.7770006.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /liangxin/sg1
-    headers:
-      Host: lx-sg1.7770006.xyz
-  packet-encoding: xudp
 - name: 🇹🇼台湾高速01|BGP|流媒体
   type: vless
   server: aws-link28.lxyun.xyz
@@ -574,8 +542,6 @@ proxy-groups:
       - '🇸🇬新加坡高速04|BGP|CTCUCM'
       - '🇸🇬新加坡高速05|BGP|CTCUCM'
       - '🇸🇬新加坡高速06|BGP|CTCU'
-      - '🇸🇬新加坡高速07|BGP|CTCU'
-      - '🇸🇬新加坡高速08|BGP|CTCU'
       - '🇹🇼台湾高速01|BGP|流媒体'
       - DIRECT
 rules:
