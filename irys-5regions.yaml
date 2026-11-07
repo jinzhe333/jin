@@ -1,172 +1,388 @@
 proxies:
-- {name: 香港 01 家宽, server: ihk135.zxom.eu.org, port: 20016, type: trojan, password: 62ae18560ab740e0, sni: ihk135.zxom.eu.org, skip-cert-verify: true, udp: true}
-- {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 2", server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, password: 19f72087-4591-4d72-930b-2697078ec2be, auth: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: true, udp: true}
-- {name: ">🇭🇰HK|Ms|1004|TG@FProxies| 6", server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com, port: 11252, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 香港 02 家宽, server: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: fa211ea0-tmeqo0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 03 家宽, server: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, port: 443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: 78eebfa8-tmeqo0-tyn7s3-1q3dm.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 04 家宽, server: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, auth: 8bb68d04-6973-11ee-b518-f23c9164ca5d, sni: 558afe74-tmeqo0-tpv2b9-1o8ak.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: 香港 05 家宽, server: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, port: 443, type: hysteria2, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, auth: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, sni: bfe4e87e-tmm5c0-twj07b-fm2v.nw4.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 6", server: avrku8ft.4ya21vwd0lw6ngzk.awstrack.vip, port: 16464, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MzUxNDUyY2IzYTQ5ODQzMw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
-- {name: ">🇭🇰HK|Ns|1004|TG@FProxies| 8", server: m99cygua.4ya21vwd0lw6ngzk.awstrack.vip, port: 25580, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZmNmMjk4ODg3ZDM2OTYxYw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
-- name: 🇸🇬 新加坡 (Singapore) 177
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  udp: true
+- name: 香港 01 家宽
+  type: anytls
+  server: 56481.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+- name: 🇺🇸美国-anytls-02
+  type: anytls
+  server: sdf65h46wr.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+- name: 台湾 01 家宽
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  server: terutrrj.d6f54hd1j.cc
+  port: 443
+  uuid: a904e307-771f-498b-87ad-8e6e0d0ade4a
   alterId: 0
   cipher: auto
-- name: 新加坡 01 家宽
-  server: sg1.zestapp778.com
-  port: 56984
   udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   tls: true
-  servername: sg1.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 3", server: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, port: 443, type: hysteria2, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, sni: 84533f21-tmeqo0-u1q5od-t6fv.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 4", server: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, port: 443, type: hysteria2, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, sni: 18b8fc90-tmeqo0-twnp5a-ahsb.sg7.hyhuawei.com, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Hs|1004|TG@FProxies| 5", server: sg01-hy.poke-mon.xyz, port: 26498, type: hysteria2, password: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, auth: 9d2f3a90-e7be-490b-b2a8-a41d2ab4a39d, skip-cert-verify: true, udp: true}
-- {name: 新加坡 02 家宽, server: d39d6b46-ta1og0-tbnk1n-ueq.sg.oshuawei.com, port: 443, type: http, username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 3", server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 197f388e-e6fb-3edb-9198-fa3ac97b7114, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ls|1004|TG@FProxies| 4", server: sg-2.tr202512.com, port: 443, type: trojan, password: Z9b8ZOzCbmyCwI6Gbz, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ms|1004|TG@FProxies|", server: sg01-hy.poke-mon.xyz, port: 24224, type: hysteria2, password: feb52afc-f1d8-4228-ada0-9558dbb9cfaf, auth: feb52afc-f1d8-4228-ada0-9558dbb9cfaf, skip-cert-verify: true, udp: true}
-- {name: ">🇸🇬SG|Ns|1004|TG@FProxies|", server: tq0th07f.zf-mix.9999231.xyz, port: 1044, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: sg-cc.9999231.xyz, skip-cert-verify: true}
-- name: 🇹🇼 中国台湾 (Taiwan) 227
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: www.bing.com
-  skip-cert-verify: true
-- {name: 台湾 01 家宽, server: tw-25.497489.xyz, port: 10099, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 20 Mbps, down: 20 Mbps, fast-open: false, protocol: udp, sni: tw-25.497489.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
-- name: 🇺🇸 美国 (United States) 21
-  server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 22
-  server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 23
-  server: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 31
-  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 36
-  server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇺🇸 美国 (United States) 41
-  server: hy2.123266.xyz
-  port: 33333
-  udp: true
-  type: hysteria2
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 63
-  server: www.shopify.com
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
+  servername: terutrrj.d6f54hd1j.cc
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /
     headers:
-      Host: guanwang.awsno.com
-- name: 🇺🇸 美国 (United States) 87
-  server: starlink-ft.251313.xyz
-  port: 443
-  udp: true
-  type: hysteria2
-  password: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 98
-  server: ww13.levikogjgfdd.ir
-  port: 23576
-  udp: true
+      Host: terutrrj.d6f54hd1j.cc
+- name: 🇲🇾马来西亚-ss-02
+  type: ss
+  server: xunlinknode.csdjhajkshdjkas.com
+  port: 40006
+  cipher: chacha20-ietf-poly1305
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+- name: 🇺🇸美国-vless-03
   type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: finlandlanzarotte.live
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
   flow: xtls-rprx-vision
   tls: true
+  servername: finlandlanzarotte.live
+  client-fingerprint: firefox
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 美国 01 家宽
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+    short-id: ""
+- name: 🇺🇸美国-vless-05
+  type: vless
+  server: swidenafterlanzerotte.space
   port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: swidenafterlanzerotte.space
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
+    short-id: ""
+- name: 🇺🇸美国-vless-07
+  type: vless
+  server: wwww.qarvian.ir
+  port: 443
+  uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
+  udp: true
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn.akamai.steamstatic.com
+- name: 🇸🇬新加坡-vless-01
+  type: vless
+  server: hw6.divarkhaghazi.com
+  port: 465
+  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
+  udp: true
+  tls: true
+  servername: hw6.divarkhaghazi.com.
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: hw6.divarkhaghazi.com.
+- name: 🇭🇰香港-vless-02
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 85550ebf-fd43-42dd-9801-bda528fea2fc
+  udp: true
+  tls: true
+  servername: wallweb5.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb5.pages.dev
+- name: 🇺🇸美国-vless-08
+  type: vless
+  server: jp.sofast.live
+  port: 52683
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  udp: true
+- name: 🇭🇰香港-trojan-04
   type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-- name: 🇯🇵 日本 (Japan) 151
-  server: freedom.chenlan.top
-  port: 12765
+  server: 36d.catcat321.com
+  port: 12763
+  password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
+  sni: d.hkj1.cat.bilibili.com
+  tls: true
+- name: 🇺🇸美国-vless-29
+  type: vless
+  server: us2.qik-fin.uk
+  port: 443
+  uuid: 3c4aa500-e3ae-4778-837b-f02dfea8c85f
+  udp: true
+  tls: true
+  servername: us2.qik-fin.uk
+  client-fingerprint: qq
+- name: 🇸🇬新加坡-vless-08
+  type: vless
+  server: ct.877774.xyz
+  port: 443
+  uuid: fc486b2b-8a22-4c93-8a8b-f40e1522ba78
+  udp: true
+  tls: true
+  servername: ap-south.862400.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: ap-south.862400.xyz
+- name: 🇯🇵日本-vless-07
+  type: vless
+  server: freev2.cloudflare.182682.xyz
+  port: 443
+  uuid: fc486b2b-8a22-4c93-8a8b-f40e1522ba78
+  udp: true
+  tls: true
+  servername: jp-osa.862400.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: jp-osa.862400.xyz
+- name: 🇺🇸美国-hysteria2-32
   type: hysteria2
-  password: STYyftThFn
-  sni: freedom.chenlan.top
-  skip-cert-verify: false
-- {name: ">🇯🇵JP|Ls|1004|TG@FProxies|", server: silversbgfgov.vip31.wogbcnmnagfwgov.com, port: 11231, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇯🇵JP|Ls|1004|TG@FProxies| 3", server: z3np6rg2.4ya21vwd0lw6ngzk.awstrack.vip, port: 16499, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTgzN2VjYzVmZDliNmY3Mw==:MjA3ZmY5MWEtOWE3MC00Mg==, udp: true}
-- {name: ">🇯🇵JP|Ms|1004|TG@FProxies|", server: sbgfgov.vip7.wogacnmnagfwgov.com, port: 11207, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇯🇵JP|Ms|1004|TG@FProxies| 3", server: goldcnmltyljgfwgov.vip57.wogcnmnnagfwgov.com, port: 11257, type: vmess, uuid: 605956ee-544d-308e-8b90-51e67c6ea8da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ">🇯🇵JP|Ns|1004|TG@FProxies|", server: crkzr8px.zf-mix.9999231.xyz, port: 2012, type: hysteria2, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, auth: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, sni: fr-house.9999231.xyz, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
-- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 2", server: nv50244o.zf-mix.9999231.xyz, port: 1043, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: pe-wy.9999231.xyz, skip-cert-verify: true}
-- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 3", server: o8cpx05b.zf-mix.9999231.xyz, port: 1019, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: pl-house.9999231.xyz, skip-cert-verify: true}
-- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 4", server: evolving-platypus.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: evolving-platypus.rooster465.autos, skip-cert-verify: true, udp: true}
-- {name: ">🇯🇵JP|Ns|1004|TG@FProxies| 5", server: wkm59v73.zf-mix.9999231.xyz, port: 1003, type: anytls, password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef, udp: true, sni: hkfash.9999231.xyz, skip-cert-verify: true}
-- {name: 精选🇭🇰 HK1, server: 178.253.239.175, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇭🇰 HK11, server: 103.229.54.103, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇭🇰 HK12, server: 82.22.31.122, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇭🇰 HK16, server: 167.148.203.70, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇭🇰 HK18, server: 167.148.203.107, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇸🇬 SG7, server: 152.175.67.17, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇸🇬 SG8, server: 195.172.138.225, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇺🇸 US2, server: 38.114.103.107, port: 8443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇺🇸 US24, server: 208.68.180.38, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP2, server: 200.180.163.38, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP7, server: 45.202.255.174, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP10, server: 212.135.211.79, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP14, server: 45.95.212.215, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
-- {name: 精选🇯🇵 JP18, server: 207.65.189.9, port: 443, type: vless, uuid: 872a4bca-c53a-480f-9b2b-200ae3951001, tls: true, skip-cert-verify: false, servername: sur.936.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=kr.william.us.ci?uuid=872a4bca-c53a-480f-9b2b-200ae3951001", headers: {Host: sur.936.us.ci}}, ech-opts: {enable: true, query-server-name: cloudflare-ech.com}}
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
+- name: 🇭🇰香港-anytls-10
+  type: anytls
+  server: user01.godvpn.lol
+  port: 41872
+  password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
+  sni: user01.godvpn.lol
+- name: 🇭🇰香港-hysteria2-12
+  type: hysteria2
+  server: hkhm2.473221.xyz
+  port: 8080
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  sni: hkhm2.473221.xyz
+- name: 🇭🇰香港-anytls-13
+  type: anytls
+  server: user01.godvpn.lol
+  port: 28419
+  password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
+  sni: user01.godvpn.lol
+- name: 🇭🇰香港-anytls-14
+  type: anytls
+  server: user02.godvpn.lol
+  port: 41872
+  password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
+  sni: user02.godvpn.lol
+- name: 🇭🇰香港-vless-15
+  type: vless
+  server: dddz-3-z.473221.xyz
+  port: 13212
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: v1-dy.ixigua.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY
+    short-id: "961f7127a015ba"
+- name: 🇭🇰香港-vless-20
+  type: vless
+  server: 175hgffc.needss.top
+  port: 20019
+  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.hsbc.com.hk
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: t-omY-EMjYJ2PwBk0XSXZ1tPoV97k7VYue665F8j1Qw
+    short-id: "25a346c1"
+- name: 🇯🇵日本-trojan-11
+  type: trojan
+  server: krhtybay.catcat321.com
+  port: 20061
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  udp: true
+  sni: hk.catxstar.com
+  tls: true
+- name: 🇯🇵日本-vless-12
+  type: vless
+  server: 175hgffc.needss.top
+  port: 12509
+  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: s0a1u.biliimg.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Sxc-c2ySrMK3RPfSRSO3mxWTz6I-JACfejSKWyZPqCU
+    short-id: "67d42791"
+- name: 🇯🇵日本-vless-18
+  type: vless
+  server: 175hgffc.needss.top
+  port: 12558
+  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.hsbc.com.hk
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: jgUNDKWKwld2tPanIKeNdxLIyXnDyT9CuWfJNmpgiCc
+    short-id: "2544752e"
+- name: 🇸🇬新加坡-hysteria2-10
+  type: hysteria2
+  server: sgm1.473221.xyz
+  port: 8080
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  sni: sgm1.473221.xyz
+- name: 🇸🇬新加坡-vless-11
+  type: vless
+  server: dddz-1-x.473221.xyz
+  port: 43113
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: v1-dy.ixigua.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: "ff2c978a0b"
+- name: 🇨🇳台湾-vless-14
+  type: vless
+  server: dddz-1-x.473221.xyz
+  port: 13239
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: updates.cdn-apple.com
+  client-fingerprint: edge
+  reality-opts:
+    public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
+    short-id: "8591c4d31f59a60d"
+- name: 🇺🇸美国-trojan-41
+  type: trojan
+  server: sidwqer-production.up.railway.app
+  port: 443
+  password: ZPZb_cl7NTrwH7my
+  udp: true
+  sni: sidwqer-production.up.railway.app
+  tls: true
+- name: 🇺🇸美国-hysteria2-45
+  type: hysteria2
+  server: usm2.473221.xyz
+  port: 23452
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  sni: usm2.473221.xyz
+- name: 🇺🇸美国-anytls-46
+  type: anytls
+  server: user01.godvpn.lol
+  port: 18520
+  password: 83fe5794-e98c-4b0e-9e14-e13862dc9d79
+  sni: user01.godvpn.lol
+- name: 🇯🇵日本-vmess-19
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: 6eb93c9d-9dbe-4877-ade6-909475b94ee5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-20
+  type: vmess
+  server: JP032007.ssgreen.org
+  port: 443
+  uuid: 2b4b1d91-731f-45ba-a177-af15cde67a34
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-21
+  type: vmess
+  server: JP032002.ssgreen.org
+  port: 443
+  uuid: 75dcd434-4ba2-4efb-9333-8bc9aa44b57b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-22
+  type: vmess
+  server: JP032010.ssgreen.org
+  port: 443
+  uuid: f526d1a6-e3b4-45d5-b5b9-ae545568bad2
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-23
+  type: vmess
+  server: JP032008.ssgreen.org
+  port: 443
+  uuid: 0fbdfec0-ec52-4a6e-823a-7c29c386bc00
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇭🇰 机场推荐:dafei.de 香港 05
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- name: 🇯🇵 机场推荐:dafei.de 日本 01
+  password: ''
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 🇲🇾马来西亚-vless-03
+  type: vless
+  server: 18.136.211.31
+  port: 16006
+  uuid: cb9f36b6-cc3e-489e-ba44-2d87bb756112
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cn.moonton.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: pZWj84RdiwBveBQLiuRTkD56Bvc5PYpeyDz3weaCERc
+    short-id: "fd749b9a"
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -504,91 +720,73 @@ proxies:
   password: 42d380acaca73617
   sni: bing.com
   skip-cert-verify: true
-
 proxy-groups:
-  - name: 🚀 精选合并
-    type: select
-    proxies:
-      - 香港 01 家宽
-      - '>🇭🇰HK|Ms|1004|TG@FProxies| 2'
-      - '>🇭🇰HK|Ms|1004|TG@FProxies| 6'
-      - 香港 02 家宽
-      - 香港 03 家宽
-      - 香港 04 家宽
-      - 香港 05 家宽
-      - '>🇭🇰HK|Ns|1004|TG@FProxies| 6'
-      - '>🇭🇰HK|Ns|1004|TG@FProxies| 8'
-      - 🇸🇬 新加坡 (Singapore) 177
-      - 新加坡 01 家宽
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 3'
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 4'
-      - '>🇸🇬SG|Hs|1004|TG@FProxies| 5'
-      - 新加坡 02 家宽
-      - '>🇸🇬SG|Ls|1004|TG@FProxies| 3'
-      - '>🇸🇬SG|Ls|1004|TG@FProxies| 4'
-      - '>🇸🇬SG|Ms|1004|TG@FProxies|'
-      - '>🇸🇬SG|Ns|1004|TG@FProxies|'
-      - 🇹🇼 中国台湾 (Taiwan) 227
-      - 台湾 01 家宽
-      - 🇺🇸 美国 (United States) 21
-      - 🇺🇸 美国 (United States) 22
-      - 🇺🇸 美国 (United States) 23
-      - 🇺🇸 美国 (United States) 31
-      - 🇺🇸 美国 (United States) 36
-      - 🇺🇸 美国 (United States) 41
-      - 🇺🇸 美国 (United States) 63
-      - 🇺🇸 美国 (United States) 87
-      - 🇺🇸 美国 (United States) 98
-      - 美国 01 家宽
-      - 🇯🇵 日本 (Japan) 151
-      - '>🇯🇵JP|Ls|1004|TG@FProxies|'
-      - '>🇯🇵JP|Ls|1004|TG@FProxies| 3'
-      - '>🇯🇵JP|Ms|1004|TG@FProxies|'
-      - '>🇯🇵JP|Ms|1004|TG@FProxies| 3'
-      - '>🇯🇵JP|Ns|1004|TG@FProxies|'
-      - '>🇯🇵JP|Ns|1004|TG@FProxies| 2'
-      - '>🇯🇵JP|Ns|1004|TG@FProxies| 3'
-      - '>🇯🇵JP|Ns|1004|TG@FProxies| 4'
-      - '>🇯🇵JP|Ns|1004|TG@FProxies| 5'
-      - 精选🇭🇰 HK1
-      - 精选🇭🇰 HK11
-      - 精选🇭🇰 HK12
-      - 精选🇭🇰 HK16
-      - 精选🇭🇰 HK18
-      - 精选🇸🇬 SG7
-      - 精选🇸🇬 SG8
-      - 精选🇺🇸 US2
-      - 精选🇺🇸 US24
-      - 精选🇯🇵 JP2
-      - 精选🇯🇵 JP7
-      - 精选🇯🇵 JP10
-      - 精选🇯🇵 JP14
-      - 精选🇯🇵 JP18
-      - 精选台湾专线01
-      - 精选台湾专线02
-      - 精选香港专线02
-      - 精选新加坡-IEPL-45511
-      - 台湾 02 家宽
-      - 🇸🇬SG_@WangCai_8 31
-      - 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
-      - HK-US-REALITY-Vision
-      - Tencent-VLESS-Reality-Cloudflare
-      - 🇹🇼 台湾 02 @clashv8
-      - 🇹🇼 台湾 02 @clashv8 2
-      - 台湾A
-      - 台湾 01 3
-      - 🇭🇰香港高速01|BGP|CMCU
-      - 🇭🇰香港高速02|BGP|CMCU
-      - 🇭🇰香港高速03|BGP|CMCU
-      - 🇭🇰香港高速04|BGP|CMCU
-      - 🇭🇰香港高速05|BGP|CMCU
-      - 🇸🇬新加坡高速03|BGP|CTCUCM
-      - 🇸🇬新加坡高速01|BGP|CTCUCM
-      - 🇸🇬新加坡高速02|BGP|CTCUCM
-      - 🇸🇬新加坡高速04|BGP|CTCUCM
-      - 🇸🇬新加坡高速05|BGP|CTCUCM
-      - 🇸🇬新加坡高速06|BGP|CTCU
-      - 🇹🇼台湾高速01|BGP|流媒体
+- name: 🚀 精选合并
+  type: select
+  proxies:
+      - '香港 01 家宽'
+      - '🇺🇸美国-anytls-02'
+      - '台湾 01 家宽'
+      - '🇲🇾马来西亚-ss-02'
+      - '🇺🇸美国-vless-03'
+      - '🇺🇸美国-vless-05'
+      - '🇺🇸美国-vless-07'
+      - '🇸🇬新加坡-vless-01'
+      - '🇭🇰香港-vless-02'
+      - '🇺🇸美国-vless-08'
+      - '🇭🇰香港-trojan-04'
+      - '🇺🇸美国-vless-29'
+      - '🇸🇬新加坡-vless-08'
+      - '🇯🇵日本-vless-07'
+      - '🇺🇸美国-hysteria2-32'
+      - '🇭🇰香港-anytls-10'
+      - '🇭🇰香港-hysteria2-12'
+      - '🇭🇰香港-anytls-13'
+      - '🇭🇰香港-anytls-14'
+      - '🇭🇰香港-vless-15'
+      - '🇭🇰香港-vless-20'
+      - '🇯🇵日本-trojan-11'
+      - '🇯🇵日本-vless-12'
+      - '🇯🇵日本-vless-18'
+      - '🇸🇬新加坡-hysteria2-10'
+      - '🇸🇬新加坡-vless-11'
+      - '🇨🇳台湾-vless-14'
+      - '🇺🇸美国-trojan-41'
+      - '🇺🇸美国-hysteria2-45'
+      - '🇺🇸美国-anytls-46'
+      - '🇯🇵日本-vmess-19'
+      - '🇯🇵日本-vmess-20'
+      - '🇯🇵日本-vmess-21'
+      - '🇯🇵日本-vmess-22'
+      - '🇯🇵日本-vmess-23'
+      - '🇭🇰 机场推荐:dafei.de 香港 05'
+      - '🇯🇵 机场推荐:dafei.de 日本 01'
+      - '🇲🇾马来西亚-vless-03'
+      - '精选台湾专线01'
+      - '精选台湾专线02'
+      - '精选香港专线02'
+      - '精选新加坡-IEPL-45511'
+      - '台湾 02 家宽'
+      - '🇸🇬SG_@WangCai_8 31'
+      - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
+      - 'HK-US-REALITY-Vision'
+      - 'Tencent-VLESS-Reality-Cloudflare'
+      - '🇹🇼 台湾 02 @clashv8'
+      - '🇹🇼 台湾 02 @clashv8 2'
+      - '台湾A'
+      - '台湾 01 3'
+      - '🇭🇰香港高速01|BGP|CMCU'
+      - '🇭🇰香港高速02|BGP|CMCU'
+      - '🇭🇰香港高速03|BGP|CMCU'
+      - '🇭🇰香港高速04|BGP|CMCU'
+      - '🇭🇰香港高速05|BGP|CMCU'
+      - '🇸🇬新加坡高速03|BGP|CTCUCM'
+      - '🇸🇬新加坡高速01|BGP|CTCUCM'
+      - '🇸🇬新加坡高速02|BGP|CTCUCM'
+      - '🇸🇬新加坡高速04|BGP|CTCUCM'
+      - '🇸🇬新加坡高速05|BGP|CTCUCM'
+      - '🇸🇬新加坡高速06|BGP|CTCU'
+      - '🇹🇼台湾高速01|BGP|流媒体'
       - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
       - 'txix香港'
       - '🇸🇬 SG - VLESS Reality (主力)'
