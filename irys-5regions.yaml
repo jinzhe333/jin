@@ -469,6 +469,22 @@ proxies:
     short-id: "0b03cf9a"
   packet-encoding: xudp
   udp: true
+- name: 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
+  server: 119.28.24.235
+  port: 3128
+  type: http
+  username: 32dd0fc0-cf2d-42f0-8680-efc77042550c
+  password: 32dd0fc0-cf2d-42f0-8680-efc77042550c
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: txix香港
+  server: 124.220.176.85
+  port: 18888
+  type: ss
+  cipher: aes-256-gcm
+  password: Vx893KRmwz
+
 proxy-groups:
   - name: 🚀 精选合并
     type: select
@@ -553,6 +569,8 @@ proxy-groups:
       - 🇸🇬新加坡高速05|BGP|CTCUCM
       - 🇸🇬新加坡高速06|BGP|CTCU
       - 🇹🇼台湾高速01|BGP|流媒体
+      - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
+      - 'txix香港'
       - DIRECT
 rules:
   - MATCH,🚀 精选合并
