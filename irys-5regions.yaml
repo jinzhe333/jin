@@ -484,6 +484,26 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: Vx893KRmwz
+- name: 🇸🇬 SG - VLESS Reality (主力)
+  type: vless
+  server: 178.128.113.75
+  port: 443
+  uuid: 1428fbf1-7cb5-47e0-8452-10ce6c379068
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: wwsYrt4D2z0mHLnLm7Nb9Eum9thWSSIFGhrvT8HyWQI
+    short-id: "a54bc677960f70a5"
+  udp: true
+- name: 🚀 SG - Hysteria 2 (备用提速)
+  type: hysteria2
+  server: 178.128.113.75
+  port: 443
+  password: 42d380acaca73617
+  sni: bing.com
+  skip-cert-verify: true
 
 proxy-groups:
   - name: 🚀 精选合并
@@ -571,6 +591,8 @@ proxy-groups:
       - 🇹🇼台湾高速01|BGP|流媒体
       - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
       - 'txix香港'
+      - '🇸🇬 SG - VLESS Reality (主力)'
+      - '🚀 SG - Hysteria 2 (备用提速)'
       - DIRECT
 rules:
   - MATCH,🚀 精选合并
