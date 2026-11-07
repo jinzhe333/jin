@@ -123,9 +123,23 @@ proxies:
   tls: true
   servername: us2.qik-fin.uk
   client-fingerprint: qq
-- name: 🇸🇬新加坡-vless-08
+- name: 🇺🇸美国-vless-31
   type: vless
   server: ct.877774.xyz
+  port: 443
+  uuid: fc486b2b-8a22-4c93-8a8b-f40e1522ba78
+  udp: true
+  tls: true
+  servername: us-lax.862400.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: us-lax.862400.xyz
+- name: 🇸🇬新加坡-vless-08
+  type: vless
+  server: www.visa.com.hk
   port: 443
   uuid: fc486b2b-8a22-4c93-8a8b-f40e1522ba78
   udp: true
@@ -137,20 +151,6 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇯🇵日本-vless-07
-  type: vless
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  uuid: fc486b2b-8a22-4c93-8a8b-f40e1522ba78
-  udp: true
-  tls: true
-  servername: jp-osa.862400.xyz
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: jp-osa.862400.xyz
 - name: 🇺🇸美国-hysteria2-32
   type: hysteria2
   server: starlink-ft.251313.xyz
@@ -287,17 +287,11 @@ proxies:
   port: 23452
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: usm2.473221.xyz
-- name: 🇺🇸美国-anytls-46
-  type: anytls
-  server: user01.godvpn.lol
-  port: 18520
-  password: 83fe5794-e98c-4b0e-9e14-e13862dc9d79
-  sni: user01.godvpn.lol
 - name: 🇯🇵日本-vmess-19
   type: vmess
-  server: JP032006.ssgreen.org
+  server: JP032007.ssgreen.org
   port: 443
-  uuid: 6eb93c9d-9dbe-4877-ade6-909475b94ee5
+  uuid: adfa46c1-5ac9-41cb-aeaa-265d8b4c8697
   alterId: 0
   cipher: auto
   udp: true
@@ -307,9 +301,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-20
   type: vmess
-  server: JP032007.ssgreen.org
+  server: JP032010.ssgreen.org
   port: 443
-  uuid: 2b4b1d91-731f-45ba-a177-af15cde67a34
+  uuid: c291f70e-2906-478c-aec0-a4a188c55f8f
   alterId: 0
   cipher: auto
   udp: true
@@ -319,9 +313,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-21
   type: vmess
-  server: JP032002.ssgreen.org
+  server: JP032008.ssgreen.org
   port: 443
-  uuid: 75dcd434-4ba2-4efb-9333-8bc9aa44b57b
+  uuid: cde918f3-fe49-4b14-8a8a-fdc6e32ba9a5
   alterId: 0
   cipher: auto
   udp: true
@@ -331,21 +325,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-22
   type: vmess
-  server: JP032010.ssgreen.org
+  server: JP032004.ssgreen.org
   port: 443
-  uuid: f526d1a6-e3b4-45d5-b5b9-ae545568bad2
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-23
-  type: vmess
-  server: JP032008.ssgreen.org
-  port: 443
-  uuid: 0fbdfec0-ec52-4a6e-823a-7c29c386bc00
+  uuid: 5edb7427-8349-432a-8c6f-8d104f0367a6
   alterId: 0
   cipher: auto
   udp: true
@@ -736,8 +718,8 @@ proxy-groups:
       - '🇺🇸美国-vless-08'
       - '🇭🇰香港-trojan-04'
       - '🇺🇸美国-vless-29'
+      - '🇺🇸美国-vless-31'
       - '🇸🇬新加坡-vless-08'
-      - '🇯🇵日本-vless-07'
       - '🇺🇸美国-hysteria2-32'
       - '🇭🇰香港-anytls-10'
       - '🇭🇰香港-hysteria2-12'
@@ -753,12 +735,10 @@ proxy-groups:
       - '🇨🇳台湾-vless-14'
       - '🇺🇸美国-trojan-41'
       - '🇺🇸美国-hysteria2-45'
-      - '🇺🇸美国-anytls-46'
       - '🇯🇵日本-vmess-19'
       - '🇯🇵日本-vmess-20'
       - '🇯🇵日本-vmess-21'
       - '🇯🇵日本-vmess-22'
-      - '🇯🇵日本-vmess-23'
       - '🇭🇰 机场推荐:dafei.de 香港 05'
       - '🇯🇵 机场推荐:dafei.de 日本 01'
       - '🇲🇾马来西亚-vless-03'
