@@ -114,9 +114,43 @@ proxies:
   udp: true
   sni: d.hkj1.cat.bilibili.com
   tls: true
-- name: 🇸🇬新加坡-vless-05
+- name: 🇺🇸美国-vless-22
   type: vless
-  server: www.visa.com.hk
+  server: nexusmods.com
+  port: 443
+  uuid: e3e04978-016d-4ffb-85e3-9cceb6079922
+  udp: true
+  tls: true
+  servername: cffc2-ch-node-3bsewqpt6ry7hfzv.lancelot.indevs.in
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cffc2-ch-node-3bsewqpt6ry7hfzv.lancelot.indevs.in
+- name: 🇺🇸美国-vless-23
+  type: vless
+  server: onetrust.com
+  port: 443
+  uuid: e3e04978-016d-4ffb-85e3-9cceb6079922
+  udp: true
+  tls: true
+  servername: cffc6-ch-node-3bsewqpt6ry7hfzv.lancelot.indevs.in
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cffc6-ch-node-3bsewqpt6ry7hfzv.lancelot.indevs.in
+- name: 香港 02 家宽
+  type: hysteria2
+  server: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+  port: 443
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  sni: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+- name: 🇸🇬新加坡-vless-37
+  type: vless
+  server: ct.877774.xyz
   port: 443
   uuid: f1f7b063-621c-48fb-9091-81ad5f3a2213
   udp: true
@@ -128,51 +162,70 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇯🇵日本-vless-05
+- name: 🇺🇸美国-vless-54
   type: vless
-  server: freev2.cloudflare.182682.xyz
+  server: 04535dt.us9.h1clayd.click
   port: 443
-  uuid: f1f7b063-621c-48fb-9091-81ad5f3a2213
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
-  servername: jp-osa.862400.xyz
-  client-fingerprint: random
+  servername: 04535dt.us9.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+- name: 🇺🇸美国-vless-61
+  type: vless
+  server: www.buydomains.com
+  port: 443
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
+  udp: true
+  tls: true
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /announcement?ed=2048
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
     headers:
-      Host: jp-osa.862400.xyz
-- name: 🇺🇸美国-hysteria2-27
-  type: hysteria2
-  server: starlink-ft.251313.xyz
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+- name: 🇺🇸美国-vless-66
+  type: vless
+  server: prime.jarbook.net
   port: 443
-  password: https://xship.best
-  sni: xship.top
-- name: 🇭🇰香港-anytls-09
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: prime.jarbook.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
+    short-id: "77a8c8c8"
+- name: 🇭🇰香港-anytls-12
   type: anytls
   server: user01.godvpn.lol
   port: 41872
   password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
   sni: user01.godvpn.lol
-- name: 🇭🇰香港-hysteria2-11
+- name: 🇭🇰香港-hysteria2-14
   type: hysteria2
   server: hkhm2.473221.xyz
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: hkhm2.473221.xyz
-- name: 🇭🇰香港-anytls-12
+- name: 🇭🇰香港-anytls-15
   type: anytls
   server: user01.godvpn.lol
   port: 28419
   password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
   sni: user01.godvpn.lol
-- name: 🇭🇰香港-anytls-13
+- name: 🇭🇰香港-anytls-16
   type: anytls
   server: user02.godvpn.lol
   port: 41872
   password: 1ad4428c-d24c-41ff-84f1-0d1488f7af0d
   sni: user02.godvpn.lol
-- name: 🇭🇰香港-vless-14
+- name: 🇭🇰香港-vless-17
   type: vless
   server: dddz-3-z.473221.xyz
   port: 13212
@@ -185,7 +238,7 @@ proxies:
   reality-opts:
     public-key: 4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY
     short-id: "961f7127a015ba"
-- name: 🇭🇰香港-vless-19
+- name: 🇭🇰香港-vless-22
   type: vless
   server: 175hgffc.needss.top
   port: 20019
@@ -198,7 +251,7 @@ proxies:
   reality-opts:
     public-key: t-omY-EMjYJ2PwBk0XSXZ1tPoV97k7VYue665F8j1Qw
     short-id: "25a346c1"
-- name: 🇯🇵日本-trojan-08
+- name: 🇯🇵日本-trojan-12
   type: trojan
   server: krhtybay.catcat321.com
   port: 20061
@@ -206,7 +259,7 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   tls: true
-- name: 🇯🇵日本-vless-09
+- name: 🇯🇵日本-vless-13
   type: vless
   server: 175hgffc.needss.top
   port: 12509
@@ -219,7 +272,7 @@ proxies:
   reality-opts:
     public-key: Sxc-c2ySrMK3RPfSRSO3mxWTz6I-JACfejSKWyZPqCU
     short-id: "67d42791"
-- name: 🇯🇵日本-vless-15
+- name: 🇯🇵日本-vless-19
   type: vless
   server: 175hgffc.needss.top
   port: 12558
@@ -232,13 +285,13 @@ proxies:
   reality-opts:
     public-key: jgUNDKWKwld2tPanIKeNdxLIyXnDyT9CuWfJNmpgiCc
     short-id: "2544752e"
-- name: 🇸🇬新加坡-hysteria2-07
+- name: 🇸🇬新加坡-hysteria2-39
   type: hysteria2
   server: sgm1.473221.xyz
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: sgm1.473221.xyz
-- name: 🇸🇬新加坡-vless-08
+- name: 🇸🇬新加坡-vless-40
   type: vless
   server: dddz-1-x.473221.xyz
   port: 43113
@@ -251,7 +304,7 @@ proxies:
   reality-opts:
     public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
     short-id: "ff2c978a0b"
-- name: 🇨🇳台湾-vless-10
+- name: 🇨🇳台湾-vless-11
   type: vless
   server: dddz-1-x.473221.xyz
   port: 13239
@@ -264,31 +317,11 @@ proxies:
   reality-opts:
     public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
     short-id: "8591c4d31f59a60d"
-- name: 🇺🇸美国-trojan-34
-  type: trojan
-  server: sidwqer-production.up.railway.app
-  port: 443
-  password: ZPZb_cl7NTrwH7my
-  udp: true
-  sni: sidwqer-production.up.railway.app
-  tls: true
-- name: 🇺🇸美国-hysteria2-38
-  type: hysteria2
-  server: usm2.473221.xyz
-  port: 23452
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: usm2.473221.xyz
-- name: 🇺🇸美国-anytls-39
-  type: anytls
-  server: user01.godvpn.lol
-  port: 18520
-  password: 83fe5794-e98c-4b0e-9e14-e13862dc9d79
-  sni: user01.godvpn.lol
-- name: 🇺🇸美国-vmess-40
+- name: 🇯🇵日本-vmess-20
   type: vmess
-  server: US122202.ssgreen.org
+  server: JP032005.ssgreen.org
   port: 443
-  uuid: 00a4fa5b-ec5b-43fa-97d3-2676c2835040
+  uuid: a945ebbb-b260-40e3-96c5-3674dcc977f6
   alterId: 0
   cipher: auto
   udp: true
@@ -296,11 +329,47 @@ proxies:
   network: ws
   ws-opts:
     path: /wes
-- name: 🇯🇵日本-vmess-16
+- name: 🇯🇵日本-vmess-21
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: 8b5ce648-6956-4636-b048-167b5b6e9e97
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-22
+  type: vmess
+  server: JP032002.ssgreen.org
+  port: 443
+  uuid: 726f75c4-fbdc-4c5e-8304-042dd6a9c01c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-23
+  type: vmess
+  server: JP032012.ssgreen.org
+  port: 443
+  uuid: 9c2a7ef0-d4f8-4678-af2c-e9e832526668
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-24
   type: vmess
   server: JP032001.ssgreen.org
   port: 443
-  uuid: 142709c1-49c4-4d2e-b555-f6259aa5c05c
+  uuid: 53323098-6eb4-4503-8fbd-2f09050cf91c
   alterId: 0
   cipher: auto
   udp: true
@@ -308,11 +377,11 @@ proxies:
   network: ws
   ws-opts:
     path: /wes
-- name: 🇯🇵日本-vmess-17
+- name: 🇯🇵日本-vmess-25
   type: vmess
   server: JP032010.ssgreen.org
   port: 443
-  uuid: 924adcc4-7554-4575-86fc-f6311623d5e9
+  uuid: 9e6797f6-0e60-4031-ad4e-157c560348ab
   alterId: 0
   cipher: auto
   udp: true
@@ -320,11 +389,11 @@ proxies:
   network: ws
   ws-opts:
     path: /wes
-- name: 🇯🇵日本-vmess-18
+- name: 🇯🇵日本-vmess-26
   type: vmess
   server: JP032008.ssgreen.org
   port: 443
-  uuid: b2435b21-5b0e-48db-9919-4128cd1661d5
+  uuid: bb8bc1a1-b2fb-41c4-9395-cbe9f30f7e52
   alterId: 0
   cipher: auto
   udp: true
@@ -332,23 +401,6 @@ proxies:
   network: ws
   ws-opts:
     path: /wes
-- name: 🇭🇰 机场推荐:dafei.de 香港 05
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-- name: 🇯🇵 机场推荐:dafei.de 日本 01
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - name: 🇲🇾马来西亚-vless-03
   type: vless
   server: 18.136.211.31
@@ -714,30 +766,32 @@ proxy-groups:
       - '🇭🇰香港-vless-02'
       - '🇺🇸美国-vless-08'
       - '🇭🇰香港-trojan-04'
-      - '🇸🇬新加坡-vless-05'
-      - '🇯🇵日本-vless-05'
-      - '🇺🇸美国-hysteria2-27'
-      - '🇭🇰香港-anytls-09'
-      - '🇭🇰香港-hysteria2-11'
+      - '🇺🇸美国-vless-22'
+      - '🇺🇸美国-vless-23'
+      - '香港 02 家宽'
+      - '🇸🇬新加坡-vless-37'
+      - '🇺🇸美国-vless-54'
+      - '🇺🇸美国-vless-61'
+      - '🇺🇸美国-vless-66'
       - '🇭🇰香港-anytls-12'
-      - '🇭🇰香港-anytls-13'
-      - '🇭🇰香港-vless-14'
-      - '🇭🇰香港-vless-19'
-      - '🇯🇵日本-trojan-08'
-      - '🇯🇵日本-vless-09'
-      - '🇯🇵日本-vless-15'
-      - '🇸🇬新加坡-hysteria2-07'
-      - '🇸🇬新加坡-vless-08'
-      - '🇨🇳台湾-vless-10'
-      - '🇺🇸美国-trojan-34'
-      - '🇺🇸美国-hysteria2-38'
-      - '🇺🇸美国-anytls-39'
-      - '🇺🇸美国-vmess-40'
-      - '🇯🇵日本-vmess-16'
-      - '🇯🇵日本-vmess-17'
-      - '🇯🇵日本-vmess-18'
-      - '🇭🇰 机场推荐:dafei.de 香港 05'
-      - '🇯🇵 机场推荐:dafei.de 日本 01'
+      - '🇭🇰香港-hysteria2-14'
+      - '🇭🇰香港-anytls-15'
+      - '🇭🇰香港-anytls-16'
+      - '🇭🇰香港-vless-17'
+      - '🇭🇰香港-vless-22'
+      - '🇯🇵日本-trojan-12'
+      - '🇯🇵日本-vless-13'
+      - '🇯🇵日本-vless-19'
+      - '🇸🇬新加坡-hysteria2-39'
+      - '🇸🇬新加坡-vless-40'
+      - '🇨🇳台湾-vless-11'
+      - '🇯🇵日本-vmess-20'
+      - '🇯🇵日本-vmess-21'
+      - '🇯🇵日本-vmess-22'
+      - '🇯🇵日本-vmess-23'
+      - '🇯🇵日本-vmess-24'
+      - '🇯🇵日本-vmess-25'
+      - '🇯🇵日本-vmess-26'
       - '🇲🇾马来西亚-vless-03'
       - '精选台湾专线01'
       - '精选台湾专线02'
