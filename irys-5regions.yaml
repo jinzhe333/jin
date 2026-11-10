@@ -202,12 +202,6 @@ proxies:
   port: 443
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   sni: 8a24f231-tmm5c0-tujecz-1qkeg.nw4.hyhuawei.com
-- name: 🇭🇰香港-hysteria2-08
-  type: hysteria2
-  server: hkhm2.473221.xyz
-  port: 8080
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: hkhm2.473221.xyz
 - name: 🇸🇬新加坡-vless-26
   type: vless
   server: dddz-1-x.473221.xyz
@@ -221,12 +215,6 @@ proxies:
   reality-opts:
     public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
     short-id: 5e0eb283246c6911
-- name: 🇸🇬新加坡-hysteria2-28
-  type: hysteria2
-  server: sgm1.473221.xyz
-  port: 8080
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: sgm1.473221.xyz
 - name: 🇺🇸美国-vless-43
   type: vless
   server: 4935e4t.de25.h1clayd.click
@@ -661,6 +649,72 @@ proxies:
     path: /
     headers:
       Host: hdf-ckq.pages.dev
+- name: 🇰🇷 首尔 01 | TLS
+  type: vless
+  server: loxy.work.gd
+  port: 443
+  uuid: d83a152e-5f3c-4b5c-b17f-7e049925e5b6
+  tls: true
+  servername: loxy.work.gd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ray-ws
+    headers:
+      Host: loxy.work.gd
+  packet-encoding: xudp
+- name: 台湾1 |5倍率解锁211
+  type: anytls
+  server: hinetddns5.aikunapp.com
+  port: 6001
+  password: 56f5e2ae-4d64-4ab2-bd77-e80703e72815
+  sni: bootcdn.xuexi.cn
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫
+  type: vless
+  server: of.interviewpig.xyz
+  port: 443
+  uuid: 35d4f917-83ff-479e-97f1-a8c83778c33d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: of.interviewpig.xyz
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  network: tcp
+  packet-encoding: xudp
+- name: SG-新加坡-V6
+  type: vless
+  server: 2401:c080:1400:5713:5400:7ff:fe01:b4ee
+  port: 8443
+  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
+  tls: true
+  servername: www.bing.com
+  client-fingerprint: chrome
+  network: tcp
+  skip-cert-verify: true
+  packet-encoding: xudp
+- name: 香港 02  1.0x
+  type: hysteria2
+  server: hk2.5yunapi.buzz
+  port: 13212
+  password: 53366249-55ce-4728-a824-f93f5b13a9c9
+  sni: hk2.5yunapi.buzz
+  skip-cert-verify: true
+- name: 🇭🇰香港-hysteria2-23
+  type: hysteria2
+  server: hkhm2.473221.xyz
+  port: 8080
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  sni: hkhm2.473221.xyz
+- name: 🇸🇬新加坡-hysteria2-11
+  type: hysteria2
+  server: sgm1.473221.xyz
+  port: 8080
+  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  sni: sgm1.473221.xyz
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -683,9 +737,7 @@ proxy-groups:
   - 🇺🇸美国-vless-36
   - 香港 02 家宽
   - 香港 03 家宽
-  - 🇭🇰香港-hysteria2-08
   - 🇸🇬新加坡-vless-26
-  - 🇸🇬新加坡-hysteria2-28
   - 🇺🇸美国-vless-43
   - 🇯🇵日本-vmess-11
   - 🇯🇵日本-vmess-12
@@ -724,6 +776,13 @@ proxy-groups:
   - 🚀 SG - Hysteria 2 (备用提速)
   - 🇹🇼 台湾4-VIP88a
   - CF官方优选19
+  - 🇰🇷 首尔 01 | TLS
+  - 台湾1 |5倍率解锁211
+  - 🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫
+  - SG-新加坡-V6
+  - 香港 02  1.0x
+  - 🇭🇰香港-hysteria2-23
+  - 🇸🇬新加坡-hysteria2-11
   - DIRECT
 rules:
 - MATCH,🚀 精选合并
