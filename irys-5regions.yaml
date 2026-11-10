@@ -44,7 +44,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
-    short-id: ""
+    short-id: ''
 - name: 🇺🇸美国-vless-05
   type: vless
   server: swidenafterlanzerotte.space
@@ -57,7 +57,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
-    short-id: ""
+    short-id: ''
 - name: 🇺🇸美国-vless-07
   type: vless
   server: wwww.qarvian.ir
@@ -182,7 +182,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
-    short-id: "77a8c8c8"
+    short-id: 77a8c8c8
 - name: 香港 02 家宽
   type: vless
   server: 57d89862-2f3e-4b36-bf20-bf5d302eeaa6.69290827-acbd-4035-94cd-4d1fa0997bb8.byteprivatelink.com
@@ -195,7 +195,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: rV6kc94WuI-e8k94iQ8l8SHTvTynTjtd8io7LDByEnc
-    short-id: "e5b9c61d"
+    short-id: e5b9c61d
 - name: 香港 03 家宽
   type: hysteria2
   server: 8a24f231-tmm5c0-tujecz-1qkeg.nw4.hyhuawei.com
@@ -220,7 +220,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: "5e0eb283246c6911"
+    short-id: 5e0eb283246c6911
 - name: 🇸🇬新加坡-hysteria2-28
   type: hysteria2
   server: sgm1.473221.xyz
@@ -239,7 +239,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
-    short-id: "6976d670818644cc"
+    short-id: 6976d670818644cc
 - name: 🇯🇵日本-vmess-11
   type: vmess
   server: JP032012.ssgreen.org
@@ -448,7 +448,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
-    short-id: "c8660f6e"
+    short-id: c8660f6e
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速02|BGP|CMCU
@@ -462,7 +462,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
-    short-id: "6afd82c0"
+    short-id: 6afd82c0
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速03|BGP|CMCU
@@ -476,7 +476,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
-    short-id: "3206e665"
+    short-id: 3206e665
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速04|BGP|CMCU
@@ -490,7 +490,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
-    short-id: "a31b59fe"
+    short-id: a31b59fe
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速05|BGP|CMCU
@@ -504,7 +504,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
-    short-id: "a49232a7"
+    short-id: a49232a7
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速03|BGP|CTCUCM
@@ -518,7 +518,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
-    short-id: "bef8fff6"
+    short-id: bef8fff6
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速01|BGP|CTCUCM
@@ -532,7 +532,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: w7AGIp_u4slcX3JotLyiuaT05lawuzU3f1eL88RI53c
-    short-id: "1d77a374"
+    short-id: 1d77a374
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速02|BGP|CTCUCM
@@ -546,7 +546,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
-    short-id: "55c73a28"
+    short-id: 55c73a28
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速04|BGP|CTCUCM
@@ -560,7 +560,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: NQboj96aHW_domplSIfIBqJpAnNN8rZokNYa-W-NdAo
-    short-id: "fa6fb544"
+    short-id: fa6fb544
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速05|BGP|CTCUCM
@@ -574,7 +574,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
-    short-id: "c7487aeb"
+    short-id: c7487aeb
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速06|BGP|CTCU
@@ -604,7 +604,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: I0KCN29MUCJ9CnUptlwBK4Nr-NZZUNh0bQj5aXxKrDY
-    short-id: "0b03cf9a"
+    short-id: 0b03cf9a
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
@@ -633,7 +633,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: wwsYrt4D2z0mHLnLm7Nb9Eum9thWSSIFGhrvT8HyWQI
-    short-id: "a54bc677960f70a5"
+    short-id: a54bc677960f70a5
   udp: true
 - name: 🚀 SG - Hysteria 2 (备用提速)
   type: hysteria2
@@ -648,68 +648,82 @@ proxies:
   port: 11801
   password: dadeebd7-39cc-36e0-96c9-c479805537c2
   skip-cert-verify: true
+- name: CF官方优选19
+  type: vless
+  server: 8.35.211.22
+  port: 2083
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  tls: true
+  servername: hdf-ckq.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hdf-ckq.pages.dev
 proxy-groups:
 - name: 🚀 精选合并
   type: select
   proxies:
-      - '香港 01 家宽'
-      - '🇺🇸美国-anytls-02'
-      - '台湾 01 家宽'
-      - '🇲🇾马来西亚-ss-02'
-      - '🇺🇸美国-vless-03'
-      - '🇺🇸美国-vless-05'
-      - '🇺🇸美国-vless-07'
-      - '🇸🇬新加坡-vless-01'
-      - '🇭🇰香港-vless-02'
-      - '🇺🇸美国-vless-08'
-      - '🇭🇰香港-trojan-04'
-      - '🇺🇸美国-vless-22'
-      - '🇺🇸美国-vless-23'
-      - '🇺🇸美国-vless-33'
-      - '🇸🇬新加坡-vless-25'
-      - '🇺🇸美国-vless-36'
-      - '香港 02 家宽'
-      - '香港 03 家宽'
-      - '🇭🇰香港-hysteria2-08'
-      - '🇸🇬新加坡-vless-26'
-      - '🇸🇬新加坡-hysteria2-28'
-      - '🇺🇸美国-vless-43'
-      - '🇯🇵日本-vmess-11'
-      - '🇯🇵日本-vmess-12'
-      - '🇯🇵日本-vmess-13'
-      - '🇯🇵日本-vmess-14'
-      - '🇭🇰 机场推荐:dafei.de 香港 02'
-      - '🇯🇵 机场推荐:dafei.de 日本 01'
-      - '精选台湾专线01'
-      - '精选台湾专线02'
-      - '精选香港专线02'
-      - '精选新加坡-IEPL-45511'
-      - '台湾 02 家宽'
-      - '🇸🇬SG_@WangCai_8 31'
-      - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
-      - 'HK-US-REALITY-Vision'
-      - 'Tencent-VLESS-Reality-Cloudflare'
-      - '🇹🇼 台湾 02 @clashv8'
-      - '🇹🇼 台湾 02 @clashv8 2'
-      - '台湾A'
-      - '台湾 01 3'
-      - '🇭🇰香港高速01|BGP|CMCU'
-      - '🇭🇰香港高速02|BGP|CMCU'
-      - '🇭🇰香港高速03|BGP|CMCU'
-      - '🇭🇰香港高速04|BGP|CMCU'
-      - '🇭🇰香港高速05|BGP|CMCU'
-      - '🇸🇬新加坡高速03|BGP|CTCUCM'
-      - '🇸🇬新加坡高速01|BGP|CTCUCM'
-      - '🇸🇬新加坡高速02|BGP|CTCUCM'
-      - '🇸🇬新加坡高速04|BGP|CTCUCM'
-      - '🇸🇬新加坡高速05|BGP|CTCUCM'
-      - '🇸🇬新加坡高速06|BGP|CTCU'
-      - '🇹🇼台湾高速01|BGP|流媒体'
-      - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
-      - 'txix香港'
-      - '🇸🇬 SG - VLESS Reality (主力)'
-      - '🚀 SG - Hysteria 2 (备用提速)'
-      - '🇹🇼 台湾4-VIP88a'
-      - DIRECT
+  - 香港 01 家宽
+  - 🇺🇸美国-anytls-02
+  - 台湾 01 家宽
+  - 🇲🇾马来西亚-ss-02
+  - 🇺🇸美国-vless-03
+  - 🇺🇸美国-vless-05
+  - 🇺🇸美国-vless-07
+  - 🇸🇬新加坡-vless-01
+  - 🇭🇰香港-vless-02
+  - 🇺🇸美国-vless-08
+  - 🇭🇰香港-trojan-04
+  - 🇺🇸美国-vless-22
+  - 🇺🇸美国-vless-23
+  - 🇺🇸美国-vless-33
+  - 🇸🇬新加坡-vless-25
+  - 🇺🇸美国-vless-36
+  - 香港 02 家宽
+  - 香港 03 家宽
+  - 🇭🇰香港-hysteria2-08
+  - 🇸🇬新加坡-vless-26
+  - 🇸🇬新加坡-hysteria2-28
+  - 🇺🇸美国-vless-43
+  - 🇯🇵日本-vmess-11
+  - 🇯🇵日本-vmess-12
+  - 🇯🇵日本-vmess-13
+  - 🇯🇵日本-vmess-14
+  - 🇭🇰 机场推荐:dafei.de 香港 02
+  - 🇯🇵 机场推荐:dafei.de 日本 01
+  - 精选台湾专线01
+  - 精选台湾专线02
+  - 精选香港专线02
+  - 精选新加坡-IEPL-45511
+  - 台湾 02 家宽
+  - 🇸🇬SG_@WangCai_8 31
+  - 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
+  - HK-US-REALITY-Vision
+  - Tencent-VLESS-Reality-Cloudflare
+  - 🇹🇼 台湾 02 @clashv8
+  - 🇹🇼 台湾 02 @clashv8 2
+  - 台湾A
+  - 台湾 01 3
+  - 🇭🇰香港高速01|BGP|CMCU
+  - 🇭🇰香港高速02|BGP|CMCU
+  - 🇭🇰香港高速03|BGP|CMCU
+  - 🇭🇰香港高速04|BGP|CMCU
+  - 🇭🇰香港高速05|BGP|CMCU
+  - 🇸🇬新加坡高速03|BGP|CTCUCM
+  - 🇸🇬新加坡高速01|BGP|CTCUCM
+  - 🇸🇬新加坡高速02|BGP|CTCUCM
+  - 🇸🇬新加坡高速04|BGP|CTCUCM
+  - 🇸🇬新加坡高速05|BGP|CTCUCM
+  - 🇸🇬新加坡高速06|BGP|CTCU
+  - 🇹🇼台湾高速01|BGP|流媒体
+  - 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
+  - txix香港
+  - 🇸🇬 SG - VLESS Reality (主力)
+  - 🚀 SG - Hysteria 2 (备用提速)
+  - 🇹🇼 台湾4-VIP88a
+  - CF官方优选19
+  - DIRECT
 rules:
-  - MATCH,🚀 精选合并
+- MATCH,🚀 精选合并
