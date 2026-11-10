@@ -715,6 +715,13 @@ proxies:
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: sgm1.473221.xyz
+- name: SG-Singapore-h-813819114-xxln
+  type: hysteria2
+  server: singapore.062888.xyz
+  port: 443
+  password: 8VPFWgN7mbwHWxTC
+  sni: www.microsoft.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -783,6 +790,7 @@ proxy-groups:
   - 香港 02  1.0x
   - 🇭🇰香港-hysteria2-23
   - 🇸🇬新加坡-hysteria2-11
+  - SG-Singapore-h-813819114-xxln
   - DIRECT
 rules:
 - MATCH,🚀 精选合并
