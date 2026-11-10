@@ -116,77 +116,7 @@ proxies:
   tls: true
 - name: 🇺🇸美国-vless-22
   type: vless
-  server: yx.l110.us.ci
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇬新加坡-vless-03
-  type: vless
-  server: icook.hk
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇬新加坡-vless-04
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇬新加坡-vless-05
-  type: vless
-  server: cucc.cloudflare.seeck.cn
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇺🇸美国-vless-41
-  type: vless
   server: nexusmods.com
-  port: 443
-  uuid: e3e04978-016d-4ffb-85e3-9cceb6079922
-  udp: true
-  tls: true
-  servername: cffc4-ch-node-qf83x5jwvkhmzedl.lancelot.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: cffc4-ch-node-qf83x5jwvkhmzedl.lancelot.indevs.in
-- name: 🇺🇸美国-vless-42
-  type: vless
-  server: onetrust.com
   port: 443
   uuid: e3e04978-016d-4ffb-85e3-9cceb6079922
   udp: true
@@ -198,11 +128,33 @@ proxies:
     path: /?ed=2560
     headers:
       Host: cffc5-ch-node-qf83x5jwvkhmzedl.lancelot.indevs.in
-- name: 🇸🇬新加坡-vless-33
+- name: 🇺🇸美国-vless-23
   type: vless
-  server: ct.877774.xyz
+  server: onetrust.com
   port: 443
-  uuid: 3b40eadc-8336-4aec-8236-21424947c20b
+  uuid: e3e04978-016d-4ffb-85e3-9cceb6079922
+  udp: true
+  tls: true
+  servername: cffc3-ch-node-qf83x5jwvkhmzedl.lancelot.indevs.in
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cffc3-ch-node-qf83x5jwvkhmzedl.lancelot.indevs.in
+- name: 🇭🇰香港-vmess-05
+  type: vmess
+  server: dog-us.kunlun01dns.com
+  port: 21010
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇸🇬新加坡-vless-26
+  type: vless
+  server: www.visa.com.hk
+  port: 443
+  uuid: 5b28a0c9-eda3-4c78-b07b-48cbd1670771
   udp: true
   tls: true
   servername: ap-south.862400.xyz
@@ -212,6 +164,12 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
+- name: 🇺🇸美国-hysteria2-30
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
 - name: 香港 02 家宽
   type: vless
   server: 57d89862-2f3e-4b36-bf20-bf5d302eeaa6.69290827-acbd-4035-94cd-4d1fa0997bb8.byteprivatelink.com
@@ -231,13 +189,13 @@ proxies:
   port: 443
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   sni: 8a24f231-tmm5c0-tujecz-1qkeg.nw4.hyhuawei.com
-- name: 🇭🇰香港-hysteria2-07
+- name: 🇭🇰香港-hysteria2-09
   type: hysteria2
   server: hkhm2.473221.xyz
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: hkhm2.473221.xyz
-- name: 🇸🇬新加坡-vless-34
+- name: 🇸🇬新加坡-vless-27
   type: vless
   server: dddz-1-x.473221.xyz
   port: 34759
@@ -250,13 +208,13 @@ proxies:
   reality-opts:
     public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
     short-id: "5e0eb283246c6911"
-- name: 🇸🇬新加坡-hysteria2-36
+- name: 🇸🇬新加坡-hysteria2-29
   type: hysteria2
   server: sgm1.473221.xyz
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: sgm1.473221.xyz
-- name: 🇺🇸美国-vless-73
+- name: 🇺🇸美国-vless-38
   type: vless
   server: 4935e4t.de25.h1clayd.click
   port: 443
@@ -269,7 +227,7 @@ proxies:
   reality-opts:
     public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
     short-id: "6976d670818644cc"
-- name: 🇺🇸美国-vless-78
+- name: 🇺🇸美国-vless-43
   type: vless
   server: pnvmuzw0w1el.apruxdomain.online
   port: 443
@@ -281,11 +239,23 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: live.yejssizh1kjrn.chunk-9828.m4s
-- name: 🇯🇵日本-vmess-12
+- name: 🇯🇵日本-vmess-11
   type: vmess
   server: JP032005.ssgreen.org
   port: 443
-  uuid: 862d1104-6d4d-4f62-bb7e-0b782f7b7723
+  uuid: ec1f50bf-3267-44d0-a6ae-8cf53c6ebdbf
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-12
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: 79519846-f00d-4c25-aecd-e4e234d1f86b
   alterId: 0
   cipher: auto
   udp: true
@@ -295,9 +265,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-13
   type: vmess
-  server: JP032011.ssgreen.org
+  server: JP032007.ssgreen.org
   port: 443
-  uuid: e89e53b4-0368-4219-b033-f51225ad7773
+  uuid: 2d4220a3-2b43-46d6-bfe3-fb60b3a81e28
   alterId: 0
   cipher: auto
   udp: true
@@ -307,9 +277,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-14
   type: vmess
-  server: JP032001.ssgreen.org
+  server: JP032002.ssgreen.org
   port: 443
-  uuid: 87dc2a98-d00f-4a24-8e91-21da2189dd78
+  uuid: cc859a05-76f4-453c-af62-d9b921a7f1a1
   alterId: 0
   cipher: auto
   udp: true
@@ -319,9 +289,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-15
   type: vmess
-  server: JP032010.ssgreen.org
+  server: JP032011.ssgreen.org
   port: 443
-  uuid: ecb3a9f6-55e0-4ed8-9199-8f85c2d30b06
+  uuid: d23a5e96-052e-4168-92c3-1a52b4e34be6
   alterId: 0
   cipher: auto
   udp: true
@@ -331,9 +301,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-16
   type: vmess
-  server: JP032008.ssgreen.org
+  server: JP032012.ssgreen.org
   port: 443
-  uuid: 3db9eeaf-6030-4684-b2ea-92c354d9853c
+  uuid: 54bd2a86-85e4-41a6-b42d-3966205c9bc0
   alterId: 0
   cipher: auto
   udp: true
@@ -343,9 +313,33 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-17
   type: vmess
-  server: JP032004.ssgreen.org
+  server: JP032001.ssgreen.org
   port: 443
-  uuid: d14a1cbc-d906-4232-8b56-c15ab57c85fa
+  uuid: f95bd215-6edb-423d-bddc-30bd0a605cc7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-18
+  type: vmess
+  server: JP032010.ssgreen.org
+  port: 443
+  uuid: a8445d07-87a9-4c91-bf52-3e4f44b5d0d7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-19
+  type: vmess
+  server: JP032008.ssgreen.org
+  port: 443
+  uuid: 022ddd75-17f2-4efc-9608-9102c1918d80
   alterId: 0
   cipher: auto
   udp: true
@@ -729,25 +723,26 @@ proxy-groups:
       - '🇺🇸美国-vless-08'
       - '🇭🇰香港-trojan-04'
       - '🇺🇸美国-vless-22'
-      - '🇸🇬新加坡-vless-03'
-      - '🇸🇬新加坡-vless-04'
-      - '🇸🇬新加坡-vless-05'
-      - '🇺🇸美国-vless-41'
-      - '🇺🇸美国-vless-42'
-      - '🇸🇬新加坡-vless-33'
+      - '🇺🇸美国-vless-23'
+      - '🇭🇰香港-vmess-05'
+      - '🇸🇬新加坡-vless-26'
+      - '🇺🇸美国-hysteria2-30'
       - '香港 02 家宽'
       - '香港 03 家宽'
-      - '🇭🇰香港-hysteria2-07'
-      - '🇸🇬新加坡-vless-34'
-      - '🇸🇬新加坡-hysteria2-36'
-      - '🇺🇸美国-vless-73'
-      - '🇺🇸美国-vless-78'
+      - '🇭🇰香港-hysteria2-09'
+      - '🇸🇬新加坡-vless-27'
+      - '🇸🇬新加坡-hysteria2-29'
+      - '🇺🇸美国-vless-38'
+      - '🇺🇸美国-vless-43'
+      - '🇯🇵日本-vmess-11'
       - '🇯🇵日本-vmess-12'
       - '🇯🇵日本-vmess-13'
       - '🇯🇵日本-vmess-14'
       - '🇯🇵日本-vmess-15'
       - '🇯🇵日本-vmess-16'
       - '🇯🇵日本-vmess-17'
+      - '🇯🇵日本-vmess-18'
+      - '🇯🇵日本-vmess-19'
       - '🇭🇰 机场推荐:dafei.de 香港 02'
       - '🇯🇵 机场推荐:dafei.de 日本 01'
       - '精选台湾专线01'
