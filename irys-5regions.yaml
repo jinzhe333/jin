@@ -44,7 +44,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
-    short-id: ''
+    short-id: ""
 - name: 🇺🇸美国-vless-05
   type: vless
   server: swidenafterlanzerotte.space
@@ -57,7 +57,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
-    short-id: ''
+    short-id: ""
 - name: 🇺🇸美国-vless-07
   type: vless
   server: wwww.qarvian.ir
@@ -114,64 +114,94 @@ proxies:
   udp: true
   sni: d.hkj1.cat.bilibili.com
   tls: true
-- name: 台湾 03 家宽
-  type: trojan
-  server: t2w2t2w2.bpca2026.top
-  port: 443
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  udp: true
-  sni: t2w2t2w2.bpca2026.top
-  tls: true
-- name: 🇺🇸美国-vless-28
+- name: 🇸🇬新加坡-vless-02
   type: vless
-  server: prime.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  server: sgp.beijingshi.asia
+  port: 8443
+  uuid: 14c36bd3-d631-4618-99aa-5f6c1c9f4abc
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: prime.jarbook.net
-  client-fingerprint: firefox
+  servername: sgp.beijingshi.asia
+  client-fingerprint: chrome
+- name: 🇸🇬新加坡-vless-03
+  type: vless
+  server: sg003.zestapp778.com
+  port: 443
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  servername: sg003.zestapp778.com
+  client-fingerprint: chrome
+- name: 🇺🇸美国-vless-25
+  type: vless
+  server: panel.apexkey.store
+  port: 2053
+  uuid: cdb7fa1d-6e7a-467c-da9c-da363c7bf779
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
-    short-id: 77a8c8c8
-- name: 🇭🇰香港-ss-10
+    public-key: DEFJSLdILrvauMpwtpvFZddadpt3rNtv03Dui2EkmRk
+    short-id: "68"
+- name: 🇸🇬新加坡-vless-07
+  type: vless
+  server: ct.877774.xyz
+  port: 443
+  uuid: 17745492-5a70-4663-8bde-415f699e8adf
+  udp: true
+  tls: true
+  servername: ap-south.862400.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: ap-south.862400.xyz
+- name: 🇺🇸美国-hysteria2-30
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
+- name: 🇭🇰香港-ss-08
   type: ss
   server: m.i.3.h.1.k.u.3.b.hk01-ae5.entry.v51124-1.qpon
   port: 19272
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-11
+- name: 🇭🇰香港-ss-09
   type: ss
   server: k.k.u.h.1.z.7.3.b.hk04-ae5.entry.v51124-1.qpon
   port: 804
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-12
+- name: 🇭🇰香港-ss-10
   type: ss
   server: t.i.i.3.t.k.7.3.b.hk03-ae5.entry.v51124-1.qpon
   port: 760
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-13
+- name: 🇭🇰香港-ss-11
   type: ss
   server: k.i.u.c.8.k.8.3.b.hk07-ae5.entry.v51124-1.qpon
   port: 1420
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-14
+- name: 🇭🇰香港-ss-12
   type: ss
   server: m.k.i.3.1.z.8.3.b.hk08-ae5.entry.v51124-1.qpon
   port: 18643
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-15
+- name: 🇭🇰香港-ss-13
   type: ss
   server: t.i.u.3.t.k.u.3.b.hk05-ae5.entry.v51124-1.qpon
   port: 1812
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-07
+- name: 🇯🇵日本-vmess-08
   type: vmess
   server: tifch57.g01.jp05-vm5.entry.rtysjur.quest
   port: 64655
@@ -179,13 +209,13 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-ss-08
+- name: 🇯🇵日本-ss-09
   type: ss
   server: t.i.f.3.1.k.7.3.b.jp01-ae5.entry.v51124-1.qpon
   port: 473
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-09
+- name: 🇯🇵日本-vmess-10
   type: vmess
   server: kkuhhk8.g01.jp06-vm5.entry.rtysjur.quest
   port: 663
@@ -193,7 +223,7 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-vmess-10
+- name: 🇯🇵日本-vmess-11
   type: vmess
   server: kiih8z8-g01.jp01-nn-vm0.entry.fr0528.art
   port: 21581
@@ -202,7 +232,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: 🇯🇵日本-vmess-11
+- name: 🇯🇵日本-vmess-12
   type: vmess
   server: m33h8ku-g01.jp02-e3-vm0.entry.fr0528.art
   port: 11773
@@ -210,13 +240,13 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-ss-12
+- name: 🇯🇵日本-ss-13
   type: ss
   server: t.3.3.c.1.k.8.3.b.jp04-ae5.entry.v51124-1.qpon
   port: 493
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-13
+- name: 🇯🇵日本-vmess-14
   type: vmess
   server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
   port: 21581
@@ -225,7 +255,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: 🇯🇵日本-vmess-14
+- name: 🇯🇵日本-vmess-15
   type: vmess
   server: t33ctk7-g01.jp04-1d-vm0.entry.fr0528.art
   port: 444
@@ -233,7 +263,7 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-vmess-15
+- name: 🇯🇵日本-vmess-16
   type: vmess
   server: kk3c15e-g01.jp05-h6-vm0.entry.fr0528.art
   port: 46482
@@ -241,7 +271,7 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-vmess-16
+- name: 🇯🇵日本-vmess-17
   type: vmess
   server: kii315e-g01.jp06-jz-vm0.entry.fr0528.art
   port: 28783
@@ -250,7 +280,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: 🇸🇬新加坡-vless-07
+- name: 🇸🇬新加坡-vless-08
   type: vless
   server: dddz-1-x.473221.xyz
   port: 34759
@@ -262,26 +292,26 @@ proxies:
   client-fingerprint: edge
   reality-opts:
     public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: 5e0eb283246c6911
-- name: 🇸🇬新加坡-ss-10
+    short-id: "5e0eb283246c6911"
+- name: 🇸🇬新加坡-ss-11
   type: ss
   server: t.k.u.c.t.k.7.3.b.sg01-ae5.entry.v51124-1.qpon
   port: 20000
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇸🇬新加坡-ss-11
+- name: 🇸🇬新加坡-ss-12
   type: ss
   server: m.i.f.c.1.5.e.3.b.sg02-ae5.entry.v51124-1.qpon
   port: 20075
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇸🇬新加坡-ss-12
+- name: 🇸🇬新加坡-ss-13
   type: ss
   server: m.i.u.3.8.5.u.3.b.sg03-ae5.entry.v51124-1.qpon
   port: 20080
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇨🇳台湾-ss-08
+- name: 🇨🇳台湾-ss-07
   type: ss
   server: m.k.u.c.t.5.u.3.b.tw01-ae5.entry.v51124-1.qpon
   port: 20005
@@ -299,25 +329,19 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-- name: 🇺🇸美国-ss-43
+    short-id: "e51285e3"
+- name: 🇺🇸美国-ss-45
   type: ss
   server: k.i.u.h.1.k.e.3.b.us01-ae5.entry.v51124-1.qpon
   port: 20010
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇺🇸美国-ss-44
+- name: 🇺🇸美国-ss-46
   type: ss
   server: k.3.3.h.t.z.7.3.b.us02-ae5.entry.v51124-1.qpon
   port: 20015
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇺🇸美国-hysteria2-45
-  type: hysteria2
-  server: usm2.473221.xyz
-  port: 23452
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: usm2.473221.xyz
 - name: 🇭🇰 机场推荐:dafei.de 香港 04
   port: 443
   server: fan.240104.xyz
@@ -341,13 +365,38 @@ proxies:
   uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
   servername: updates.cdn-apple.com
-- name: SG-Singapore-h-813819114-iizi
-  type: hysteria2
-  server: singapore.062888.xyz
-  port: 443
-  password: 8VPFWgN7mbwHWxTC
-  sni: www.microsoft.com
-  skip-cert-verify: true
+- name: 🇲🇾 马来西亚 01 @clashv8
+  type: vless
+  server: 43.217.96.102
+  port: 43001
+  uuid: 170fb178-221c-416c-8805-12bc2c6f6608
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: fQsihBrgqnxLI_nrYE3p3gZ5JUWuwgllmolcr97NJGU
+    short-id: 76c86e009a5623b6
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇲🇾 马来西亚 02 @clashv8
+  type: vless
+  server: 43.216.194.115
+  port: 23001
+  uuid: 420e9269-4f37-46e2-b60c-2316b5d9f295
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: fJOp17UNS7FcNMjQGegAcRGkgqgG4k0WDh_JqETVz30
+    short-id: b64c75722141ef6d
+  flow: xtls-rprx-vision
+  udp: true
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -491,7 +540,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
-    short-id: c8660f6e
+    short-id: "c8660f6e"
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速02|BGP|CMCU
@@ -505,7 +554,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
-    short-id: 6afd82c0
+    short-id: "6afd82c0"
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速03|BGP|CMCU
@@ -519,7 +568,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
-    short-id: 3206e665
+    short-id: "3206e665"
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速04|BGP|CMCU
@@ -533,7 +582,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
-    short-id: a31b59fe
+    short-id: "a31b59fe"
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速05|BGP|CMCU
@@ -547,7 +596,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
-    short-id: a49232a7
+    short-id: "a49232a7"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速03|BGP|CTCUCM
@@ -561,7 +610,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
-    short-id: bef8fff6
+    short-id: "bef8fff6"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速01|BGP|CTCUCM
@@ -575,7 +624,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: w7AGIp_u4slcX3JotLyiuaT05lawuzU3f1eL88RI53c
-    short-id: 1d77a374
+    short-id: "1d77a374"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速02|BGP|CTCUCM
@@ -589,7 +638,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
-    short-id: 55c73a28
+    short-id: "55c73a28"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速04|BGP|CTCUCM
@@ -603,7 +652,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: NQboj96aHW_domplSIfIBqJpAnNN8rZokNYa-W-NdAo
-    short-id: fa6fb544
+    short-id: "fa6fb544"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速05|BGP|CTCUCM
@@ -617,7 +666,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
-    short-id: c7487aeb
+    short-id: "c7487aeb"
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速06|BGP|CTCU
@@ -647,7 +696,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: I0KCN29MUCJ9CnUptlwBK4Nr-NZZUNh0bQj5aXxKrDY
-    short-id: 0b03cf9a
+    short-id: "0b03cf9a"
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
@@ -676,7 +725,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: wwsYrt4D2z0mHLnLm7Nb9Eum9thWSSIFGhrvT8HyWQI
-    short-id: a54bc677960f70a5
+    short-id: "a54bc677960f70a5"
   udp: true
 - name: 🚀 SG - Hysteria 2 (备用提速)
   type: hysteria2
@@ -770,123 +819,92 @@ proxies:
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: sgm1.473221.xyz
-- name: 🇲🇾 马来西亚 01 @clashv8
-  type: vless
-  server: 43.217.96.102
-  port: 43001
-  uuid: 170fb178-221c-416c-8805-12bc2c6f6608
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: fQsihBrgqnxLI_nrYE3p3gZ5JUWuwgllmolcr97NJGU
-    short-id: 76c86e009a5623b6
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇲🇾 马来西亚 02 @clashv8
-  type: vless
-  server: 43.216.194.115
-  port: 23001
-  uuid: 420e9269-4f37-46e2-b60c-2316b5d9f295
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: fJOp17UNS7FcNMjQGegAcRGkgqgG4k0WDh_JqETVz30
-    short-id: b64c75722141ef6d
-  flow: xtls-rprx-vision
-  udp: true
 proxy-groups:
 - name: 🚀 精选合并
   type: select
   proxies:
-  - 香港 01 家宽
-  - 🇺🇸美国-anytls-02
-  - 台湾 01 家宽
-  - 🇲🇾马来西亚-ss-02
-  - 🇺🇸美国-vless-03
-  - 🇺🇸美国-vless-05
-  - 🇺🇸美国-vless-07
-  - 🇸🇬新加坡-vless-01
-  - 🇭🇰香港-vless-02
-  - 🇺🇸美国-vless-08
-  - 🇭🇰香港-trojan-04
-  - 台湾 03 家宽
-  - 🇺🇸美国-vless-28
-  - 🇭🇰香港-ss-10
-  - 🇭🇰香港-ss-11
-  - 🇭🇰香港-ss-12
-  - 🇭🇰香港-ss-13
-  - 🇭🇰香港-ss-14
-  - 🇭🇰香港-ss-15
-  - 🇯🇵日本-vmess-07
-  - 🇯🇵日本-ss-08
-  - 🇯🇵日本-vmess-09
-  - 🇯🇵日本-vmess-10
-  - 🇯🇵日本-vmess-11
-  - 🇯🇵日本-ss-12
-  - 🇯🇵日本-vmess-13
-  - 🇯🇵日本-vmess-14
-  - 🇯🇵日本-vmess-15
-  - 🇯🇵日本-vmess-16
-  - 🇸🇬新加坡-vless-07
-  - 🇸🇬新加坡-ss-10
-  - 🇸🇬新加坡-ss-11
-  - 🇸🇬新加坡-ss-12
-  - 🇨🇳台湾-ss-08
-  - 美国 01 家宽
-  - 🇺🇸美国-ss-43
-  - 🇺🇸美国-ss-44
-  - 🇺🇸美国-hysteria2-45
-  - 🇭🇰 机场推荐:dafei.de 香港 04
-  - 🇨🇳 机场推荐:dafei.de 台湾 01
-  - SG-Singapore-h-813819114-iizi
-  - 精选台湾专线01
-  - 精选台湾专线02
-  - 精选香港专线02
-  - 精选新加坡-IEPL-45511
-  - 台湾 02 家宽
-  - 🇸🇬SG_@WangCai_8 31
-  - 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
-  - HK-US-REALITY-Vision
-  - Tencent-VLESS-Reality-Cloudflare
-  - 🇹🇼 台湾 02 @clashv8
-  - 🇹🇼 台湾 02 @clashv8 2
-  - 台湾A
-  - 台湾 01 3
-  - 🇭🇰香港高速01|BGP|CMCU
-  - 🇭🇰香港高速02|BGP|CMCU
-  - 🇭🇰香港高速03|BGP|CMCU
-  - 🇭🇰香港高速04|BGP|CMCU
-  - 🇭🇰香港高速05|BGP|CMCU
-  - 🇸🇬新加坡高速03|BGP|CTCUCM
-  - 🇸🇬新加坡高速01|BGP|CTCUCM
-  - 🇸🇬新加坡高速02|BGP|CTCUCM
-  - 🇸🇬新加坡高速04|BGP|CTCUCM
-  - 🇸🇬新加坡高速05|BGP|CTCUCM
-  - 🇸🇬新加坡高速06|BGP|CTCU
-  - 🇹🇼台湾高速01|BGP|流媒体
-  - 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
-  - txix香港
-  - 🇸🇬 SG - VLESS Reality (主力)
-  - 🚀 SG - Hysteria 2 (备用提速)
-  - 🇹🇼 台湾4-VIP88a
-  - CF官方优选19
-  - 🇰🇷 首尔 01 | TLS
-  - 台湾1 |5倍率解锁211
-  - 🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫
-  - SG-新加坡-V6
-  - 香港 02  1.0x
-  - 🇭🇰香港-hysteria2-23
-  - 🇸🇬新加坡-hysteria2-11
-  - 🇲🇾 马来西亚 01 @clashv8
-  - 🇲🇾 马来西亚 02 @clashv8
-  - DIRECT
+      - '香港 01 家宽'
+      - '🇺🇸美国-anytls-02'
+      - '台湾 01 家宽'
+      - '🇲🇾马来西亚-ss-02'
+      - '🇺🇸美国-vless-03'
+      - '🇺🇸美国-vless-05'
+      - '🇺🇸美国-vless-07'
+      - '🇸🇬新加坡-vless-01'
+      - '🇭🇰香港-vless-02'
+      - '🇺🇸美国-vless-08'
+      - '🇭🇰香港-trojan-04'
+      - '🇸🇬新加坡-vless-02'
+      - '🇸🇬新加坡-vless-03'
+      - '🇺🇸美国-vless-25'
+      - '🇸🇬新加坡-vless-07'
+      - '🇺🇸美国-hysteria2-30'
+      - '🇭🇰香港-ss-08'
+      - '🇭🇰香港-ss-09'
+      - '🇭🇰香港-ss-10'
+      - '🇭🇰香港-ss-11'
+      - '🇭🇰香港-ss-12'
+      - '🇭🇰香港-ss-13'
+      - '🇯🇵日本-vmess-08'
+      - '🇯🇵日本-ss-09'
+      - '🇯🇵日本-vmess-10'
+      - '🇯🇵日本-vmess-11'
+      - '🇯🇵日本-vmess-12'
+      - '🇯🇵日本-ss-13'
+      - '🇯🇵日本-vmess-14'
+      - '🇯🇵日本-vmess-15'
+      - '🇯🇵日本-vmess-16'
+      - '🇯🇵日本-vmess-17'
+      - '🇸🇬新加坡-vless-08'
+      - '🇸🇬新加坡-ss-11'
+      - '🇸🇬新加坡-ss-12'
+      - '🇸🇬新加坡-ss-13'
+      - '🇨🇳台湾-ss-07'
+      - '美国 01 家宽'
+      - '🇺🇸美国-ss-45'
+      - '🇺🇸美国-ss-46'
+      - '🇭🇰 机场推荐:dafei.de 香港 04'
+      - '🇨🇳 机场推荐:dafei.de 台湾 01'
+      - '🇲🇾 马来西亚 01 @clashv8'
+      - '🇲🇾 马来西亚 02 @clashv8'
+      - '精选台湾专线01'
+      - '精选台湾专线02'
+      - '精选香港专线02'
+      - '精选新加坡-IEPL-45511'
+      - '台湾 02 家宽'
+      - '🇸🇬SG_@WangCai_8 31'
+      - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
+      - 'HK-US-REALITY-Vision'
+      - 'Tencent-VLESS-Reality-Cloudflare'
+      - '🇹🇼 台湾 02 @clashv8'
+      - '🇹🇼 台湾 02 @clashv8 2'
+      - '台湾A'
+      - '台湾 01 3'
+      - '🇭🇰香港高速01|BGP|CMCU'
+      - '🇭🇰香港高速02|BGP|CMCU'
+      - '🇭🇰香港高速03|BGP|CMCU'
+      - '🇭🇰香港高速04|BGP|CMCU'
+      - '🇭🇰香港高速05|BGP|CMCU'
+      - '🇸🇬新加坡高速03|BGP|CTCUCM'
+      - '🇸🇬新加坡高速01|BGP|CTCUCM'
+      - '🇸🇬新加坡高速02|BGP|CTCUCM'
+      - '🇸🇬新加坡高速04|BGP|CTCUCM'
+      - '🇸🇬新加坡高速05|BGP|CTCUCM'
+      - '🇸🇬新加坡高速06|BGP|CTCU'
+      - '🇹🇼台湾高速01|BGP|流媒体'
+      - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
+      - 'txix香港'
+      - '🇸🇬 SG - VLESS Reality (主力)'
+      - '🚀 SG - Hysteria 2 (备用提速)'
+      - '🇹🇼 台湾4-VIP88a'
+      - 'CF官方优选19'
+      - '🇰🇷 首尔 01 | TLS'
+      - '台湾1 |5倍率解锁211'
+      - '🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫'
+      - 'SG-新加坡-V6'
+      - '香港 02  1.0x'
+      - '🇭🇰香港-hysteria2-23'
+      - '🇸🇬新加坡-hysteria2-11'
+      - DIRECT
 rules:
-- MATCH,🚀 精选合并
+  - MATCH,🚀 精选合并
