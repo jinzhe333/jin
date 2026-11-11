@@ -819,6 +819,13 @@ proxies:
   port: 8080
   password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   sni: sgm1.473221.xyz
+- name: 🇹🇼 台湾02家宽
+  type: anytls
+  server: tw.51nb88.com
+  port: 51142
+  password: 32f0caa3-55f0-4ca9-b70b-fcc13b5570fe
+  sni: baidu.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -905,6 +912,7 @@ proxy-groups:
       - '香港 02  1.0x'
       - '🇭🇰香港-hysteria2-23'
       - '🇸🇬新加坡-hysteria2-11'
+      - '🇹🇼 台湾02家宽'
       - DIRECT
 rules:
   - MATCH,🚀 精选合并
