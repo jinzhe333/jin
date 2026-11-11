@@ -316,97 +316,42 @@ proxies:
   sni: fan.240104.xyz
   tls: true
   type: http
-- name: 🇭🇰 香港 01 @clashv8
-  type: ss
-  server: m.i.3.h.1.k.u.3.b.hk01-ae5.entry.v51124-1.qpon
-  port: 19272
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇭🇰 香港 02 @clashv8
-  type: ss
-  server: k.k.u.h.1.z.7.3.b.hk04-ae5.entry.v51124-1.qpon
-  port: 804
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇭🇰 香港 03 @clashv8
-  type: ss
-  server: t.i.i.3.t.k.7.3.b.hk03-ae5.entry.v51124-1.qpon
-  port: 760
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇭🇰 香港 04 @clashv8
-  type: ss
-  server: k.i.u.c.8.k.8.3.b.hk07-ae5.entry.v51124-1.qpon
-  port: 1420
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇭🇰 香港 05 @clashv8
-  type: ss
-  server: m.k.i.3.1.z.8.3.b.hk08-ae5.entry.v51124-1.qpon
-  port: 18643
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇭🇰 香港 06 @clashv8
-  type: ss
-  server: t.i.u.3.t.k.u.3.b.hk05-ae5.entry.v51124-1.qpon
-  port: 1812
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
 - name: 🇸🇬 新加坡 01 @clashv8
-  type: vless
-  server: dddz-1-x.473221.xyz
-  port: 34759
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  network: tcp
-  servername: v1-dy.ixigua.com
-  sni: v1-dy.ixigua.com
-  client-fingerprint: edge
-  skip-cert-verify: false
+  type: hysteria2
+  server: 165.154.193.165
+  port: 443
+  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
   tls: true
-  reality-opts:
-    public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: 5e0eb283246c6911
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 04 @clashv8
-  type: ss
-  server: t.k.u.c.t.k.7.3.b.sg01-ae5.entry.v51124-1.qpon
-  port: 20000
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇸🇬 新加坡 05 @clashv8
-  type: ss
-  server: m.i.f.c.1.5.e.3.b.sg02-ae5.entry.v51124-1.qpon
-  port: 20075
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇸🇬 新加坡 06 @clashv8
-  type: ss
-  server: m.i.u.3.8.5.u.3.b.sg03-ae5.entry.v51124-1.qpon
-  port: 20080
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
+  sni: 165.154.193.165
+  alpn:
+  - h3
+  up: '100'
+  down: '200'
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: d7897b996af77eeecb7ac010361d74fb
   udp: true
 - name: 🇹🇼 台湾 01 @clashv8
-  type: ss
-  server: m.k.u.c.t.5.u.3.b.tw01-ae5.entry.v51124-1.qpon
-  port: 20005
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-  udp: true
-- name: 🇲🇾 马来西亚 01 @clashv8
   type: vless
-  server: 43.217.96.102
-  port: 43001
-  uuid: 170fb178-221c-416c-8805-12bc2c6f6608
+  server: 60.248.219.53
+  port: 443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  network: ws
+  servername: ty986gfazs.cainiaohub.xyz
+  sni: ty986gfazs.cainiaohub.xyz
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+  udp: true
+- name: 🇭🇰 香港 03 @clashv8
+  type: vless
+  server: 66.90.115.132
+  port: 443
+  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
   network: tcp
   servername: www.apple.com
   sni: www.apple.com
@@ -414,15 +359,15 @@ proxies:
   skip-cert-verify: false
   tls: true
   reality-opts:
-    public-key: fQsihBrgqnxLI_nrYE3p3gZ5JUWuwgllmolcr97NJGU
-    short-id: 76c86e009a5623b6
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: "08a4b1f473932632"
   flow: xtls-rprx-vision
   udp: true
-- name: 🇲🇾 马来西亚 02 @clashv8
+- name: 🇭🇰 香港 04 @clashv8
   type: vless
-  server: 43.216.194.115
-  port: 23001
-  uuid: 420e9269-4f37-46e2-b60c-2316b5d9f295
+  server: 66.90.115.131
+  port: 443
+  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
   network: tcp
   servername: www.apple.com
   sni: www.apple.com
@@ -430,8 +375,104 @@ proxies:
   skip-cert-verify: false
   tls: true
   reality-opts:
-    public-key: fJOp17UNS7FcNMjQGegAcRGkgqgG4k0WDh_JqETVz30
-    short-id: b64c75722141ef6d
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: "08a4b1f473932632"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇭🇰 香港 05 @clashv8
+  type: vless
+  server: 66.90.115.126
+  port: 443
+  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: "08a4b1f473932632"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇸🇬 新加坡 06 @clashv8
+  type: vless
+  server: 67.159.49.35
+  port: 443
+  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: "deccc6fac1ddb0ff"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇸🇬 新加坡 07 @clashv8
+  type: vless
+  server: 67.159.49.37
+  port: 443
+  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: "deccc6fac1ddb0ff"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇸🇬 新加坡 08 @clashv8
+  type: vless
+  server: 50.7.252.50
+  port: 443
+  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: "deccc6fac1ddb0ff"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇸🇬 新加坡 09 @clashv8
+  type: vless
+  server: 67.159.49.34
+  port: 443
+  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: "deccc6fac1ddb0ff"
+  flow: xtls-rprx-vision
+  udp: true
+- name: 🇸🇬 新加坡 10 @clashv8
+  type: vless
+  server: 67.159.49.36
+  port: 443
+  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
+  network: tcp
+  servername: www.apple.com
+  sni: www.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  tls: true
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: "deccc6fac1ddb0ff"
   flow: xtls-rprx-vision
   udp: true
 - name: 精选台湾专线01
@@ -896,19 +937,16 @@ proxy-groups:
       - '🇯🇵日本-vmess-15'
       - '🇯🇵日本-vmess-16'
       - '🇭🇰 机场推荐:dafei.de 香港 04'
-      - '🇭🇰 香港 01 @clashv8'
-      - '🇭🇰 香港 02 @clashv8'
+      - '🇸🇬 新加坡 01 @clashv8'
+      - '🇹🇼 台湾 01 @clashv8'
       - '🇭🇰 香港 03 @clashv8'
       - '🇭🇰 香港 04 @clashv8'
       - '🇭🇰 香港 05 @clashv8'
-      - '🇭🇰 香港 06 @clashv8'
-      - '🇸🇬 新加坡 01 @clashv8'
-      - '🇸🇬 新加坡 04 @clashv8'
-      - '🇸🇬 新加坡 05 @clashv8'
       - '🇸🇬 新加坡 06 @clashv8'
-      - '🇹🇼 台湾 01 @clashv8'
-      - '🇲🇾 马来西亚 01 @clashv8'
-      - '🇲🇾 马来西亚 02 @clashv8'
+      - '🇸🇬 新加坡 07 @clashv8'
+      - '🇸🇬 新加坡 08 @clashv8'
+      - '🇸🇬 新加坡 09 @clashv8'
+      - '🇸🇬 新加坡 10 @clashv8'
       - '精选台湾专线01'
       - '精选台湾专线02'
       - '精选香港专线02'
