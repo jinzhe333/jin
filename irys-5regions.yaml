@@ -114,7 +114,82 @@ proxies:
   udp: true
   sni: d.hkj1.cat.bilibili.com
   tls: true
-- name: 🇸🇬新加坡-vless-02
+- name: 台湾 03 家宽
+  type: vless
+  server: kbgs.hinet.tw1.yydjc.top
+  port: 443
+  uuid: 14549c60-4d22-463d-a446-ed5cfbea8fa3
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: gopro.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
+    short-id: "5a337f9f"
+- name: 🇯🇵日本-trojan-12
+  type: trojan
+  server: jp3.998998.best
+  port: 443
+  password: 3ce09306-9819-4988-b88e-25be291305e7
+  udp: true
+  sni: nat11.9966338.xyz
+  tls: true
+- name: 🇸🇬新加坡-trojan-02
+  type: trojan
+  server: sg2.998998.best
+  port: 443
+  password: 3ce09306-9819-4988-b88e-25be291305e7
+  udp: true
+  sni: nat6.9966338.xyz
+  tls: true
+- name: 🇺🇸美国-trojan-30
+  type: trojan
+  server: us3-2.998998.best
+  port: 443
+  password: 3ce09306-9819-4988-b88e-25be291305e7
+  udp: true
+  sni: nat3.xxai.dpdns.org
+  tls: true
+- name: 🇺🇸美国-vless-31
+  type: vless
+  server: us1-1.998998.best
+  port: 443
+  uuid: 3ce09306-9819-4988-b88e-25be291305e7
+  udp: true
+  tls: true
+  servername: server5.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /drsukitgreiusweqa9otrh983?ed=2560
+    headers:
+      Host: server5.9966338.xyz
+- name: 🇺🇸美国-vless-32
+  type: vless
+  server: us2-2.998998.best
+  port: 443
+  uuid: 3ce09306-9819-4988-b88e-25be291305e7
+  udp: true
+  tls: true
+  servername: server6.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /fiughoieuhti834t90?ed=2560
+    headers:
+      Host: server6.9966338.xyz
+- name: 🇯🇵日本-anytls-14
+  type: anytls
+  server: awsjp.772886.xyz
+  port: 8443
+  password: e751087d-f585-481b-9397-cad198b1169b
+  sni: awsjp.772886.xyz
+- name: 香港 02 家宽
+  type: anytls
+  server: hkstd.772886.xyz
+  port: 8443
+  password: e751087d-f585-481b-9397-cad198b1169b
+  sni: hkstd.772886.xyz
+- name: 🇸🇬新加坡-vless-05
   type: vless
   server: sgp.beijingshi.asia
   port: 8443
@@ -124,30 +199,32 @@ proxies:
   tls: true
   servername: sgp.beijingshi.asia
   client-fingerprint: chrome
-- name: 🇸🇬新加坡-vless-03
+- name: 🇺🇸美国-vless-38
   type: vless
-  server: sg003.zestapp778.com
+  server: cf-cname.xingpingcn.top
   port: 443
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   udp: true
   tls: true
-  servername: sg003.zestapp778.com
+  servername: e1a88402s1291.kuback.top
   client-fingerprint: chrome
-- name: 🇺🇸美国-vless-25
+- name: 🇺🇸美国-vless-41
   type: vless
-  server: panel.apexkey.store
-  port: 2053
-  uuid: cdb7fa1d-6e7a-467c-da9c-da363c7bf779
+  server: www.visa.com.hk
+  port: 443
+  uuid: 17745492-5a70-4663-8bde-415f699e8adf
   udp: true
   tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: DEFJSLdILrvauMpwtpvFZddadpt3rNtv03Dui2EkmRk
-    short-id: "68"
-- name: 🇸🇬新加坡-vless-07
+  servername: us-lax.862400.xyz
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: us-lax.862400.xyz
+- name: 🇸🇬新加坡-vless-09
   type: vless
-  server: ct.877774.xyz
+  server: freev2.cloudflare.182682.xyz
   port: 443
   uuid: 17745492-5a70-4663-8bde-415f699e8adf
   udp: true
@@ -159,49 +236,43 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇺🇸美国-hysteria2-30
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
-- name: 🇭🇰香港-ss-08
+- name: 🇭🇰香港-ss-15
   type: ss
   server: m.i.3.h.1.k.u.3.b.hk01-ae5.entry.v51124-1.qpon
   port: 19272
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-09
+- name: 🇭🇰香港-ss-16
   type: ss
   server: k.k.u.h.1.z.7.3.b.hk04-ae5.entry.v51124-1.qpon
   port: 804
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-10
+- name: 🇭🇰香港-ss-17
   type: ss
   server: t.i.i.3.t.k.7.3.b.hk03-ae5.entry.v51124-1.qpon
   port: 760
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-11
+- name: 🇭🇰香港-ss-18
   type: ss
   server: k.i.u.c.8.k.8.3.b.hk07-ae5.entry.v51124-1.qpon
   port: 1420
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-12
+- name: 🇭🇰香港-ss-19
   type: ss
   server: m.k.i.3.1.z.8.3.b.hk08-ae5.entry.v51124-1.qpon
   port: 18643
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰香港-ss-13
+- name: 🇭🇰香港-ss-20
   type: ss
   server: t.i.u.3.t.k.u.3.b.hk05-ae5.entry.v51124-1.qpon
   port: 1812
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-08
+- name: 🇯🇵日本-vmess-19
   type: vmess
   server: tifch57.g01.jp05-vm5.entry.rtysjur.quest
   port: 64655
@@ -209,13 +280,13 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-ss-09
+- name: 🇯🇵日本-ss-20
   type: ss
   server: t.i.f.3.1.k.7.3.b.jp01-ae5.entry.v51124-1.qpon
   port: 473
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-10
+- name: 🇯🇵日本-vmess-21
   type: vmess
   server: kkuhhk8.g01.jp06-vm5.entry.rtysjur.quest
   port: 663
@@ -223,7 +294,7 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-vmess-11
+- name: 🇯🇵日本-vmess-22
   type: vmess
   server: kiih8z8-g01.jp01-nn-vm0.entry.fr0528.art
   port: 21581
@@ -232,7 +303,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: 🇯🇵日本-vmess-12
+- name: 🇯🇵日本-vmess-23
   type: vmess
   server: m33h8ku-g01.jp02-e3-vm0.entry.fr0528.art
   port: 11773
@@ -240,13 +311,13 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-ss-13
+- name: 🇯🇵日本-ss-24
   type: ss
   server: t.3.3.c.1.k.8.3.b.jp04-ae5.entry.v51124-1.qpon
   port: 493
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇯🇵日本-vmess-14
+- name: 🇯🇵日本-vmess-25
   type: vmess
   server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
   port: 21581
@@ -255,7 +326,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: 🇯🇵日本-vmess-15
+- name: 🇯🇵日本-vmess-26
   type: vmess
   server: t33ctk7-g01.jp04-1d-vm0.entry.fr0528.art
   port: 444
@@ -263,24 +334,7 @@ proxies:
   alterId: 1
   cipher: auto
   udp: true
-- name: 🇯🇵日本-vmess-16
-  type: vmess
-  server: kk3c15e-g01.jp05-h6-vm0.entry.fr0528.art
-  port: 46482
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
-  alterId: 1
-  cipher: auto
-  udp: true
-- name: 🇯🇵日本-vmess-17
-  type: vmess
-  server: kii315e-g01.jp06-jz-vm0.entry.fr0528.art
-  port: 28783
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
-  alterId: 1
-  cipher: auto
-  udp: true
-  tls: true
-- name: 🇸🇬新加坡-vless-08
+- name: 🇸🇬新加坡-vless-10
   type: vless
   server: dddz-1-x.473221.xyz
   port: 34759
@@ -293,62 +347,30 @@ proxies:
   reality-opts:
     public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
     short-id: "5e0eb283246c6911"
-- name: 🇸🇬新加坡-ss-11
+- name: 🇸🇬新加坡-ss-13
   type: ss
   server: t.k.u.c.t.k.7.3.b.sg01-ae5.entry.v51124-1.qpon
   port: 20000
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇸🇬新加坡-ss-12
+- name: 🇸🇬新加坡-ss-14
   type: ss
   server: m.i.f.c.1.5.e.3.b.sg02-ae5.entry.v51124-1.qpon
   port: 20075
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇸🇬新加坡-ss-13
+- name: 🇸🇬新加坡-ss-15
   type: ss
   server: m.i.u.3.8.5.u.3.b.sg03-ae5.entry.v51124-1.qpon
   port: 20080
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇨🇳台湾-ss-07
+- name: 🇨🇳台湾-ss-08
   type: ss
   server: m.k.u.c.t.5.u.3.b.tw01-ae5.entry.v51124-1.qpon
   port: 20005
   cipher: aes-256-gcm
   password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 美国 01 家宽
-  type: vless
-  server: u1sdgxxapi.ianai.it.com
-  port: 26990
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: us1p1.xn--ghq880n3na965a.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: "e51285e3"
-- name: 🇺🇸美国-ss-45
-  type: ss
-  server: k.i.u.h.1.k.e.3.b.us01-ae5.entry.v51124-1.qpon
-  port: 20010
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇺🇸美国-ss-46
-  type: ss
-  server: k.3.3.h.t.z.7.3.b.us02-ae5.entry.v51124-1.qpon
-  port: 20015
-  cipher: aes-256-gcm
-  password: 91710d35-76ad-3513-bb14-4caddae68539
-- name: 🇭🇰 机场推荐:dafei.de 香港 04
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
@@ -365,6 +387,16 @@ proxies:
   uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
   xudp: true
   servername: updates.cdn-apple.com
+- name: SG-Singapore-h-2104333-ttjl
+  type: vless
+  server: support.zoom.us
+  port: 8080
+  uuid: d18e76ed-eca4-43ff-a916-9b34533c4d2e
+  network: ws
+  ws-opts:
+    path: /cs
+    headers:
+      Host: asia.csmaster.pp.ua
 - name: 🇲🇾 马来西亚 01 @clashv8
   type: vless
   server: 43.217.96.102
@@ -841,37 +873,39 @@ proxy-groups:
       - '🇭🇰香港-vless-02'
       - '🇺🇸美国-vless-08'
       - '🇭🇰香港-trojan-04'
-      - '🇸🇬新加坡-vless-02'
-      - '🇸🇬新加坡-vless-03'
-      - '🇺🇸美国-vless-25'
-      - '🇸🇬新加坡-vless-07'
-      - '🇺🇸美国-hysteria2-30'
-      - '🇭🇰香港-ss-08'
-      - '🇭🇰香港-ss-09'
-      - '🇭🇰香港-ss-10'
-      - '🇭🇰香港-ss-11'
-      - '🇭🇰香港-ss-12'
-      - '🇭🇰香港-ss-13'
-      - '🇯🇵日本-vmess-08'
-      - '🇯🇵日本-ss-09'
-      - '🇯🇵日本-vmess-10'
-      - '🇯🇵日本-vmess-11'
-      - '🇯🇵日本-vmess-12'
-      - '🇯🇵日本-ss-13'
-      - '🇯🇵日本-vmess-14'
-      - '🇯🇵日本-vmess-15'
-      - '🇯🇵日本-vmess-16'
-      - '🇯🇵日本-vmess-17'
-      - '🇸🇬新加坡-vless-08'
-      - '🇸🇬新加坡-ss-11'
-      - '🇸🇬新加坡-ss-12'
+      - '台湾 03 家宽'
+      - '🇯🇵日本-trojan-12'
+      - '🇸🇬新加坡-trojan-02'
+      - '🇺🇸美国-trojan-30'
+      - '🇺🇸美国-vless-31'
+      - '🇺🇸美国-vless-32'
+      - '🇯🇵日本-anytls-14'
+      - '香港 02 家宽'
+      - '🇸🇬新加坡-vless-05'
+      - '🇺🇸美国-vless-38'
+      - '🇺🇸美国-vless-41'
+      - '🇸🇬新加坡-vless-09'
+      - '🇭🇰香港-ss-15'
+      - '🇭🇰香港-ss-16'
+      - '🇭🇰香港-ss-17'
+      - '🇭🇰香港-ss-18'
+      - '🇭🇰香港-ss-19'
+      - '🇭🇰香港-ss-20'
+      - '🇯🇵日本-vmess-19'
+      - '🇯🇵日本-ss-20'
+      - '🇯🇵日本-vmess-21'
+      - '🇯🇵日本-vmess-22'
+      - '🇯🇵日本-vmess-23'
+      - '🇯🇵日本-ss-24'
+      - '🇯🇵日本-vmess-25'
+      - '🇯🇵日本-vmess-26'
+      - '🇸🇬新加坡-vless-10'
       - '🇸🇬新加坡-ss-13'
-      - '🇨🇳台湾-ss-07'
-      - '美国 01 家宽'
-      - '🇺🇸美国-ss-45'
-      - '🇺🇸美国-ss-46'
-      - '🇭🇰 机场推荐:dafei.de 香港 04'
+      - '🇸🇬新加坡-ss-14'
+      - '🇸🇬新加坡-ss-15'
+      - '🇨🇳台湾-ss-08'
       - '🇨🇳 机场推荐:dafei.de 台湾 01'
+      - 'SG-Singapore-h-2104333-ttjl'
       - '🇲🇾 马来西亚 01 @clashv8'
       - '🇲🇾 马来西亚 02 @clashv8'
       - '精选台湾专线01'
