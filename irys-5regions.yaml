@@ -389,39 +389,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 🏳️‍🌈 台湾-TW-2-流量倍率:1.0
-  server: tw-2.chianginc.com
-  port: 443
-  type: trojan
-  password: 8j8cksQfbS5zJA7wSB
-  sni: tw-2.chianginc.com
-  udp: true
-- name: HK-US-REALITY-Vision
-  server: 23.26.201.162
-  port: 443
-  type: vless
-  uuid: fbc5032a-9aab-46fc-8796-2a2ad3781c5c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: klcVi-EcMT1fEqn0-eVyjcoxsgmpGHKy0HhJLHrXSwA
-    short-id: 03104e67bafe6492
-  udp: true
-- name: Tencent-VLESS-Reality-Cloudflare
-  server: 43.163.112.174
-  port: 443
-  type: vless
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
-    short-id: 0123456789abcdef
-  udp: true
 - name: 🇭🇰香港高速01|BGP|CMCU
   type: vless
   server: aws-link1.lxyun.xyz
@@ -578,20 +545,6 @@ proxies:
     headers:
       Host: lx-sg1.7770006.xyz
   packet-encoding: xudp
-- name: 🇹🇼台湾高速01|BGP|流媒体
-  type: vless
-  server: aws-link28.lxyun.xyz
-  port: 443
-  uuid: 129bbc8f-01db-4aee-a0c9-5cca291145a0
-  flow: xtls-rprx-vision
-  tls: true
-  servername: download-porter.hoyoverse.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: I0KCN29MUCJ9CnUptlwBK4Nr-NZZUNh0bQj5aXxKrDY
-    short-id: 0b03cf9a
-  packet-encoding: xudp
-  udp: true
 - name: 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
   server: 119.28.24.235
   port: 3128
@@ -607,26 +560,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: Vx893KRmwz
-- name: 🇸🇬 SG - VLESS Reality (主力)
-  type: vless
-  server: 178.128.113.75
-  port: 443
-  uuid: 1428fbf1-7cb5-47e0-8452-10ce6c379068
-  flow: xtls-rprx-vision
-  tls: true
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: wwsYrt4D2z0mHLnLm7Nb9Eum9thWSSIFGhrvT8HyWQI
-    short-id: a54bc677960f70a5
-  udp: true
-- name: 🚀 SG - Hysteria 2 (备用提速)
-  type: hysteria2
-  server: 178.128.113.75
-  port: 443
-  password: 42d380acaca73617
-  sni: bing.com
-  skip-cert-verify: true
 - name: CF官方优选19
   type: vless
   server: 8.35.211.22
@@ -662,20 +595,6 @@ proxies:
   sni: bootcdn.xuexi.cn
   client-fingerprint: chrome
   skip-cert-verify: true
-- name: 🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫
-  type: vless
-  server: of.interviewpig.xyz
-  port: 443
-  uuid: 35d4f917-83ff-479e-97f1-a8c83778c33d
-  flow: xtls-rprx-vision
-  tls: true
-  servername: of.interviewpig.xyz
-  alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  network: tcp
-  packet-encoding: xudp
 - name: SG-新加坡-V6
   type: vless
   server: 2401:c080:1400:5713:5400:7ff:fe01:b4ee
@@ -687,25 +606,6 @@ proxies:
   network: tcp
   skip-cert-verify: true
   packet-encoding: xudp
-- name: 香港 02  1.0x
-  type: hysteria2
-  server: hk2.5yunapi.buzz
-  port: 13212
-  password: 53366249-55ce-4728-a824-f93f5b13a9c9
-  sni: hk2.5yunapi.buzz
-  skip-cert-verify: true
-- name: 🇭🇰香港-hysteria2-23
-  type: hysteria2
-  server: hkhm2.473221.xyz
-  port: 8080
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: hkhm2.473221.xyz
-- name: 🇸🇬新加坡-hysteria2-11
-  type: hysteria2
-  server: sgm1.473221.xyz
-  port: 8080
-  password: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  sni: sgm1.473221.xyz
 - name: 🇹🇼 台湾02家宽
   type: anytls
   server: tw.51nb88.com
@@ -820,9 +720,6 @@ proxy-groups:
       - '精选新加坡-IEPL-45511-sgp4'
       - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
-      - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
-      - 'HK-US-REALITY-Vision'
-      - 'Tencent-VLESS-Reality-Cloudflare'
       - '🇭🇰香港高速01|BGP|CMCU'
       - '🇭🇰香港高速02|BGP|CMCU'
       - '🇭🇰香港高速03|BGP|CMCU'
@@ -834,19 +731,12 @@ proxy-groups:
       - '🇸🇬新加坡高速04|BGP|CTCUCM'
       - '🇸🇬新加坡高速05|BGP|CTCUCM'
       - '🇸🇬新加坡高速06|BGP|CTCU'
-      - '🇹🇼台湾高速01|BGP|流媒体'
       - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
       - 'txix香港'
-      - '🇸🇬 SG - VLESS Reality (主力)'
-      - '🚀 SG - Hysteria 2 (备用提速)'
       - 'CF官方优选19'
       - '🇰🇷 首尔 01 | TLS'
       - '台湾1 |5倍率解锁211'
-      - '🇸🇬 甲骨文[新加坡]-VLESS-TLS极速-🐈有猫'
       - 'SG-新加坡-V6'
-      - '香港 02  1.0x'
-      - '🇭🇰香港-hysteria2-23'
-      - '🇸🇬新加坡-hysteria2-11'
       - '🇹🇼 台湾02家宽'
       - '精选香港-IEPL-Basic专线-01'
       - '精选香港-IEPL-Basic专线-02'
