@@ -13,34 +13,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: tse1.mm.bing.net
-- name: 精选台湾专线02
-  type: vless
-  server: 59.125.69.22
-  port: 443
-  uuid: f2ead260-a566-48f6-a626-ff5bc2b7dc00
-  cipher: auto
-  udp: true
-  tls: true
-  servername: tse1.mm.bing.net
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: tse1.mm.bing.net
-- name: 精选香港专线02
-  type: vless
-  server: 103.148.73.167
-  port: 8443
-  uuid: f2ead260-a566-48f6-a626-ff5bc2b7dc00
-  cipher: auto
-  udp: true
-  tls: true
-  servername: tse1.mm.bing.net
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: tse1.mm.bing.net
 - name: 精选新加坡-IEPL-45511
   type: ss
   server: sgp05.network-cdn-gw-yd.net
@@ -71,15 +43,6 @@ proxies:
   port: 48805
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 台湾 02 家宽
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  port: 1443
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
-  tls: true
-  skip-cert-verify: true
-  udp: true
 - name: 🇸🇬SG_@WangCai_8 31
   server: 154.26.139.29
   port: 443
@@ -459,14 +422,11 @@ proxy-groups:
   type: select
   proxies:
       - '精选台湾专线01'
-      - '精选台湾专线02'
-      - '精选香港专线02'
       - '精选新加坡-IEPL-45511'
       - '精选新加坡-IEPL-45511-sgp4'
       - '精选日本-IEPL-Pro专线-01'
       - '精选日本-IEPL-Pro专线-02'
       - '精选日本-IEPL-Pro专线-03'
-      - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
       - '🇭🇰香港高速01|BGP|CMCU'
       - '🇭🇰香港高速02|BGP|CMCU'
