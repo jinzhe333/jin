@@ -363,6 +363,62 @@ proxies:
   port: 43307
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选[IPLC]台湾 01 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9012
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 02 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9013
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 03 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9014
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 04 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9015
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 05 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9016
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 06 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9017
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 07 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9018
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]台湾 08 中華電信
+  type: vmess
+  server: select-tw.ddnskunlun.com
+  port: 9019
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -406,5 +462,13 @@ proxy-groups:
       - '精选马来西亚-IEPL-Pro专线-01'
       - '精选马来西亚-IEPL-Pro专线-02'
       - DIRECT
+      - '精选[IPLC]台湾 01 中華電信'
+      - '精选[IPLC]台湾 02 中華電信'
+      - '精选[IPLC]台湾 03 中華電信'
+      - '精选[IPLC]台湾 04 中華電信'
+      - '精选[IPLC]台湾 05 中華電信'
+      - '精选[IPLC]台湾 06 中華電信'
+      - '精选[IPLC]台湾 07 中華電信'
+      - '精选[IPLC]台湾 08 中華電信'
 rules:
   - MATCH,🚀 精选合并
