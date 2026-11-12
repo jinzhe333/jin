@@ -436,7 +436,7 @@ proxies:
 - name: 精选[IPLC]马来西亚 01 吉隆坡
   type: vmess
   server: board-01.ddnskunlun.com
-  port: 11934
+  port: 11875
   uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
   alterId: 0
   cipher: auto
