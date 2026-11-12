@@ -385,6 +385,72 @@ proxies:
   port: 45511
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-01
+  type: ss
+  server: hk1.network-cdn-gw-yd.net
+  port: 32060
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-02
+  type: ss
+  server: hk2.network-cdn-gw-yd.net
+  port: 32063
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-03
+  type: ss
+  server: hk13.network-cdn-gw-yd.net
+  port: 32061
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-04
+  type: ss
+  server: hk14.network-cdn-gw-yd.net
+  port: 32062
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-05
+  type: ss
+  server: hk15.network-cdn-gw-yd.net
+  port: 47705
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-06
+  type: ss
+  server: hk16.network-cdn-gw-yd.net
+  port: 47706
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-07
+  type: ss
+  server: hk17.network-cdn-gw-yd.net
+  port: 47707
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Pro专线-04
+  type: ss
+  server: hkp4.network-cdn-gw-yd.net
+  port: 49904
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Pro专线-05
+  type: ss
+  server: hkp5.network-cdn-gw-yd.net
+  port: 49905
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选马来西亚-IEPL-Pro专线-01
+  type: ss
+  server: mas.network-cdn-gw-yd.net
+  port: 43305
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选马来西亚-IEPL-Pro专线-02
+  type: ss
+  server: mas1.network-cdn-gw-yd.net
+  port: 43307
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 台湾 02 家宽
   server: twmoon1-cdn-route.couldflare-cdn.com
   port: 1443
@@ -765,6 +831,17 @@ proxy-groups:
       - '精选香港专线02'
       - '精选新加坡-IEPL-45511'
       - '精选新加坡-IEPL-45511-sgp4'
+      - '精选香港-IEPL-Basic专线-01'
+      - '精选香港-IEPL-Basic专线-02'
+      - '精选香港-IEPL-Basic专线-03'
+      - '精选香港-IEPL-Basic专线-04'
+      - '精选香港-IEPL-Basic专线-05'
+      - '精选香港-IEPL-Basic专线-06'
+      - '精选香港-IEPL-Basic专线-07'
+      - '精选香港-IEPL-Pro专线-04'
+      - '精选香港-IEPL-Pro专线-05'
+      - '精选马来西亚-IEPL-Pro专线-01'
+      - '精选马来西亚-IEPL-Pro专线-02'
       - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
       - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
