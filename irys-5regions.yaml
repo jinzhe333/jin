@@ -573,20 +573,6 @@ proxies:
     path: /
     headers:
       Host: hdf-ckq.pages.dev
-- name: 🇰🇷 首尔 01 | TLS
-  type: vless
-  server: loxy.work.gd
-  port: 443
-  uuid: d83a152e-5f3c-4b5c-b17f-7e049925e5b6
-  tls: true
-  servername: loxy.work.gd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ray-ws
-    headers:
-      Host: loxy.work.gd
-  packet-encoding: xudp
 - name: 台湾1 |5倍率解锁211
   type: anytls
   server: hinetddns5.aikunapp.com
@@ -734,7 +720,6 @@ proxy-groups:
       - '🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%'
       - 'txix香港'
       - 'CF官方优选19'
-      - '🇰🇷 首尔 01 | TLS'
       - '台湾1 |5倍率解锁211'
       - 'SG-新加坡-V6'
       - '🇹🇼 台湾02家宽'
