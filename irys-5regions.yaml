@@ -379,6 +379,12 @@ proxies:
   port: 45511
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选新加坡-IEPL-45511-sgp4
+  type: ss
+  server: sgp4.network-cdn-gw-yd.net
+  port: 45511
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 台湾 02 家宽
   server: twmoon1-cdn-route.couldflare-cdn.com
   port: 1443
@@ -799,6 +805,7 @@ proxy-groups:
       - '精选台湾专线02'
       - '精选香港专线02'
       - '精选新加坡-IEPL-45511'
+      - '精选新加坡-IEPL-45511-sgp4'
       - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
       - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
