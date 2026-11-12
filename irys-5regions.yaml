@@ -639,12 +639,6 @@ proxies:
   password: 42d380acaca73617
   sni: bing.com
   skip-cert-verify: true
-- name: 🇹🇼 台湾4-VIP88a
-  type: anytls
-  server: inbox.bhcy.email
-  port: 11801
-  password: dadeebd7-39cc-36e0-96c9-c479805537c2
-  skip-cert-verify: true
 - name: CF官方优选19
   type: vless
   server: 8.35.211.22
@@ -792,7 +786,6 @@ proxy-groups:
       - 'txix香港'
       - '🇸🇬 SG - VLESS Reality (主力)'
       - '🚀 SG - Hysteria 2 (备用提速)'
-      - '🇹🇼 台湾4-VIP88a'
       - 'CF官方优选19'
       - '🇰🇷 首尔 01 | TLS'
       - '台湾1 |5倍率解锁211'
