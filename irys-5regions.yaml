@@ -164,23 +164,9 @@ proxies:
     path: /fiughoieuhti834t90?ed=2560
     headers:
       Host: server6.9966338.xyz
-- name: 🇺🇸美国-vless-32
-  type: vless
-  server: www.visa.com.hk
-  port: 443
-  uuid: b7049605-766f-4bc8-aede-51bccb4d72ed
-  udp: true
-  tls: true
-  servername: us-lax.862400.xyz
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: us-lax.862400.xyz
 - name: 🇸🇬新加坡-vless-07
   type: vless
-  server: ct.877774.xyz
+  server: www.visa.com.hk
   port: 443
   uuid: b7049605-766f-4bc8-aede-51bccb4d72ed
   udp: true
@@ -192,17 +178,42 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇺🇸美国-hysteria2-33
-  type: hysteria2
-  server: starlink-ft.251313.xyz
+- name: 🇺🇸美国-vless-35
+  type: vless
+  server: prime.jarbook.net
   port: 443
-  password: https://xship.best
-  sni: xship.top
-- name: 🇯🇵日本-vmess-09
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: prime.jarbook.net
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
+    short-id: "77a8c8c8"
+- name: 🇺🇸美国-anytls-43
+  type: anytls
+  server: forwarded.frnhk.xyz
+  port: 2053
+  password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
+  sni: my.gosthk.site
+- name: 🇯🇵日本-vmess-08
   type: vmess
   server: JP032005.ssgreen.org
   port: 443
-  uuid: b8258c37-54e4-4c6d-8719-477fc9729010
+  uuid: b6384345-4188-4bda-9e93-2aad2b91917d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-09
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: 6628fb20-d538-41d6-8792-0bfdeb7d0060
   alterId: 0
   cipher: auto
   udp: true
@@ -212,9 +223,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-10
   type: vmess
-  server: JP032006.ssgreen.org
+  server: JP032007.ssgreen.org
   port: 443
-  uuid: bf962854-2b87-4aab-88ec-950bc43f4676
+  uuid: e78b2b52-1bbb-47bb-8ea9-ba394e9b0165
   alterId: 0
   cipher: auto
   udp: true
@@ -224,9 +235,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-11
   type: vmess
-  server: JP032007.ssgreen.org
+  server: JP032002.ssgreen.org
   port: 443
-  uuid: 69576fba-fc62-4323-9abb-b082dd94c27e
+  uuid: d668ffc7-e315-4ff4-ae96-e15173887d2e
   alterId: 0
   cipher: auto
   udp: true
@@ -236,9 +247,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-12
   type: vmess
-  server: JP032002.ssgreen.org
+  server: JP032011.ssgreen.org
   port: 443
-  uuid: 9f9c32ae-ee89-4748-b6ab-ad37aa17f36e
+  uuid: 00fc5c20-d520-44b2-8176-4e89d1fdcf62
   alterId: 0
   cipher: auto
   udp: true
@@ -248,9 +259,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-13
   type: vmess
-  server: JP032011.ssgreen.org
+  server: JP032012.ssgreen.org
   port: 443
-  uuid: aab7db8d-eed8-4f7c-94ef-5a6afb978c0f
+  uuid: 2135afaf-95c9-4890-9413-19a4cc639f56
   alterId: 0
   cipher: auto
   udp: true
@@ -260,9 +271,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-14
   type: vmess
-  server: JP032012.ssgreen.org
+  server: JP032001.ssgreen.org
   port: 443
-  uuid: 89bebf34-1ba7-41bd-9ace-11dd6f401925
+  uuid: 091da85b-f322-4f64-8d50-180e8787dd18
   alterId: 0
   cipher: auto
   udp: true
@@ -272,9 +283,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-15
   type: vmess
-  server: JP032001.ssgreen.org
+  server: JP032009.ssgreen.org
   port: 443
-  uuid: 4bb1f84f-42ca-4adb-9a56-668ebad1b99e
+  uuid: 5a45ab29-d18f-4034-b635-b67e027d201d
   alterId: 0
   cipher: auto
   udp: true
@@ -284,21 +295,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-16
   type: vmess
-  server: JP032009.ssgreen.org
-  port: 443
-  uuid: 12523a90-74dc-4a33-987f-d5202f1e7c6f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-17
-  type: vmess
   server: JP032010.ssgreen.org
   port: 443
-  uuid: def731ec-ec54-4a45-bf17-51b226b39968
+  uuid: b47039cb-fd4e-4648-8cb4-1b17b422965b
   alterId: 0
   cipher: auto
   udp: true
@@ -313,24 +312,13 @@ proxies:
   sni: fan.240104.xyz
   tls: true
   type: http
-- name: HK-Hong Kong-h-52414022-yyug
-  type: anytls
-  server: site.ddddd.site
-  port: 36032
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  udp: true
-  sni: virtual.ubuntu24.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: SG-Singapore-h-93895-yyuv
-  type: anytls
-  server: site.ddddd.site
-  port: 36034
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  udp: true
-  sni: virtual.ubuntu24.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
+- name: SG-Singapore-h-4396223-qqhv
+  type: http
+  server: c8f40e6a-tjrog0-tobupp-1rvjz.sg2.oshuawei.com
+  port: 5228
+  username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b
+  password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b
+  tls: true
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -383,72 +371,6 @@ proxies:
   type: ss
   server: sgp4.network-cdn-gw-yd.net
   port: 45511
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-01
-  type: ss
-  server: hk1.network-cdn-gw-yd.net
-  port: 32060
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-02
-  type: ss
-  server: hk2.network-cdn-gw-yd.net
-  port: 32063
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-03
-  type: ss
-  server: hk13.network-cdn-gw-yd.net
-  port: 32061
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-04
-  type: ss
-  server: hk14.network-cdn-gw-yd.net
-  port: 32062
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-05
-  type: ss
-  server: hk15.network-cdn-gw-yd.net
-  port: 47705
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-06
-  type: ss
-  server: hk16.network-cdn-gw-yd.net
-  port: 47706
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-07
-  type: ss
-  server: hk17.network-cdn-gw-yd.net
-  port: 47707
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Pro专线-04
-  type: ss
-  server: hkp4.network-cdn-gw-yd.net
-  port: 49904
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Pro专线-05
-  type: ss
-  server: hkp5.network-cdn-gw-yd.net
-  port: 49905
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选马来西亚-IEPL-Pro专线-01
-  type: ss
-  server: mas.network-cdn-gw-yd.net
-  port: 43305
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选马来西亚-IEPL-Pro专线-02
-  type: ss
-  server: mas1.network-cdn-gw-yd.net
-  port: 43307
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 台湾 02 家宽
@@ -511,7 +433,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
-    short-id: "c8660f6e"
+    short-id: c8660f6e
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速02|BGP|CMCU
@@ -525,7 +447,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
-    short-id: "6afd82c0"
+    short-id: 6afd82c0
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速03|BGP|CMCU
@@ -539,7 +461,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
-    short-id: "3206e665"
+    short-id: 3206e665
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速04|BGP|CMCU
@@ -553,7 +475,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
-    short-id: "a31b59fe"
+    short-id: a31b59fe
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰香港高速05|BGP|CMCU
@@ -567,7 +489,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
-    short-id: "a49232a7"
+    short-id: a49232a7
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速03|BGP|CTCUCM
@@ -581,7 +503,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
-    short-id: "bef8fff6"
+    short-id: bef8fff6
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速01|BGP|CTCUCM
@@ -595,7 +517,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: w7AGIp_u4slcX3JotLyiuaT05lawuzU3f1eL88RI53c
-    short-id: "1d77a374"
+    short-id: 1d77a374
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速02|BGP|CTCUCM
@@ -609,7 +531,7 @@ proxies:
   client-fingerprint: ios
   reality-opts:
     public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
-    short-id: "55c73a28"
+    short-id: 55c73a28
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速04|BGP|CTCUCM
@@ -623,7 +545,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: NQboj96aHW_domplSIfIBqJpAnNN8rZokNYa-W-NdAo
-    short-id: "fa6fb544"
+    short-id: fa6fb544
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速05|BGP|CTCUCM
@@ -637,7 +559,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
-    short-id: "c7487aeb"
+    short-id: c7487aeb
   packet-encoding: xudp
   udp: true
 - name: 🇸🇬新加坡高速06|BGP|CTCU
@@ -667,7 +589,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: I0KCN29MUCJ9CnUptlwBK4Nr-NZZUNh0bQj5aXxKrDY
-    short-id: "0b03cf9a"
+    short-id: 0b03cf9a
   packet-encoding: xudp
   udp: true
 - name: 🇭🇰HK_1|3.7MB/s|YT-HK|NF|0%
@@ -696,7 +618,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: wwsYrt4D2z0mHLnLm7Nb9Eum9thWSSIFGhrvT8HyWQI
-    short-id: "a54bc677960f70a5"
+    short-id: a54bc677960f70a5
   udp: true
 - name: 🚀 SG - Hysteria 2 (备用提速)
   type: hysteria2
@@ -791,6 +713,72 @@ proxies:
   password: 32f0caa3-55f0-4ca9-b70b-fcc13b5570fe
   sni: baidu.com
   skip-cert-verify: true
+- name: 精选香港-IEPL-Basic专线-01
+  type: ss
+  server: hk1.network-cdn-gw-yd.net
+  port: 32060
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-02
+  type: ss
+  server: hk2.network-cdn-gw-yd.net
+  port: 32063
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-03
+  type: ss
+  server: hk13.network-cdn-gw-yd.net
+  port: 32061
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-04
+  type: ss
+  server: hk14.network-cdn-gw-yd.net
+  port: 32062
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-05
+  type: ss
+  server: hk15.network-cdn-gw-yd.net
+  port: 47705
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-06
+  type: ss
+  server: hk16.network-cdn-gw-yd.net
+  port: 47706
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Basic专线-07
+  type: ss
+  server: hk17.network-cdn-gw-yd.net
+  port: 47707
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Pro专线-04
+  type: ss
+  server: hkp4.network-cdn-gw-yd.net
+  port: 49904
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选香港-IEPL-Pro专线-05
+  type: ss
+  server: hkp5.network-cdn-gw-yd.net
+  port: 49905
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选马来西亚-IEPL-Pro专线-01
+  type: ss
+  server: mas.network-cdn-gw-yd.net
+  port: 43305
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选马来西亚-IEPL-Pro专线-02
+  type: ss
+  server: mas1.network-cdn-gw-yd.net
+  port: 43307
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -811,9 +799,10 @@ proxy-groups:
       - '🇺🇸美国-trojan-22'
       - '🇺🇸美国-vless-23'
       - '🇺🇸美国-vless-24'
-      - '🇺🇸美国-vless-32'
       - '🇸🇬新加坡-vless-07'
-      - '🇺🇸美国-hysteria2-33'
+      - '🇺🇸美国-vless-35'
+      - '🇺🇸美国-anytls-43'
+      - '🇯🇵日本-vmess-08'
       - '🇯🇵日本-vmess-09'
       - '🇯🇵日本-vmess-10'
       - '🇯🇵日本-vmess-11'
@@ -822,26 +811,13 @@ proxy-groups:
       - '🇯🇵日本-vmess-14'
       - '🇯🇵日本-vmess-15'
       - '🇯🇵日本-vmess-16'
-      - '🇯🇵日本-vmess-17'
       - '🇭🇰 机场推荐:dafei.de 香港 04'
-      - 'HK-Hong Kong-h-52414022-yyug'
-      - 'SG-Singapore-h-93895-yyuv'
+      - 'SG-Singapore-h-4396223-qqhv'
       - '精选台湾专线01'
       - '精选台湾专线02'
       - '精选香港专线02'
       - '精选新加坡-IEPL-45511'
       - '精选新加坡-IEPL-45511-sgp4'
-      - '精选香港-IEPL-Basic专线-01'
-      - '精选香港-IEPL-Basic专线-02'
-      - '精选香港-IEPL-Basic专线-03'
-      - '精选香港-IEPL-Basic专线-04'
-      - '精选香港-IEPL-Basic专线-05'
-      - '精选香港-IEPL-Basic专线-06'
-      - '精选香港-IEPL-Basic专线-07'
-      - '精选香港-IEPL-Pro专线-04'
-      - '精选香港-IEPL-Pro专线-05'
-      - '精选马来西亚-IEPL-Pro专线-01'
-      - '精选马来西亚-IEPL-Pro专线-02'
       - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
       - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
@@ -872,6 +848,17 @@ proxy-groups:
       - '🇭🇰香港-hysteria2-23'
       - '🇸🇬新加坡-hysteria2-11'
       - '🇹🇼 台湾02家宽'
+      - '精选香港-IEPL-Basic专线-01'
+      - '精选香港-IEPL-Basic专线-02'
+      - '精选香港-IEPL-Basic专线-03'
+      - '精选香港-IEPL-Basic专线-04'
+      - '精选香港-IEPL-Basic专线-05'
+      - '精选香港-IEPL-Basic专线-06'
+      - '精选香港-IEPL-Basic专线-07'
+      - '精选香港-IEPL-Pro专线-04'
+      - '精选香港-IEPL-Pro专线-05'
+      - '精选马来西亚-IEPL-Pro专线-01'
+      - '精选马来西亚-IEPL-Pro专线-02'
       - DIRECT
 rules:
   - MATCH,🚀 精选合并
