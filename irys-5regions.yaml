@@ -434,41 +434,6 @@ proxies:
     public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
     short-id: 0123456789abcdef
   udp: true
-- name: 🇹🇼 台湾 02 @clashv8
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-- name: 🇹🇼 台湾 02 @clashv8 2
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-- name: 台湾A
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-- name: 台湾 01 3
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇭🇰香港高速01|BGP|CMCU
   type: vless
   server: aws-link1.lxyun.xyz
@@ -811,10 +776,6 @@ proxy-groups:
       - '🏳️‍🌈 台湾-TW-2-流量倍率:1.0'
       - 'HK-US-REALITY-Vision'
       - 'Tencent-VLESS-Reality-Cloudflare'
-      - '🇹🇼 台湾 02 @clashv8'
-      - '🇹🇼 台湾 02 @clashv8 2'
-      - '台湾A'
-      - '台湾 01 3'
       - '🇭🇰香港高速01|BGP|CMCU'
       - '🇭🇰香港高速02|BGP|CMCU'
       - '🇭🇰香港高速03|BGP|CMCU'
