@@ -440,6 +440,13 @@ proxies:
   uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
   alterId: 0
   cipher: auto
+- name: 精选[IPLC]马来西亚 03 吉隆坡
+  type: vmess
+  server: board-03.ddnskunlun.com
+  port: 11875
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -494,5 +501,6 @@ proxy-groups:
       - '精选[IPLC]马来西亚 02 吉隆坡'
       - '精选[IPLC]马来西亚 04 吉隆坡'
       - '精选[IPLC]马来西亚 01 吉隆坡'
+      - '精选[IPLC]马来西亚 03 吉隆坡'
 rules:
   - MATCH,🚀 精选合并
