@@ -164,20 +164,11 @@ proxies:
     path: /fiughoieuhti834t90?ed=2560
     headers:
       Host: server6.9966338.xyz
-- name: 🇺🇸美国-vless-29
-  type: vless
-  server: cf-cname.xingpingcn.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  udp: true
-  tls: true
-  servername: e1a88402s1291.kuback.top
-  client-fingerprint: chrome
-- name: 🇺🇸美国-vless-30
+- name: 🇺🇸美国-vless-32
   type: vless
   server: www.visa.com.hk
   port: 443
-  uuid: 17745492-5a70-4663-8bde-415f699e8adf
+  uuid: b7049605-766f-4bc8-aede-51bccb4d72ed
   udp: true
   tls: true
   servername: us-lax.862400.xyz
@@ -189,9 +180,9 @@ proxies:
       Host: us-lax.862400.xyz
 - name: 🇸🇬新加坡-vless-07
   type: vless
-  server: freev2.cloudflare.182682.xyz
+  server: ct.877774.xyz
   port: 443
-  uuid: 17745492-5a70-4663-8bde-415f699e8adf
+  uuid: b7049605-766f-4bc8-aede-51bccb4d72ed
   udp: true
   tls: true
   servername: ap-south.862400.xyz
@@ -201,23 +192,17 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇯🇵日本-vmess-08
+- name: 🇺🇸美国-hysteria2-33
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
+- name: 🇯🇵日本-vmess-09
   type: vmess
   server: JP032005.ssgreen.org
   port: 443
-  uuid: 0c5fa770-47d8-4c2a-ba29-19f245fd0dcd
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-09
-  type: vmess
-  server: JP032006.ssgreen.org
-  port: 443
-  uuid: 31c88d74-2a52-4a41-87d8-c1a7d875edf7
+  uuid: b8258c37-54e4-4c6d-8719-477fc9729010
   alterId: 0
   cipher: auto
   udp: true
@@ -227,9 +212,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-10
   type: vmess
-  server: JP032007.ssgreen.org
+  server: JP032006.ssgreen.org
   port: 443
-  uuid: f1887310-4b13-4a68-85fd-33ac14e8c6fa
+  uuid: bf962854-2b87-4aab-88ec-950bc43f4676
   alterId: 0
   cipher: auto
   udp: true
@@ -239,9 +224,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-11
   type: vmess
-  server: JP032002.ssgreen.org
+  server: JP032007.ssgreen.org
   port: 443
-  uuid: 43bd98bb-7226-41a2-b882-c040c3c319c2
+  uuid: 69576fba-fc62-4323-9abb-b082dd94c27e
   alterId: 0
   cipher: auto
   udp: true
@@ -251,9 +236,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-12
   type: vmess
-  server: JP032011.ssgreen.org
+  server: JP032002.ssgreen.org
   port: 443
-  uuid: a1466020-f62a-46df-8064-37a470d91d4d
+  uuid: 9f9c32ae-ee89-4748-b6ab-ad37aa17f36e
   alterId: 0
   cipher: auto
   udp: true
@@ -263,9 +248,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-13
   type: vmess
-  server: JP032012.ssgreen.org
+  server: JP032011.ssgreen.org
   port: 443
-  uuid: 635a6fff-6daa-43e9-9e85-456c6ee70c8f
+  uuid: aab7db8d-eed8-4f7c-94ef-5a6afb978c0f
   alterId: 0
   cipher: auto
   udp: true
@@ -275,9 +260,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-14
   type: vmess
-  server: JP032009.ssgreen.org
+  server: JP032012.ssgreen.org
   port: 443
-  uuid: a432b9a1-da8b-482a-94d7-f655ecd47d8a
+  uuid: 89bebf34-1ba7-41bd-9ace-11dd6f401925
   alterId: 0
   cipher: auto
   udp: true
@@ -287,9 +272,9 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-15
   type: vmess
-  server: JP032010.ssgreen.org
+  server: JP032001.ssgreen.org
   port: 443
-  uuid: 18ac6863-0216-4901-ac47-e90be439e535
+  uuid: 4bb1f84f-42ca-4adb-9a56-668ebad1b99e
   alterId: 0
   cipher: auto
   udp: true
@@ -299,9 +284,21 @@ proxies:
     path: /wes
 - name: 🇯🇵日本-vmess-16
   type: vmess
-  server: JP032008.ssgreen.org
+  server: JP032009.ssgreen.org
   port: 443
-  uuid: ec000702-6c81-4e7d-b884-16948182f31d
+  uuid: 12523a90-74dc-4a33-987f-d5202f1e7c6f
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wes
+- name: 🇯🇵日本-vmess-17
+  type: vmess
+  server: JP032010.ssgreen.org
+  port: 443
+  uuid: def731ec-ec54-4a45-bf17-51b226b39968
   alterId: 0
   cipher: auto
   udp: true
@@ -316,165 +313,24 @@ proxies:
   sni: fan.240104.xyz
   tls: true
   type: http
-- name: 🇸🇬 新加坡 01 @clashv8
-  type: hysteria2
-  server: 165.154.193.165
-  port: 443
-  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
-  tls: true
-  sni: 165.154.193.165
-  alpn:
-  - h3
-  up: '100'
-  down: '200'
+- name: HK-Hong Kong-h-52414022-yyug
+  type: anytls
+  server: site.ddddd.site
+  port: 36032
+  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+  udp: true
+  sni: virtual.ubuntu24.com
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: d7897b996af77eeecb7ac010361d74fb
-  udp: true
-- name: 🇹🇼 台湾 01 @clashv8
-  type: vless
-  server: 60.248.219.53
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  network: ws
-  servername: ty986gfazs.cainiaohub.xyz
-  sni: ty986gfazs.cainiaohub.xyz
   client-fingerprint: chrome
+- name: SG-Singapore-h-93895-yyuv
+  type: anytls
+  server: site.ddddd.site
+  port: 36034
+  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
+  udp: true
+  sni: virtual.ubuntu24.com
   skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-  udp: true
-- name: 🇭🇰 香港 03 @clashv8
-  type: vless
-  server: 66.90.115.132
-  port: 443
-  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
   client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: "08a4b1f473932632"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇭🇰 香港 04 @clashv8
-  type: vless
-  server: 66.90.115.131
-  port: 443
-  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: "08a4b1f473932632"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇭🇰 香港 05 @clashv8
-  type: vless
-  server: 66.90.115.126
-  port: 443
-  uuid: 85085ebb-c085-4b64-b32f-5a08d38fb37d
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: "08a4b1f473932632"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 06 @clashv8
-  type: vless
-  server: 67.159.49.35
-  port: 443
-  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: "deccc6fac1ddb0ff"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 07 @clashv8
-  type: vless
-  server: 67.159.49.37
-  port: 443
-  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: "deccc6fac1ddb0ff"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 08 @clashv8
-  type: vless
-  server: 50.7.252.50
-  port: 443
-  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: "deccc6fac1ddb0ff"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 09 @clashv8
-  type: vless
-  server: 67.159.49.34
-  port: 443
-  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: "deccc6fac1ddb0ff"
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇸🇬 新加坡 10 @clashv8
-  type: vless
-  server: 67.159.49.36
-  port: 443
-  uuid: 8ac97c3c-fd6b-4410-b0f8-ef0d11828308
-  network: tcp
-  servername: www.apple.com
-  sni: www.apple.com
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  tls: true
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: "deccc6fac1ddb0ff"
-  flow: xtls-rprx-vision
-  udp: true
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -924,10 +780,9 @@ proxy-groups:
       - '🇺🇸美国-trojan-22'
       - '🇺🇸美国-vless-23'
       - '🇺🇸美国-vless-24'
-      - '🇺🇸美国-vless-29'
-      - '🇺🇸美国-vless-30'
+      - '🇺🇸美国-vless-32'
       - '🇸🇬新加坡-vless-07'
-      - '🇯🇵日本-vmess-08'
+      - '🇺🇸美国-hysteria2-33'
       - '🇯🇵日本-vmess-09'
       - '🇯🇵日本-vmess-10'
       - '🇯🇵日本-vmess-11'
@@ -936,17 +791,10 @@ proxy-groups:
       - '🇯🇵日本-vmess-14'
       - '🇯🇵日本-vmess-15'
       - '🇯🇵日本-vmess-16'
+      - '🇯🇵日本-vmess-17'
       - '🇭🇰 机场推荐:dafei.de 香港 04'
-      - '🇸🇬 新加坡 01 @clashv8'
-      - '🇹🇼 台湾 01 @clashv8'
-      - '🇭🇰 香港 03 @clashv8'
-      - '🇭🇰 香港 04 @clashv8'
-      - '🇭🇰 香港 05 @clashv8'
-      - '🇸🇬 新加坡 06 @clashv8'
-      - '🇸🇬 新加坡 07 @clashv8'
-      - '🇸🇬 新加坡 08 @clashv8'
-      - '🇸🇬 新加坡 09 @clashv8'
-      - '🇸🇬 新加坡 10 @clashv8'
+      - 'HK-Hong Kong-h-52414022-yyug'
+      - 'SG-Singapore-h-93895-yyuv'
       - '精选台湾专线01'
       - '精选台湾专线02'
       - '精选香港专线02'
