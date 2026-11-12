@@ -5,12 +5,6 @@ proxies:
   port: 443
   password: 0324fbc29561
   sni: images.ctfassets.net
-- name: 🇺🇸美国-anytls-02
-  type: anytls
-  server: sdf65h46wr.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  sni: images.ctfassets.net
 - name: 台湾 01 家宽
   type: vmess
   server: terutrrj.d6f54hd1j.cc
@@ -32,46 +26,6 @@ proxies:
   port: 40006
   cipher: chacha20-ietf-poly1305
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
-- name: 🇺🇸美国-vless-03
-  type: vless
-  server: finlandlanzarotte.live
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: finlandlanzarotte.live
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
-    short-id: ""
-- name: 🇺🇸美国-vless-05
-  type: vless
-  server: swidenafterlanzerotte.space
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: swidenafterlanzerotte.space
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
-    short-id: ""
-- name: 🇺🇸美国-vless-07
-  type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
-  udp: true
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn.akamai.steamstatic.com
 - name: 🇸🇬新加坡-vless-01
   type: vless
   server: hw6.divarkhaghazi.com
@@ -100,12 +54,6 @@ proxies:
     path: /
     headers:
       Host: wallweb5.pages.dev
-- name: 🇺🇸美国-vless-08
-  type: vless
-  server: jp.sofast.live
-  port: 52683
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  udp: true
 - name: 🇭🇰香港-trojan-04
   type: trojan
   server: 36d.catcat321.com
@@ -113,14 +61,6 @@ proxies:
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   sni: d.hkj1.cat.bilibili.com
-  tls: true
-- name: 🇯🇵日本-trojan-04
-  type: trojan
-  server: jp3.998998.best
-  port: 443
-  password: 3ce09306-9819-4988-b88e-25be291305e7
-  udp: true
-  sni: nat11.9966338.xyz
   tls: true
 - name: 🇸🇬新加坡-trojan-02
   type: trojan
@@ -130,40 +70,6 @@ proxies:
   udp: true
   sni: nat6.9966338.xyz
   tls: true
-- name: 🇺🇸美国-trojan-22
-  type: trojan
-  server: us3-2.998998.best
-  port: 443
-  password: 3ce09306-9819-4988-b88e-25be291305e7
-  udp: true
-  sni: nat3.xxai.dpdns.org
-  tls: true
-- name: 🇺🇸美国-vless-23
-  type: vless
-  server: us1-1.998998.best
-  port: 443
-  uuid: 3ce09306-9819-4988-b88e-25be291305e7
-  udp: true
-  tls: true
-  servername: server5.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /drsukitgreiusweqa9otrh983?ed=2560
-    headers:
-      Host: server5.9966338.xyz
-- name: 🇺🇸美国-vless-24
-  type: vless
-  server: us2-2.998998.best
-  port: 443
-  uuid: 3ce09306-9819-4988-b88e-25be291305e7
-  udp: true
-  tls: true
-  servername: server6.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /fiughoieuhti834t90?ed=2560
-    headers:
-      Host: server6.9966338.xyz
 - name: 🇸🇬新加坡-vless-07
   type: vless
   server: www.visa.com.hk
@@ -178,133 +84,6 @@ proxies:
     path: /announcement?ed=2048
     headers:
       Host: ap-south.862400.xyz
-- name: 🇺🇸美国-vless-35
-  type: vless
-  server: prime.jarbook.net
-  port: 443
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: prime.jarbook.net
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
-    short-id: "77a8c8c8"
-- name: 🇺🇸美国-anytls-43
-  type: anytls
-  server: forwarded.frnhk.xyz
-  port: 2053
-  password: 047e0e0c-1843-4f16-9812-ec2cc94f7a99
-  sni: my.gosthk.site
-- name: 🇯🇵日本-vmess-08
-  type: vmess
-  server: JP032005.ssgreen.org
-  port: 443
-  uuid: b6384345-4188-4bda-9e93-2aad2b91917d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-09
-  type: vmess
-  server: JP032006.ssgreen.org
-  port: 443
-  uuid: 6628fb20-d538-41d6-8792-0bfdeb7d0060
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-10
-  type: vmess
-  server: JP032007.ssgreen.org
-  port: 443
-  uuid: e78b2b52-1bbb-47bb-8ea9-ba394e9b0165
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-11
-  type: vmess
-  server: JP032002.ssgreen.org
-  port: 443
-  uuid: d668ffc7-e315-4ff4-ae96-e15173887d2e
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-12
-  type: vmess
-  server: JP032011.ssgreen.org
-  port: 443
-  uuid: 00fc5c20-d520-44b2-8176-4e89d1fdcf62
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-13
-  type: vmess
-  server: JP032012.ssgreen.org
-  port: 443
-  uuid: 2135afaf-95c9-4890-9413-19a4cc639f56
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-14
-  type: vmess
-  server: JP032001.ssgreen.org
-  port: 443
-  uuid: 091da85b-f322-4f64-8d50-180e8787dd18
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-15
-  type: vmess
-  server: JP032009.ssgreen.org
-  port: 443
-  uuid: 5a45ab29-d18f-4034-b635-b67e027d201d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
-- name: 🇯🇵日本-vmess-16
-  type: vmess
-  server: JP032010.ssgreen.org
-  port: 443
-  uuid: b47039cb-fd4e-4648-8cb4-1b17b422965b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /wes
 - name: 🇭🇰 机场推荐:dafei.de 香港 04
   port: 443
   server: fan.240104.xyz
@@ -371,6 +150,24 @@ proxies:
   type: ss
   server: sgp4.network-cdn-gw-yd.net
   port: 45511
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选日本-IEPL-Pro专线-01
+  type: ss
+  server: jp3.network-cdn-gw-yd.net
+  port: 48803
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选日本-IEPL-Pro专线-02
+  type: ss
+  server: jp04.network-cdn-gw-yd.net
+  port: 48804
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 精选日本-IEPL-Pro专线-03
+  type: ss
+  server: jp05.network-cdn-gw-yd.net
+  port: 48805
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 台湾 02 家宽
@@ -670,33 +467,13 @@ proxy-groups:
   type: select
   proxies:
       - '香港 01 家宽'
-      - '🇺🇸美国-anytls-02'
       - '台湾 01 家宽'
       - '🇲🇾马来西亚-ss-02'
-      - '🇺🇸美国-vless-03'
-      - '🇺🇸美国-vless-05'
-      - '🇺🇸美国-vless-07'
       - '🇸🇬新加坡-vless-01'
       - '🇭🇰香港-vless-02'
-      - '🇺🇸美国-vless-08'
       - '🇭🇰香港-trojan-04'
-      - '🇯🇵日本-trojan-04'
       - '🇸🇬新加坡-trojan-02'
-      - '🇺🇸美国-trojan-22'
-      - '🇺🇸美国-vless-23'
-      - '🇺🇸美国-vless-24'
       - '🇸🇬新加坡-vless-07'
-      - '🇺🇸美国-vless-35'
-      - '🇺🇸美国-anytls-43'
-      - '🇯🇵日本-vmess-08'
-      - '🇯🇵日本-vmess-09'
-      - '🇯🇵日本-vmess-10'
-      - '🇯🇵日本-vmess-11'
-      - '🇯🇵日本-vmess-12'
-      - '🇯🇵日本-vmess-13'
-      - '🇯🇵日本-vmess-14'
-      - '🇯🇵日本-vmess-15'
-      - '🇯🇵日本-vmess-16'
       - '🇭🇰 机场推荐:dafei.de 香港 04'
       - 'SG-Singapore-h-4396223-qqhv'
       - '精选台湾专线01'
@@ -704,6 +481,9 @@ proxy-groups:
       - '精选香港专线02'
       - '精选新加坡-IEPL-45511'
       - '精选新加坡-IEPL-45511-sgp4'
+      - '精选日本-IEPL-Pro专线-01'
+      - '精选日本-IEPL-Pro专线-02'
+      - '精选日本-IEPL-Pro专线-03'
       - '台湾 02 家宽'
       - '🇸🇬SG_@WangCai_8 31'
       - '🇭🇰香港高速01|BGP|CMCU'
