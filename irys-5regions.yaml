@@ -13,36 +13,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: tse1.mm.bing.net
-- name: 精选新加坡-IEPL-45511
-  type: ss
-  server: sgp05.network-cdn-gw-yd.net
-  port: 45511
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选新加坡-IEPL-45511-sgp4
-  type: ss
-  server: sgp4.network-cdn-gw-yd.net
-  port: 45511
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选日本-IEPL-Pro专线-01
-  type: ss
-  server: jp3.network-cdn-gw-yd.net
-  port: 48803
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选日本-IEPL-Pro专线-02
-  type: ss
-  server: jp04.network-cdn-gw-yd.net
-  port: 48804
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选日本-IEPL-Pro专线-03
-  type: ss
-  server: jp05.network-cdn-gw-yd.net
-  port: 48805
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 🇸🇬SG_@WangCai_8 31
   server: 154.26.139.29
   port: 443
@@ -268,72 +238,6 @@ proxies:
   password: 32f0caa3-55f0-4ca9-b70b-fcc13b5570fe
   sni: baidu.com
   skip-cert-verify: true
-- name: 精选香港-IEPL-Basic专线-01
-  type: ss
-  server: hk1.network-cdn-gw-yd.net
-  port: 32060
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-02
-  type: ss
-  server: hk2.network-cdn-gw-yd.net
-  port: 32063
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-03
-  type: ss
-  server: hk13.network-cdn-gw-yd.net
-  port: 32061
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-04
-  type: ss
-  server: hk14.network-cdn-gw-yd.net
-  port: 32062
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-05
-  type: ss
-  server: hk15.network-cdn-gw-yd.net
-  port: 47705
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-06
-  type: ss
-  server: hk16.network-cdn-gw-yd.net
-  port: 47706
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Basic专线-07
-  type: ss
-  server: hk17.network-cdn-gw-yd.net
-  port: 47707
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Pro专线-04
-  type: ss
-  server: hkp4.network-cdn-gw-yd.net
-  port: 49904
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选香港-IEPL-Pro专线-05
-  type: ss
-  server: hkp5.network-cdn-gw-yd.net
-  port: 49905
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选马来西亚-IEPL-Pro专线-01
-  type: ss
-  server: mas.network-cdn-gw-yd.net
-  port: 43305
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
-- name: 精选马来西亚-IEPL-Pro专线-02
-  type: ss
-  server: mas1.network-cdn-gw-yd.net
-  port: 43307
-  cipher: chacha20-ietf-poly1305
-  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 - name: 精选香港1
   type: hysteria2
   server: 83.229.127.138
@@ -346,11 +250,7 @@ proxy-groups:
   type: select
   proxies:
       - '精选台湾专线01'
-      - '精选新加坡-IEPL-45511'
-      - '精选新加坡-IEPL-45511-sgp4'
-      - '精选日本-IEPL-Pro专线-01'
-      - '精选日本-IEPL-Pro专线-02'
-      - '精选日本-IEPL-Pro专线-03'
+
       - '🇸🇬SG_@WangCai_8 31'
       - '🇭🇰香港高速01|BGP|CMCU'
       - '🇭🇰香港高速02|BGP|CMCU'
@@ -370,17 +270,6 @@ proxy-groups:
       - '台湾2 |5倍率解锁211'
       - 'SG-新加坡-V6'
       - '🇹🇼 台湾02家宽'
-      - '精选香港-IEPL-Basic专线-01'
-      - '精选香港-IEPL-Basic专线-02'
-      - '精选香港-IEPL-Basic专线-03'
-      - '精选香港-IEPL-Basic专线-04'
-      - '精选香港-IEPL-Basic专线-05'
-      - '精选香港-IEPL-Basic专线-06'
-      - '精选香港-IEPL-Basic专线-07'
-      - '精选香港-IEPL-Pro专线-04'
-      - '精选香港-IEPL-Pro专线-05'
-      - '精选马来西亚-IEPL-Pro专线-01'
-      - '精选马来西亚-IEPL-Pro专线-02'
 
       - DIRECT
 
