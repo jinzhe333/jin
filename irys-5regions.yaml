@@ -417,6 +417,223 @@ proxies:
   password: fa8011f1
   sni: www.bing.com
   skip-cert-verify: true
+- name: 精选[IPLC]香港 01 HKIX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9002
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 02 HKIX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9003
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 03 HKIX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9004
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 04 HKIX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9005
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 05 HKIX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9006
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 06 VERTEX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9007
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 07 VERTEX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9008
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 08 VERTEX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9009
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 09 VERTEX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9010
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 10 VERTEX
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9011
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 11 HKT&HOME
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9020
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 12 HKT&HOME
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9021
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 13 HKT&HOME
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9046
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 14 HKT&HOME
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9047
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]香港 15 HKT&HOME
+  type: vmess
+  server: select-hk.ddnskunlun.com
+  port: 9048
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 01 NTTドコモ
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9030
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 02 NTTドコモ
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9031
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 03 NTTドコモ
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9032
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 04 NTTドコモ
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9033
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 05 SKYSPARK
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9034
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 06 SKYSPARK
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9035
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 07 SKYSPARK
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9036
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]日本 08 SKYSPARK
+  type: vmess
+  server: select-jp.ddnskunlun.com
+  port: 9037
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 01 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9038
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 02 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9039
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 03 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9040
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 04 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9041
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 05 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9042
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 06 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9043
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 07 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9044
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: 精选[IPLC]新加坡 08 Singtel
+  type: vmess
+  server: select-sg.ddnskunlun.com
+  port: 9045
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -469,6 +686,37 @@ proxy-groups:
       - '精选[IPLC]马来西亚 04 吉隆坡'
       - '精选[IPLC]马来西亚 01 吉隆坡'
       - '精选[IPLC]马来西亚 03 吉隆坡'
+      - '精选[IPLC]香港 01 HKIX'
+      - '精选[IPLC]香港 02 HKIX'
+      - '精选[IPLC]香港 03 HKIX'
+      - '精选[IPLC]香港 04 HKIX'
+      - '精选[IPLC]香港 05 HKIX'
+      - '精选[IPLC]香港 06 VERTEX'
+      - '精选[IPLC]香港 07 VERTEX'
+      - '精选[IPLC]香港 08 VERTEX'
+      - '精选[IPLC]香港 09 VERTEX'
+      - '精选[IPLC]香港 10 VERTEX'
+      - '精选[IPLC]香港 11 HKT&HOME'
+      - '精选[IPLC]香港 12 HKT&HOME'
+      - '精选[IPLC]香港 13 HKT&HOME'
+      - '精选[IPLC]香港 14 HKT&HOME'
+      - '精选[IPLC]香港 15 HKT&HOME'
+      - '精选[IPLC]日本 01 NTTドコモ'
+      - '精选[IPLC]日本 02 NTTドコモ'
+      - '精选[IPLC]日本 03 NTTドコモ'
+      - '精选[IPLC]日本 04 NTTドコモ'
+      - '精选[IPLC]日本 05 SKYSPARK'
+      - '精选[IPLC]日本 06 SKYSPARK'
+      - '精选[IPLC]日本 07 SKYSPARK'
+      - '精选[IPLC]日本 08 SKYSPARK'
+      - '精选[IPLC]新加坡 01 Singtel'
+      - '精选[IPLC]新加坡 02 Singtel'
+      - '精选[IPLC]新加坡 03 Singtel'
+      - '精选[IPLC]新加坡 04 Singtel'
+      - '精选[IPLC]新加坡 05 Singtel'
+      - '精选[IPLC]新加坡 06 Singtel'
+      - '精选[IPLC]新加坡 07 Singtel'
+      - '精选[IPLC]新加坡 08 Singtel'
       - '精选香港1'
 rules:
   - MATCH,🚀 精选合并
