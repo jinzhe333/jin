@@ -334,6 +334,20 @@ proxies:
   port: 43307
   cipher: chacha20-ietf-poly1305
   password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 🇲🇾 MY马来西亚-1
+  type: hysteria2
+  server: hymy1.ktmhyld.com
+  port: 18385
+  password: 9dbcf40d-9c23-49ca-b5f7-135435fac913
+  sni: my1.ktmhyld.com
+  skip-cert-verify: true
+- name: 🇲🇾 MY马来西亚-2
+  type: hysteria2
+  server: hymy1.ktmhyld.com
+  port: 18385
+  password: 9dbcf40d-9c23-49ca-b5f7-135435fac913
+  sni: my1.ktmhyld.com
+  skip-cert-verify: true
 - name: 精选[IPLC]台湾 01 中華電信
   type: vmess
   server: select-tw.ddnskunlun.com
@@ -1704,6 +1718,8 @@ proxy-groups:
       - '精选香港-IEPL-Pro专线-05'
       - '精选马来西亚-IEPL-Pro专线-01'
       - '精选马来西亚-IEPL-Pro专线-02'
+      - '🇲🇾 MY马来西亚-1'
+      - '🇲🇾 MY马来西亚-2'
       - DIRECT
       - '精选[IPLC]台湾 01 中華電信'
       - '精选[IPLC]台湾 02 中華電信'
