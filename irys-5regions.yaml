@@ -1642,6 +1642,20 @@ proxies:
   uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
   alterId: 0
   cipher: auto
+- name: '精选★自动选择|香港最优★'
+  type: vmess
+  server: auto-hk.ddnskunlun.com
+  port: 9000
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
+- name: '精选★自动选择|美国最优★'
+  type: vmess
+  server: auto-us.ddnskunlun.com
+  port: 9001
+  uuid: c814cdaa-3fd1-32a3-b1af-852a4fb5c634
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: 🚀 精选合并
   type: select
@@ -1869,6 +1883,8 @@ proxy-groups:
       - '精选[IPLC]沙特阿拉伯 02 利雅得'
       - '精选[IPLC]斯洛文尼亚 01 克拉尼'
       - '精选[IPLC]斯洛文尼亚 02 克拉尼'
+      - '精选★自动选择|香港最优★'
+      - '精选★自动选择|美国最优★'
       - '精选香港1'
 rules:
   - MATCH,🚀 精选合并
