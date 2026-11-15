@@ -245,11 +245,25 @@ proxies:
   password: fa8011f1
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇲🇾 马来西亚-IEPL-Pro专线-01
+  type: ss
+  server: mas.network-cdn-gw-yd.net
+  port: 43305
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
+- name: 🇲🇾 马来西亚-IEPL-Pro专线-02
+  type: ss
+  server: mas1.network-cdn-gw-yd.net
+  port: 43307
+  cipher: chacha20-ietf-poly1305
+  password: 2617a957-d5d4-4008-b663-4359c8bfb213
 proxy-groups:
 - name: 🚀 精选合并
   type: select
   proxies:
       - '精选台湾专线01'
+      - '🇲🇾 马来西亚-IEPL-Pro专线-01'
+      - '🇲🇾 马来西亚-IEPL-Pro专线-02'
 
       - '🇸🇬SG_@WangCai_8 31'
       - '🇭🇰香港高速01|BGP|CMCU'
