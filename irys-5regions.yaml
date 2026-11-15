@@ -242,6 +242,14 @@ proxies:
   sni: bootcdn.xuexi.cn
   client-fingerprint: chrome
   skip-cert-verify: true
+- name: 台湾2 |5倍率解锁211
+  type: anytls
+  server: hinetddns6.aikunapp.com
+  port: 6001
+  password: 56f5e2ae-4d64-4ab2-bd77-e80703e72815
+  sni: localhost
+  client-fingerprint: chrome
+  skip-cert-verify: true
 - name: SG-新加坡-V6
   type: vless
   server: 2401:c080:1400:5713:5400:7ff:fe01:b4ee
@@ -1682,6 +1690,7 @@ proxy-groups:
       - 'txix香港'
       - 'CF官方优选19'
       - '台湾1 |5倍率解锁211'
+      - '台湾2 |5倍率解锁211'
       - 'SG-新加坡-V6'
       - '🇹🇼 台湾02家宽'
       - '精选香港-IEPL-Basic专线-01'
