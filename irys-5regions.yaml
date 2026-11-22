@@ -1,4 +1,284 @@
 proxies:
+- name: 精选台湾TG-www.visa.comshopify.com
+  type: vless
+  server: www.visa.comshopify.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-www.shopify.com
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-www.digitalocean.com
+  type: vless
+  server: www.digitalocean.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-icook.tw
+  type: vless
+  server: icook.tw
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-icook.hk
+  type: vless
+  server: icook.hk
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-ip.sb
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-forum.gamer.com.tw
+  type: vless
+  server: forum.gamer.com.tw
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-saas.sin.fan
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-www.web.com
+  type: vless
+  server: www.web.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选台湾TG-www.visa.com.sg
+  type: vless
+  server: www.visa.com.sg
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: tw.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-www.visa.comshopify.com
+  type: vless
+  server: www.visa.comshopify.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-www.shopify.com
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-www.digitalocean.com
+  type: vless
+  server: www.digitalocean.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-icook.tw
+  type: vless
+  server: icook.tw
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-icook.hk
+  type: vless
+  server: icook.hk
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-ip.sb
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-forum.gamer.com.tw
+  type: vless
+  server: forum.gamer.com.tw
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-saas.sin.fan
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-www.web.com
+  type: vless
+  server: www.web.com
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
+- name: 精选新加坡PAYG-www.visa.com.sg
+  type: vless
+  server: www.visa.com.sg
+  port: 443
+  uuid: ac2d7623-4a7e-44ad-83be-104124ce5790
+  tls: true
+  servername: sg-payg.abcai.online
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-payg.abcai.online
+  udp: true
 - name: 精选台湾专线01
   type: vless
   server: 60.248.219.76
@@ -285,6 +565,26 @@ proxy-groups:
       - 'SG-新加坡-V6'
       - '🇹🇼 台湾02家宽'
 
+      - '精选台湾TG-www.visa.comshopify.com'
+      - '精选台湾TG-www.shopify.com'
+      - '精选台湾TG-www.digitalocean.com'
+      - '精选台湾TG-icook.tw'
+      - '精选台湾TG-icook.hk'
+      - '精选台湾TG-ip.sb'
+      - '精选台湾TG-forum.gamer.com.tw'
+      - '精选台湾TG-saas.sin.fan'
+      - '精选台湾TG-www.web.com'
+      - '精选台湾TG-www.visa.com.sg'
+      - '精选新加坡PAYG-www.visa.comshopify.com'
+      - '精选新加坡PAYG-www.shopify.com'
+      - '精选新加坡PAYG-www.digitalocean.com'
+      - '精选新加坡PAYG-icook.tw'
+      - '精选新加坡PAYG-icook.hk'
+      - '精选新加坡PAYG-ip.sb'
+      - '精选新加坡PAYG-forum.gamer.com.tw'
+      - '精选新加坡PAYG-saas.sin.fan'
+      - '精选新加坡PAYG-www.web.com'
+      - '精选新加坡PAYG-www.visa.com.sg'
       - DIRECT
 
       - '精选香港1'
